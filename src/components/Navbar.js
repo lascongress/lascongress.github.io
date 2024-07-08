@@ -14,7 +14,7 @@ const Navbar = () => {
     <nav className="bg-lassonde-grey text-white p-4 ">
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center space-x-2 px-1">
-          <img src="/logo-banner.png" alt="LSC logo" className="h-20" />
+          <img src="/logos/logo-banner.png" alt="LSC logo" className="h-20" />
           {/* <span className="text-2xl font-bold">Lassonde Student Congress</span> */}
         </div>
         <div className="block md:hidden">
