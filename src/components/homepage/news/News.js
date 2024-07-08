@@ -7,19 +7,19 @@ import NewsCard from "./NewsCard";
 const FeaturedNews = () => {
   const newsItems = [
     {
-      imageSrc: "/news1.png",
+      imageSrc: "/news/news1.png",
       title: "Bergeron Closed???",
       description: "Has the lack of funding eventually led to its closure?",
       date: "4 July 2024",
     },
     {
-      imageSrc: "/news2.png",
+      imageSrc: "/news/news2.png",
       title: "Strike on Lassonde",
       description: "How has the strike affected Lassonde students?",
       date: "24 May 2024",
     },
     {
-      imageSrc: "/news3.png",
+      imageSrc: "/news/news3.png",
       title: "Mental Health",
       description: "Taking care of your mental health!",
       date: "31 January 2024",

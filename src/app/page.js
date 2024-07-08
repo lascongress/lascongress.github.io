@@ -1,10 +1,8 @@
 import Head from "next/head";
 import Navbar from "../components/Navbar";
-import Header from "../components/Header";
-import MainContent from "../components/futureUse/MainContent";
+import Header from "../components/homepage/Header";
 import Announcement from "../components/homepage/Announcement";
-import FeaturedNews from "../components/homepage/news/FeaturedNews";
-import QuickLinks from "../components/homepage/quicklinks/QuickLinks";
+import MainContent from "../components/homepage/MainContent";
 import Footer from "../components/Footer";
 
 export default function Home() {
@@ -16,12 +14,7 @@ export default function Home() {
       </Head>
       <Navbar />
       <Header />
-      <div className="container mx-auto p-4">
-        {/* <Announcement /> */}
-        <FeaturedNews />
-        <QuickLinks />
-        {/* <MainContent /> */}
-      </div>
+      <MainContent />
       <Footer />
     </div>
   );
