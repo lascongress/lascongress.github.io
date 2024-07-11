@@ -30,7 +30,7 @@ const Links = () => {
       imageSrc: "/images/flash.png",
       title: "Votes",
       description: "Find vote results from the House and Senate.",
-      link: "house",
+      link: "votes",
     },
     {
       imageSrc: "/images/punisher.png",
