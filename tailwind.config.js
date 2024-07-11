@@ -13,6 +13,11 @@ module.exports = {
       },
       colors: {
         "lassonde-grey": "#4C4C4C",
+        "lassonde-blue": "#11345F",
+        "lassonde-red": "#e02b38",
+        "lassonde-teal": "#39ad90",
+        "lassonde-yellow": "#ffb330",
+        "lassonde-green": "#1F6050",
       },
     },
   },
