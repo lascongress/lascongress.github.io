@@ -11,19 +11,19 @@ const Footer = () => {
           <h3 className="font-bold mb-2">Follow Us</h3>
           <div className="flex space-x-4 mb-4">
             <a href="#" className="flex items-center space-x-2 hover:underline">
-              <img src="/icons/twitter.svg" alt="" className="h-6" />
+              <img src="/social/twitter.png" alt="" className="h-6" />
               <span>Twitter</span>
             </a>
             <a href="#" className="flex items-center space-x-2 hover:underline">
-              <img src="/icons/instagram.svg" alt="" className="h-6" />
+              <img src="/social/instagram.png" alt="" className="h-6" />
               <span>Instagram</span>
             </a>
             <a href="#" className="flex items-center space-x-2 hover:underline">
-              <img src="/icons/facebook.svg" alt="" className="h-6" />
+              <img src="/social/facebook.png" alt="" className="h-6" />
               <span>Facebook</span>
             </a>
             <a href="#" className="flex items-center space-x-2 hover:underline">
-              <img src="/icons/youtube.svg" alt="" className="h-6" />
+              <img src="/social/youtube.png" alt="" className="h-6" />
               <span>YouTube</span>
             </a>
           </div>
