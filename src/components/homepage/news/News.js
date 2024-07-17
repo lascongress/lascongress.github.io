@@ -30,7 +30,7 @@ const FeaturedNews = () => {
     <section className="bg-white p-4 mb-6 rounded shadow">
       <div className="flex justify-between items-center mb-4">
         <h2 className="text-2xl font-bold">Recent News</h2>
-        <a href="#" className="text-blue-600 hover:underline">
+        <a href="news" className="text-blue-600 hover:underline">
           View all news
         </a>
       </div>
