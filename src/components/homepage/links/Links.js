@@ -24,7 +24,7 @@ const Links = () => {
       imageSrc: "/images/deadpool.png",
       title: "Delegates & Senators ",
       description: "Find your Delegates and Senators.",
-      link: "house",
+      link: "delegates-and-senators",
     },
     {
       imageSrc: "/images/flash.png",
@@ -51,7 +51,7 @@ const Links = () => {
       title: "Committees",
       description:
         "Latest news, inquiries and reports from Parliamentary select committees.",
-      link: "house",
+      link: "committees",
     },
     {
       imageSrc: "/images/tony.png",
