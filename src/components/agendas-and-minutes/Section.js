@@ -14,7 +14,7 @@ const Section = ({ title, imgSrc, description, cards, links }) => {
         className="w-full h-48 object-cover mb-4 rounded"
       />
       <p className="mb-4">{description}</p>
-      <div className="mb-4">
+      <div className="mb-4 border-b-2 border-gray-200">
         {cards.map((card, index) => (
           <Card
             key={index}
@@ -26,7 +26,7 @@ const Section = ({ title, imgSrc, description, cards, links }) => {
           />
         ))}
       </div>
-      <p className="mb-4">{cards[0]?.note}</p>
+      <p className="mb-4 ">{cards[0]?.note}</p>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {links.map((link, index) => (
           <div
