@@ -7,7 +7,7 @@ import Card from "./Card";
 const Section = ({ title, imgSrc, description, buttonLabel, cards }) => {
   return (
     <div className="bg-white p-6 rounded shadow mb-6">
-      <div className="mb-4">
+      <div className="mb-4 border-b-2 border-gray-200">
         <h2 className="text-2xl font-bold mb-2">{title}</h2>
         <img
           src={imgSrc}
