@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Navbar from "../../components/Navbar";
 import Header from "../../components/Header";
-import MainContent from "../../components/bills/MainContent";
+import MainContent from "../../components/bills-and-resolutions/MainContent";
 // import Announcement from "../components/homepage/Announcement";
 import Footer from "../../components/Footer";
 
