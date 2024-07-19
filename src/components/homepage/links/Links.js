@@ -37,14 +37,14 @@ const Links = () => {
       title: "Agendas & Minutes",
       description:
         "Read transcripts of debates and find communications from both Chambers.",
-      link: "agendas",
+      link: "agendas-and-minutes",
     },
     {
       imageSrc: "/images/spidey.png",
       title: "Bills & Resolutions",
       description:
         "Keep up to date with the progress of current and draft bills and resolutions before Congress.",
-      link: "bills",
+      link: "bills-and-resolutions",
     },
     {
       imageSrc: "/images/sups.png",

@@ -10,21 +10,21 @@ const QuickLinks = () => {
       imageSrc: "/images/batman.png",
       title: "Business of the Secretariat",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ",
       link: "/",
     },
     {
       imageSrc: "/images/cap.png",
       title: "Lorem ipsu",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ",
       link: "/",
     },
     {
       imageSrc: "/images/deadpool.png",
       title: "Lorem ipsu",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ",
       link: "/",
     },
   ];
