@@ -39,5 +39,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 - add directory in navbar
 - fix footer
-- fix dropdown
 - update in-file directory
