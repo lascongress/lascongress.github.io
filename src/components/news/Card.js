@@ -3,9 +3,12 @@
 
 import React from "react";
 
-const NewsCard = ({ title, description, imageSrc, date }) => {
+const NewsCard = ({ title, description, imageSrc, date, link }) => {
   return (
-    <div className="bg-white p-4 rounded shadow mb-4 hover:bg-gray-100 transition duration-200">
+    <a
+      href={link}
+      className="block bg-white p-4 rounded shadow mb-4 hover:bg-gray-100 transition duration-200"
+    >
       <img
         src={imageSrc}
         alt={title}
@@ -30,7 +33,7 @@ const NewsCard = ({ title, description, imageSrc, date }) => {
           />
         </svg>
       </div>
-    </div>
+    </a>
   );
 };
 

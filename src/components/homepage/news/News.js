@@ -11,18 +11,21 @@ const FeaturedNews = () => {
       title: "Bergeron Closed???",
       description: "Has the lack of funding eventually led to its closure?",
       date: "4 July 2024",
+      link: "/news/bergeron-closed",
     },
     {
       imageSrc: "/news/news2.png",
       title: "Strike on Lassonde",
       description: "How has the strike affected Lassonde students?",
       date: "24 May 2024",
+      link: "/news/strike-on-lassonde",
     },
     {
       imageSrc: "/news/news3.png",
       title: "Mental Health",
       description: "Taking care of your mental health!",
       date: "31 January 2024",
+      link: "/news/mental-health",
     },
   ];
 
@@ -42,6 +45,7 @@ const FeaturedNews = () => {
             title={item.title}
             description={item.description}
             date={item.date}
+            link={item.link}
           />
         ))}
       </div>

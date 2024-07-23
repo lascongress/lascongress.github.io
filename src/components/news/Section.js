@@ -29,6 +29,7 @@ const Section = ({ title, description, buttonLabel, cards, news }) => {
               description={item.description}
               imageSrc={item.imageSrc}
               date={item.date}
+              link={item.link}
             />
           ))}
       </div>
