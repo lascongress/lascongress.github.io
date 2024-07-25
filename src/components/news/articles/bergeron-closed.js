@@ -1,4 +1,4 @@
-// src/components/PageContent.js
+// src/components/news/articles/bergeron-closed.js
 "use client";
 
 import React from "react";

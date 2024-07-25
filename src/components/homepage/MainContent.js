@@ -1,3 +1,4 @@
+// src/components/homepage/MainContent.js
 import React from "react";
 import News from "./news/News";
 import Links from "./links/Links";

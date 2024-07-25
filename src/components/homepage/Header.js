@@ -1,4 +1,4 @@
-// src/components/Header.js
+// src/components/homepage/Header.js
 "use client";
 
 import React from "react";

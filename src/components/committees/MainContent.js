@@ -1,4 +1,4 @@
-// src/components/MainContent.js
+// src/components/committees/MainContent.js
 "use client";
 
 import React from "react";

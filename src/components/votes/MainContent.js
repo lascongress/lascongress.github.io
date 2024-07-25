@@ -1,4 +1,4 @@
-// src/components/MainContent.js
+// src/components/votes/MainContent.js
 "use client";
 
 import React from "react";

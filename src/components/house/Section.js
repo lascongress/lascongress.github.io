@@ -1,11 +1,11 @@
-// src/components/QuickLinks.js
+// src/components/house/Section.js
 "use client";
 
 import React from "react";
-import QuickLinkCard from "./Card";
+import Card from "./Card";
 
-const QuickLinks = () => {
-  const quickLinks = [
+const Section = () => {
+  const section = [
     {
       imageSrc: "/images/batman.png",
       title: "Business of the House",
@@ -66,8 +66,8 @@ const QuickLinks = () => {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-        {quickLinks.map((link, index) => (
-          <QuickLinkCard
+        {section.map((link, index) => (
+          <Card
             key={index}
             imageSrc={link.imageSrc}
             title={link.title}
@@ -80,4 +80,4 @@ const QuickLinks = () => {
   );
 };
 
-export default QuickLinks;
+export default Section;

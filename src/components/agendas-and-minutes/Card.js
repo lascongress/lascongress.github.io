@@ -1,4 +1,4 @@
-// src/components/Card.js
+// src/components/agendas-and-minutes/Card.js
 "use client";
 
 import React from "react";

@@ -38,5 +38,3 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ## to dos:
 
 - add directory in navbar
-- fix footer
-- update in-file directory

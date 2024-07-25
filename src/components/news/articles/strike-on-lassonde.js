@@ -1,4 +1,4 @@
-// src/components/PageContent.js
+// src/components/news/articles/strike-on-lassonde.js
 "use client";
 
 import React from "react";

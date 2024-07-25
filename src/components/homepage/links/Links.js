@@ -1,4 +1,4 @@
-// src/components/Links.js
+// src/components/homepage/links/Links.js
 "use client";
 
 import React from "react";

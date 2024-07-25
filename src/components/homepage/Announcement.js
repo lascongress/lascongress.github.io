@@ -1,4 +1,4 @@
-// src/components/Announcement.js
+// src/components/homepage/Announcement.js
 "use client";
 
 import React from "react";

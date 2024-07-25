@@ -1,4 +1,4 @@
-// src/components/MainContent.js
+// src/components/delegates-and-senators/MainContent.js
 "use client";
 
 import React from "react";

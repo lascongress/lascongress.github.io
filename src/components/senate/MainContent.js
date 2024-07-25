@@ -1,3 +1,4 @@
+// src/components/senate/MainContent.js
 import React from "react";
 import Section from "./Section";
 

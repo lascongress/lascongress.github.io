@@ -1,4 +1,4 @@
-// src/components/NewsCard.js
+// src/components/news/NewsCard.js
 "use client";
 
 import React from "react";

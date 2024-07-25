@@ -1,10 +1,10 @@
-// src/components/FeaturedNews.js
+// src/components/homepage/news/News.js
 "use client";
 
 import React from "react";
 import NewsCard from "./NewsCard";
 
-const FeaturedNews = () => {
+const News = () => {
   const newsItems = [
     {
       imageSrc: "/news/news1.png",
@@ -53,4 +53,4 @@ const FeaturedNews = () => {
   );
 };
 
-export default FeaturedNews;
+export default News;

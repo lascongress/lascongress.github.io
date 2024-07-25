@@ -1,4 +1,4 @@
-// src/components/Card.js
+// src/components/votes/Card.js
 "use client";
 
 import React from "react";

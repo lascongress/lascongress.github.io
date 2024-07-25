@@ -1,4 +1,4 @@
-// src/components/LinkCard.js
+// src/components/homepage/links/LinkCard.js
 "use client";
 
 import React from "react";

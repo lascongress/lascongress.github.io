@@ -1,4 +1,4 @@
-// src/components/MainContent.js
+// src/components/bills-and-resolutions/MainContent.js
 "use client";
 
 import React from "react";

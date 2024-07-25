@@ -1,10 +1,10 @@
-// src/components/LinkCard.js
+// src/components/secretariat/Card.js
 "use client";
 
 import React from "react";
 import Link from "next/link";
 
-const LinkCard = ({ imageSrc, title, description, link }) => {
+const Card = ({ imageSrc, title, description, link }) => {
   return (
     <Link href={link}>
       <div className="bg-white p-4 rounded shadow hover:bg-gray-100 transition duration-200 flex flex-col h-80">
@@ -37,4 +37,4 @@ const LinkCard = ({ imageSrc, title, description, link }) => {
   );
 };
 
-export default LinkCard;
+export default Card;

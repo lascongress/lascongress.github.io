@@ -1,3 +1,4 @@
+// src/app/news/strike-on-lassonde/page.js
 import Head from "next/head";
 import Navbar from "../../../components/Navbar";
 import Header from "../../../components/Header";

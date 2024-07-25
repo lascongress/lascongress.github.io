@@ -1,4 +1,4 @@
-// src/components/Section.js
+// src/components/committees/Section.js
 "use client";
 
 import React from "react";

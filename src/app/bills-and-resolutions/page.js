@@ -1,3 +1,4 @@
+// src/app/bills-and-resolutions/page.js
 import Head from "next/head";
 import Navbar from "../../components/Navbar";
 import Header from "../../components/Header";

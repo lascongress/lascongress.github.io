@@ -1,9 +1,9 @@
-// src/components/EventCard.js
+// src/components/committees/Card.js
 "use client";
 
 import React from "react";
 
-const EventCard = ({ time, title, date, committees, location }) => {
+const Card = ({ time, title, date, committees, location }) => {
   return (
     <div className="bg-white p-4 rounded shadow mb-4 hover:bg-gray-100 transition duration-200">
       <div className="flex justify-between items-center mb-2">
@@ -31,4 +31,4 @@ const EventCard = ({ time, title, date, committees, location }) => {
   );
 };
 
-export default EventCard;
+export default Card;

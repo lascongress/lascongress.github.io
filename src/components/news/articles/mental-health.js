@@ -1,4 +1,4 @@
-// src/components/PageContent.js
+// src/components/news/articles/mental-health.js
 "use client";
 
 import React from "react";

@@ -1,3 +1,4 @@
+// src/components/secretariat/MainContent.js
 import React from "react";
 import Section from "./Section";
 

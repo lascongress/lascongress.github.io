@@ -1,4 +1,4 @@
-// src/components/Section.js
+// src/components/agendas-and-minutes/Section.js
 "use client";
 
 import React from "react";
@@ -35,7 +35,11 @@ const Section = ({ title, imgSrc, description, cards, links }) => {
           >
             <a href={link.href} className="block p-4 rounded">
               <div className="flex items-center">
-                <img src={link.icon} alt="" className="h-12 w-12 mr-4" />
+                {/* <img
+                  src={link.icon}
+                  alt=""
+                  className="h-12 w-12 mr-4 object-contain" // Ensure consistent size and prevent scaling issues
+                /> */}
                 <div>
                   <p className="text-lg font-bold">{link.title}</p>
                   <p className="text-gray-600">{link.description}</p>

@@ -1,8 +1,7 @@
-// src/components/Section.js
+// src/components/bills-and-resolutions/Section.js
 "use client";
 
 import React from "react";
-import Card from "./Card";
 
 const Section = ({ title, children }) => {
   return (
