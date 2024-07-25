@@ -6,7 +6,7 @@ import React from "react";
 const Footer = () => {
   return (
     <footer className="bg-lassonde-grey text-white p-8">
-      <div className="container mx-auto grid lg:grid-cols-1 gap-8">
+      <div className="container px-9 mx-auto grid lg:grid-cols-1 gap-8">
         <div>
           <h3 className="font-bold mb-2">Follow Us</h3>
           <div className="flex flex-wrap md:flex-row md:space-x-16 mb-4">

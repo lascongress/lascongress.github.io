@@ -94,7 +94,7 @@ const Navbar = () => {
             </div>
           </a>
 
-          <Link href="house" onClick={toggleMenu} className="block mb-4">
+          <Link href="../house" onClick={toggleMenu} className="block mb-4">
             <div className="p-4 bg-gray-100 rounded flex justify-between items-center">
               House of Delegates
               <svg
@@ -114,7 +114,7 @@ const Navbar = () => {
             </div>
           </Link>
 
-          <Link href="senate" onClick={toggleMenu} className="block mb-4">
+          <Link href="../senate" onClick={toggleMenu} className="block mb-4">
             <div className="p-4 bg-gray-100 rounded flex justify-between items-center">
               Senate
               <svg
@@ -135,7 +135,7 @@ const Navbar = () => {
           </Link>
 
           <Link
-            href="delegates-and-senators"
+            href="../delegates-and-senators"
             onClick={toggleMenu}
             className="block mb-4"
           >
@@ -158,7 +158,7 @@ const Navbar = () => {
             </div>
           </Link>
 
-          <Link href="votes" onClick={toggleMenu} className="block mb-4">
+          <Link href="../votes" onClick={toggleMenu} className="block mb-4">
             <div className="p-4 bg-gray-100 rounded flex justify-between items-center">
               Votes
               <svg
@@ -179,7 +179,7 @@ const Navbar = () => {
           </Link>
 
           <Link
-            href="agendas-and-minutes"
+            href="../agendas-and-minutes"
             onClick={toggleMenu}
             className="block mb-4"
           >
@@ -202,7 +202,11 @@ const Navbar = () => {
             </div>
           </Link>
 
-          <Link href="bills" onClick={toggleMenu} className="block mb-4">
+          <Link
+            href="../bills-and-resolutions"
+            onClick={toggleMenu}
+            className="block mb-4"
+          >
             <div className="p-4 bg-gray-100 rounded flex justify-between items-center">
               Bills & Resolutions
               <svg
@@ -222,7 +226,11 @@ const Navbar = () => {
             </div>
           </Link>
 
-          <Link href="committees" onClick={toggleMenu} className="block mb-4">
+          <Link
+            href="../committees"
+            onClick={toggleMenu}
+            className="block mb-4"
+          >
             <div className="p-4 bg-gray-100 rounded flex justify-between items-center">
               Committees
               <svg
@@ -242,7 +250,11 @@ const Navbar = () => {
             </div>
           </Link>
 
-          <Link href="secretariat" onClick={toggleMenu} className="block mb-4">
+          <Link
+            href="../secretariat"
+            onClick={toggleMenu}
+            className="block mb-4"
+          >
             <div className="p-4 bg-gray-100 rounded flex justify-between items-center">
               Secretariat
               <svg
@@ -268,7 +280,7 @@ const Navbar = () => {
 
   return (
     <nav className="bg-lassonde-grey text-white p-4">
-      <div className="container mx-auto flex justify-between items-center">
+      <div className="container px-3 mx-auto flex justify-between items-center">
         <div className="flex items-center space-x-2 px-1">
           <Link href="/">
             <img

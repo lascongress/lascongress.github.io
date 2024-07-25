@@ -14,7 +14,7 @@ export default function Home() {
       </Head>
       <Navbar />
       <Header />
-      <div className="container mx-auto p-4 flex-grow">
+      <div className="container mx-auto p-4 px-8 flex-grow">
         {/* <Announcement /> */}
         <MainContent />
       </div>
