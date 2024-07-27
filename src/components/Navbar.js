@@ -44,7 +44,7 @@ const Navbar = () => {
         <div className="p-4 flex-grow overflow-y-auto">
           <h2 className="text-2xl font-bold mb-4">Menu</h2>
           <p className="mb-4">Select an area to explore</p>
-          <Link href="news" onClick={toggleMenu} className="block mb-4">
+          {/* <Link href="/news" onClick={toggleMenu} className="block mb-4">
             <div className="p-4 bg-gray-100 rounded flex justify-between items-center">
               Recent News
               <svg
@@ -62,7 +62,7 @@ const Navbar = () => {
                 />
               </svg>
             </div>
-          </Link>
+          </Link> */}
 
           <a
             href="#contact-us"
@@ -94,7 +94,11 @@ const Navbar = () => {
             </div>
           </a>
 
-          <Link href="../house" onClick={toggleMenu} className="block mb-4">
+          <Link
+            href="/congress/house"
+            onClick={toggleMenu}
+            className="block mb-4"
+          >
             <div className="p-4 bg-gray-100 rounded flex justify-between items-center">
               House of Delegates
               <svg
@@ -114,7 +118,7 @@ const Navbar = () => {
             </div>
           </Link>
 
-          <Link href="../senate" onClick={toggleMenu} className="block mb-4">
+          <Link href="/senate" onClick={toggleMenu} className="block mb-4">
             <div className="p-4 bg-gray-100 rounded flex justify-between items-center">
               Senate
               <svg
@@ -134,31 +138,7 @@ const Navbar = () => {
             </div>
           </Link>
 
-          <Link
-            href="../delegates-and-senators"
-            onClick={toggleMenu}
-            className="block mb-4"
-          >
-            <div className="p-4 bg-gray-100 rounded flex justify-between items-center">
-              Delegates & Senators
-              <svg
-                className="h-6 w-6 text-gray-600"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M9 5l7 7-7 7"
-                />
-              </svg>
-            </div>
-          </Link>
-
-          <Link href="../votes" onClick={toggleMenu} className="block mb-4">
+          <Link href="/votes" onClick={toggleMenu} className="block mb-4">
             <div className="p-4 bg-gray-100 rounded flex justify-between items-center">
               Votes
               <svg
@@ -179,7 +159,7 @@ const Navbar = () => {
           </Link>
 
           <Link
-            href="../agendas-and-minutes"
+            href="/agendas-and-minutes"
             onClick={toggleMenu}
             className="block mb-4"
           >
@@ -203,7 +183,7 @@ const Navbar = () => {
           </Link>
 
           <Link
-            href="../bills-and-resolutions"
+            href="/bills-and-resolutions"
             onClick={toggleMenu}
             className="block mb-4"
           >
@@ -226,37 +206,9 @@ const Navbar = () => {
             </div>
           </Link>
 
-          <Link
-            href="../committees"
-            onClick={toggleMenu}
-            className="block mb-4"
-          >
+          <Link href="/committees" onClick={toggleMenu} className="block mb-4">
             <div className="p-4 bg-gray-100 rounded flex justify-between items-center">
               Committees
-              <svg
-                className="h-6 w-6 text-gray-600"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M9 5l7 7-7 7"
-                />
-              </svg>
-            </div>
-          </Link>
-
-          <Link
-            href="../secretariat"
-            onClick={toggleMenu}
-            className="block mb-4"
-          >
-            <div className="p-4 bg-gray-100 rounded flex justify-between items-center">
-              Secretariat
               <svg
                 className="h-6 w-6 text-gray-600"
                 fill="none"
@@ -323,12 +275,12 @@ const Navbar = () => {
           }`}
         >
           <div className="text-sm md:flex-grow">
-            <a
-              href="news"
+            {/* <a
+              href="/news"
               className="block mt-4 md:inline-block md:mt-0 hover:underline md:mr-4"
             >
               Recent News
-            </a>
+            </a> */}
             <a
               href="#contact-us"
               className="block mt-4 md:inline-block md:mt-0 hover:underline md:mr-4"
