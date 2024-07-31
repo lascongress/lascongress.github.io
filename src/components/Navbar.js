@@ -118,7 +118,11 @@ const Navbar = () => {
             </div>
           </Link>
 
-          <Link href="/senate" onClick={toggleMenu} className="block mb-4">
+          <Link
+            href="/congress/senate"
+            onClick={toggleMenu}
+            className="block mb-4"
+          >
             <div className="p-4 bg-gray-100 rounded flex justify-between items-center">
               Senate
               <svg
@@ -138,7 +142,11 @@ const Navbar = () => {
             </div>
           </Link>
 
-          <Link href="/votes" onClick={toggleMenu} className="block mb-4">
+          <Link
+            href="/congress/votes"
+            onClick={toggleMenu}
+            className="block mb-4"
+          >
             <div className="p-4 bg-gray-100 rounded flex justify-between items-center">
               Votes
               <svg
@@ -159,7 +167,7 @@ const Navbar = () => {
           </Link>
 
           <Link
-            href="/agendas-and-minutes"
+            href="/congress/agendas-and-minutes"
             onClick={toggleMenu}
             className="block mb-4"
           >
@@ -183,7 +191,7 @@ const Navbar = () => {
           </Link>
 
           <Link
-            href="/bills-and-resolutions"
+            href="/congress/bills-and-resolutions"
             onClick={toggleMenu}
             className="block mb-4"
           >
@@ -206,7 +214,11 @@ const Navbar = () => {
             </div>
           </Link>
 
-          <Link href="/committees" onClick={toggleMenu} className="block mb-4">
+          <Link
+            href="/congress/committees"
+            onClick={toggleMenu}
+            className="block mb-4"
+          >
             <div className="p-4 bg-gray-100 rounded flex justify-between items-center">
               Committees
               <svg

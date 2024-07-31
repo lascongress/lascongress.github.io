@@ -10,15 +10,15 @@ const Footer = () => {
         <div>
           <h3 className="font-bold mb-2">Follow Us</h3>
           <div className="flex flex-wrap md:flex-row md:space-x-16 mb-4">
-            <a
+            {/* <a
               href="#"
               className="flex items-center space-x-2 hover:underline mb-2 md:mb-0"
             >
               <img src="/social/twitter.png" alt="Twitter" className="h-6" />
               <span>Twitter</span>
-            </a>
+            </a> */}
             <a
-              href="#"
+              href="https://www.instagram.com/lassondecongress/"
               className="flex items-center space-x-2 hover:underline mb-2 md:mb-0"
             >
               <img
@@ -28,7 +28,7 @@ const Footer = () => {
               />
               <span>Instagram</span>
             </a>
-            <a
+            {/* <a
               href="#"
               className="flex items-center space-x-2 hover:underline mb-2 md:mb-0"
             >
@@ -41,7 +41,7 @@ const Footer = () => {
             >
               <img src="/social/youtube.png" alt="YouTube" className="h-6" />
               <span>YouTube</span>
-            </a>
+            </a> */}
           </div>
           <div className="border-t border-neutral-600 pt-4 mt-4">
             <p>© Lassonde Student Council 2024</p>
