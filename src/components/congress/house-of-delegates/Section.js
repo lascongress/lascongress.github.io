@@ -1,4 +1,4 @@
-// src/components/congress/house/Section.js
+// src/components/congress/house-of-delegates/Section.js
 "use client";
 
 import React from "react";
@@ -11,42 +11,28 @@ const Section = () => {
       title: "Business of the House",
       description:
         "Keep up to date with the business of the House by referring to our Agenda & Minutes, Votes and other communications.",
-      link: "/",
+      link: "/congress/house-of-delegates/business-of-the-house",
     },
     {
       imageSrc: "/images/cap.png",
       title: "Composition of the House",
       description:
         "The House of Commons is governed by a group of Delegates who make up the Steering Committee.",
-      link: "/",
+      link: "/congress/house-of-delegates/composition-of-the-house",
     },
     {
       imageSrc: "/images/deadpool.png",
       title: "Standing Committees",
       description:
-        "A lot of the work and discussions of the House takes place in committees, made up of around 6 Delegates. The committee examines issues in detail, from proposed bills and resolutions, to wider topics of community concern.",
-      link: "/",
+        "A lot of the work and discussions of the House takes place in committees. The committee examines issues in detail, from proposed bills  to wider topics of community concern.",
+      link: "/congress/committees",
     },
-    {
-      imageSrc: "/images/flash.png",
-      title: "Faculty Council",
-      description:
-        "A forum where Delegates represent the students to the School’s Leadership and Faculty, debating matters such as academic planning, curricular and research items, and the overall development of the School.",
-      link: "/",
-    },
-    // {
-    //   imageSrc: "/images/punisher.png",
-    //   title: "The Speaker",
-    //   description:
-    //     "Also known as the House traffic cop, they preside over all meetings including General Assemblies.",
-    //   link: "/",
-    // },
     {
       imageSrc: "/images/spidey.png",
       title: "Meeting Links",
       description:
         "Watch all House meetings online and find archived coverage.",
-      link: "/",
+      link: "/congress/meeting-links",
     },
   ];
 
@@ -54,7 +40,7 @@ const Section = () => {
     <section className="bg-white p-4 rounded shadow">
       <div className="container mx-auto p-4 mb-4 border-b-2 border-neutral-200">
         <h2 className="text-3xl font-bold mb-2 text-gray-800">
-          House of Commons
+          House of Delegates
         </h2>
         <p className="text-lg text-gray-700">
           The UK public elects 650 Members of Parliament (MPs) to represent
@@ -65,7 +51,7 @@ const Section = () => {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {section.map((link, index) => (
           <Card
             key={index}

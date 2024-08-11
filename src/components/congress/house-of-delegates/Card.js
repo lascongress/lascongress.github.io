@@ -1,4 +1,4 @@
-// src/components/congress/house/Card.js
+// src/components/congress/house-of-delegates/Card.js
 "use client";
 
 import React from "react";

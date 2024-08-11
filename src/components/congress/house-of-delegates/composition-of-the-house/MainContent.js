@@ -1,4 +1,4 @@
-// src/components/congress/house/MainContent.js
+// src/components/congress/house-of-delegates/composition-of-the-house/MainContent.js
 import React from "react";
 import Section from "./Section";
 
