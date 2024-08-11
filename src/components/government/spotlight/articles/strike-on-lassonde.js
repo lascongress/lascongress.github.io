@@ -1,4 +1,4 @@
-// src/components/news/articles/mental-health.js
+// src/components/spotlight/articles/strike-on-lassonde.js
 "use client";
 
 import React from "react";
@@ -8,14 +8,18 @@ const PageContent = () => {
   return (
     <div className="container mx-auto p-4 bg-white rounded shadow mb-6">
       <div className="mb-4">
-        <h2 className="text-3xl font-bold mb-2 text-gray-800">Mental Health</h2>
-        <p className="text-gray-600 mb-2">31 January 2024</p>
+        <h2 className="text-3xl font-bold mb-2 text-gray-800">
+          Strike on Lassonde
+        </h2>
+        <p className="text-gray-600 mb-2">24 May 2024</p>
         <img
-          src="../news/news3.png"
+          src="../../news/news2.png"
           alt="Commons"
           className="w-full h-auto object-cover mb-4 rounded"
         />
-        <p className="mb-4 text-gray-700">Taking care of your mental health!</p>
+        <p className="mb-4 text-gray-700">
+          How has the strike affected Lassonde students?
+        </p>
         <p className="mb-4 text-gray-700">
           Non totam dignissimos quia. Sunt fugit rem beatae velit aliquid fugit.
           Sed ipsa earum doloremque architecto provident explicabo veniam vel.

@@ -1,4 +1,4 @@
-// src/components/news/Section.js
+// src/components/spotlight/Section.js
 "use client";
 
 import React from "react";

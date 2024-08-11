@@ -1,4 +1,4 @@
-// src/components/homepage/news/News.js
+// src/components/government/homepage/spotlight/News.js
 "use client";
 
 import React from "react";
@@ -11,29 +11,32 @@ const News = () => {
       title: "Bergeron Closed???",
       description: "Has the lack of funding eventually led to its closure?",
       date: "4 July 2024",
-      link: "/news/bergeron-closed",
+      link: "government/spotlight/bergeron-closed",
     },
     {
       imageSrc: "/news/news2.png",
       title: "Strike on Lassonde",
       description: "How has the strike affected Lassonde students?",
       date: "24 May 2024",
-      link: "/news/strike-on-lassonde",
+      link: "government/spotlight/strike-on-lassonde",
     },
     {
       imageSrc: "/news/news3.png",
       title: "Mental Health",
       description: "Taking care of your mental health!",
       date: "31 January 2024",
-      link: "/news/mental-health",
+      link: "government/spotlight/mental-health",
     },
   ];
 
   return (
     <section className="bg-white p-4 mb-6 rounded shadow">
       <div className="flex justify-between items-center mb-4">
-        <h2 className="text-2xl font-bold">Recent News</h2>
-        <a href="news" className="text-blue-600 hover:underline">
+        <h2 className="text-2xl font-bold">Spotlight</h2>
+        <a
+          href="government/spotlight"
+          className="text-blue-600 hover:underline"
+        >
           View all news
         </a>
       </div>

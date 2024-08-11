@@ -1,4 +1,4 @@
-// src/components/news/articles/bergeron-closed.js
+// src/components/spotlight/articles/bergeron-closed.js
 "use client";
 
 import React from "react";
@@ -13,7 +13,7 @@ const PageContent = () => {
         </h2>
         <p className="text-gray-600 mb-2">4 July 2024</p>
         <img
-          src="../news/news1.png"
+          src="../../news/news1.png"
           alt="Commons"
           className="w-full h-auto object-cover mb-4 rounded"
         />

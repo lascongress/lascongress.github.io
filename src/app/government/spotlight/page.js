@@ -1,10 +1,11 @@
-// src/app/news/bergeron-closed/page.js
+// src/app/government/spotlight/page.js
 import Head from "next/head";
-import Navbar from "../../../../components/Navbar";
-import Header from "../../../../components/Header";
-import MainContent from "../../../../components/congress/redacted-news/articles/bergeron-closed";
+import Navbar from "../../../components/global/Navbar";
+import Header from "../../../components/global/Header";
+import MainContent from "../../../components/government/spotlight/MainContent";
+import BreadCrumb from "../../../components/government/spotlight/Breadcrumb";
 // import Announcement from "../components/homepage/Announcement";
-import Footer from "../../../../components/Footer";
+import Footer from "../../../components/global/Footer";
 
 export default function Home() {
   return (
@@ -15,7 +16,8 @@ export default function Home() {
       </Head>
       <Navbar />
       <Header />
-      <div className="container mx-auto p-4 px-8 flex-grow">
+      <BreadCrumb />
+      <div className="container mx-auto flex-grow">
         {/* <Announcement /> */}
         <MainContent />
       </div>
