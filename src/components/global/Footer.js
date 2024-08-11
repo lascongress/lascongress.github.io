@@ -1,4 +1,4 @@
-// src/components/Footer.js
+// src/components/global/Footer.js
 "use client";
 
 import React from "react";
@@ -10,13 +10,6 @@ const Footer = () => {
         <div>
           <h3 className="font-bold mb-2">Follow Us</h3>
           <div className="flex flex-wrap md:flex-row md:space-x-16 mb-4">
-            {/* <a
-              href="#"
-              className="flex items-center space-x-2 hover:underline mb-2 md:mb-0"
-            >
-              <img src="/social/twitter.png" alt="Twitter" className="h-6" />
-              <span>Twitter</span>
-            </a> */}
             <a
               href="https://www.instagram.com/lassondecongress/"
               className="flex items-center space-x-2 hover:underline mb-2 md:mb-0"
@@ -25,26 +18,28 @@ const Footer = () => {
                 src="/social/instagram.png"
                 alt="Instagram"
                 className="h-6"
+                style={{ filter: "invert(1) brightness(2)" }} // Apply filter to make it white
               />
               <span>Instagram</span>
             </a>
-            {/* <a
-              href="#"
-              className="flex items-center space-x-2 hover:underline mb-2 md:mb-0"
-            >
-              <img src="/social/facebook.png" alt="Facebook" className="h-6" />
-              <span>Facebook</span>
-            </a>
-            <a
-              href="#"
-              className="flex items-center space-x-2 hover:underline mb-2 md:mb-0"
-            >
-              <img src="/social/youtube.png" alt="YouTube" className="h-6" />
-              <span>YouTube</span>
-            </a> */}
           </div>
+          {/* <h3 className="font-bold mb-2">Join Us By Reaching Out</h3>
+          <div className="flex flex-wrap md:flex-row md:space-x-16 mb-4">
+            <a
+              href="https://www.instagram.com/lassondecongress/"
+              className="flex items-center space-x-2 hover:underline mb-2 md:mb-0"
+            >
+              <img
+                src="/social/instagram.png"
+                alt="Instagram"
+                className="h-6"
+                style={{ filter: "invert(1) brightness(2)" }} // Apply filter to make it white
+              />
+              <span>Discord</span>
+            </a>
+          </div> */}
           <div className="border-t border-neutral-600 pt-4 mt-4">
-            <p>© Lassonde Student Council 2024</p>
+            <p>© Lassonde Student Congress 2024</p>
           </div>
         </div>
       </div>

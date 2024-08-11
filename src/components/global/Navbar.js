@@ -1,4 +1,4 @@
-// src/components/Navbar.js
+// src/components/global/Navbar.js
 "use client";
 
 import React, { useState } from "react";
@@ -16,7 +16,7 @@ const Navbar = () => {
 
     return (
       <div className="fixed inset-0 z-50 flex flex-col bg-neutral-300 text-black">
-        <div className="flex justify-between items-center p-4 border-b-2 border-gray-400">
+        <div className="flex justify-between items-center p-2 border-b-2 border-gray-400">
           <Link href="/">
             <img
               src="/logos/inv-logo-banner.png"
@@ -42,8 +42,8 @@ const Navbar = () => {
           </button>
         </div>
         <div className="p-4 flex-grow overflow-y-auto">
-          <h2 className="text-2xl font-bold mb-4">Menu</h2>
-          <p className="mb-4">Select an area to explore</p>
+          <h2 className="text-3xl font-bold mb-4">Main Menu</h2>
+          {/* <p className="mb-4">Select an area to explore</p> */}
           {/* <Link href="/news" onClick={toggleMenu} className="block mb-4">
             <div className="p-4 bg-gray-100 rounded flex justify-between items-center">
               Recent News
@@ -64,19 +64,11 @@ const Navbar = () => {
             </div>
           </Link> */}
 
-          <a
-            href="#contact-us"
-            onClick={() => {
-              toggleMenu();
-              window.scrollTo({
-                top: document.documentElement.scrollHeight,
-                behavior: "smooth",
-              });
-            }}
-            className="block mb-4"
-          >
+          <h2 className="text-xl font-bold mb-4">Government</h2>
+
+          <Link href="/government/" onClick={toggleMenu} className="block mb-4">
             <div className="p-4 bg-gray-100 rounded flex justify-between items-center">
-              Contact Us
+              Homepage
               <svg
                 className="h-6 w-6 text-gray-600"
                 fill="none"
@@ -92,7 +84,174 @@ const Navbar = () => {
                 />
               </svg>
             </div>
-          </a>
+          </Link>
+
+          <Link
+            href="/government/services"
+            onClick={toggleMenu}
+            className="block mb-4"
+          >
+            <div className="p-4 bg-gray-100 rounded flex justify-between items-center">
+              Services
+              <svg
+                className="h-6 w-6 text-gray-600"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M9 5l7 7-7 7"
+                />
+              </svg>
+            </div>
+          </Link>
+
+          <Link
+            href="/government/ministry"
+            onClick={toggleMenu}
+            className="block mb-4"
+          >
+            <div className="p-4 bg-gray-100 rounded flex justify-between items-center">
+              Ministry
+              <svg
+                className="h-6 w-6 text-gray-600"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M9 5l7 7-7 7"
+                />
+              </svg>
+            </div>
+          </Link>
+
+          <Link
+            href="/government/reports-and-documents"
+            onClick={toggleMenu}
+            className="block mb-4"
+          >
+            <div className="p-4 bg-gray-100 rounded flex justify-between items-center">
+              Reports and Documents
+              <svg
+                className="h-6 w-6 text-gray-600"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M9 5l7 7-7 7"
+                />
+              </svg>
+            </div>
+          </Link>
+
+          <Link
+            href="/government/resources/student-run"
+            onClick={toggleMenu}
+            className="block mb-4"
+          >
+            <div className="p-4 bg-gray-100 rounded flex justify-between items-center">
+              Student-Run Resources
+              <svg
+                className="h-6 w-6 text-gray-600"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M9 5l7 7-7 7"
+                />
+              </svg>
+            </div>
+          </Link>
+
+          <Link
+            href="/government/resources/lassonde-school"
+            onClick={toggleMenu}
+            className="block mb-4"
+          >
+            <div className="p-4 bg-gray-100 rounded flex justify-between items-center">
+              Lassonde School Resources
+              <svg
+                className="h-6 w-6 text-gray-600"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M9 5l7 7-7 7"
+                />
+              </svg>
+            </div>
+          </Link>
+
+          <Link
+            href="/government/spotlight"
+            onClick={toggleMenu}
+            className="block mb-4"
+          >
+            <div className="p-4 bg-gray-100 rounded flex justify-between items-center">
+              Spotlight
+              <svg
+                className="h-6 w-6 text-gray-600"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M9 5l7 7-7 7"
+                />
+              </svg>
+            </div>
+          </Link>
+
+          <br />
+          <h2 className="text-xl font-bold mb-4">Congress</h2>
+
+          <Link href="/congress/" onClick={toggleMenu} className="block mb-4">
+            <div className="p-4 bg-gray-100 rounded flex justify-between items-center">
+              Homepage
+              <svg
+                className="h-6 w-6 text-gray-600"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M9 5l7 7-7 7"
+                />
+              </svg>
+            </div>
+          </Link>
 
           <Link
             href="/congress/house"
@@ -125,6 +284,30 @@ const Navbar = () => {
           >
             <div className="p-4 bg-gray-100 rounded flex justify-between items-center">
               Senate
+              <svg
+                className="h-6 w-6 text-gray-600"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M9 5l7 7-7 7"
+                />
+              </svg>
+            </div>
+          </Link>
+
+          <Link
+            href="/congress/committees"
+            onClick={toggleMenu}
+            className="block mb-4"
+          >
+            <div className="p-4 bg-gray-100 rounded flex justify-between items-center">
+              Committees
               <svg
                 className="h-6 w-6 text-gray-600"
                 fill="none"
@@ -214,13 +397,46 @@ const Navbar = () => {
             </div>
           </Link>
 
+          <br />
+          <h2 className="text-xl font-bold mb-4">General</h2>
+
+          <a
+            href="#contact-us"
+            onClick={() => {
+              toggleMenu();
+              window.scrollTo({
+                top: document.documentElement.scrollHeight,
+                behavior: "smooth",
+              });
+            }}
+            className="block mb-4"
+          >
+            <div className="p-4 bg-gray-100 rounded flex justify-between items-center">
+              Contact Us
+              <svg
+                className="h-6 w-6 text-gray-600"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M9 5l7 7-7 7"
+                />
+              </svg>
+            </div>
+          </a>
+
           <Link
-            href="/congress/committees"
+            href="/congress/meeting-links"
             onClick={toggleMenu}
             className="block mb-4"
           >
             <div className="p-4 bg-gray-100 rounded flex justify-between items-center">
-              Committees
+              Meeting Links
               <svg
                 className="h-6 w-6 text-gray-600"
                 fill="none"
@@ -244,8 +460,8 @@ const Navbar = () => {
 
   return (
     <nav className="bg-lassonde-grey text-white p-4">
-      <div className="container px-3 mx-auto flex justify-between items-center">
-        <div className="flex items-center space-x-2 px-1">
+      <div className="container mx-auto flex justify-between items-center">
+        <div className="flex items-center space-x-2 ">
           <Link href="/">
             <img
               src="/logos/logo-banner.png"
@@ -282,7 +498,7 @@ const Navbar = () => {
           </button>
         </div>
         <div
-          className={`w-full px-8 md:flex md:items-center md:w-auto ${
+          className={`max-w-screen px-2 md:flex md:items-center md:w-auto ${
             isOpen ? "block" : "hidden"
           }`}
         >
@@ -293,7 +509,7 @@ const Navbar = () => {
             >
               Recent News
             </a> */}
-            <a
+            {/* <a
               href="#contact-us"
               className="block mt-4 md:inline-block md:mt-0 hover:underline md:mr-4"
               onClick={() =>
@@ -304,12 +520,12 @@ const Navbar = () => {
               }
             >
               Contact Us
-            </a>
+            </a> */}
             <div
-              className="block mt-4 md:inline-block md:mt-0 hover:underline cursor-pointer"
+              className="block mt-4 p-2 md:inline-block md:mt-0 hover:underline cursor-pointer"
               onClick={toggleMenu}
             >
-              More
+              Menu
             </div>
           </div>
         </div>
