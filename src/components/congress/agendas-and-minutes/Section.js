@@ -3,6 +3,7 @@
 
 import React from "react";
 import Card from "./Card";
+import Link from "next/link";
 
 const Section = ({ title, imgSrc, description, cards, links }) => {
   return (
@@ -19,33 +20,28 @@ const Section = ({ title, imgSrc, description, cards, links }) => {
           <Card
             key={index}
             date={card.date}
-            month={card.month}
             year={card.year}
             day={card.day}
             description={card.description}
+            link={card.link} // Using link instead of href
           />
         ))}
       </div>
-      <p className="mb-4 ">{cards[0]?.note}</p>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        {links.map((link, index) => (
+      <p className="mb-4">{cards[0]?.note}</p>
+      <div className="grid grid-cols-1 md:grid-cols-1 gap-4">
+        {links.map((linkItem, index) => (
           <div
             key={index}
             className="bg-white p-4 rounded shadow hover:bg-gray-100 transition duration-200"
           >
-            <a href={link.href} className="block p-4 rounded">
+            <Link href={linkItem.link} className="block p-4 rounded">
               <div className="flex items-center">
-                {/* <img
-                  src={link.icon}
-                  alt=""
-                  className="h-12 w-12 mr-4 object-contain" // Ensure consistent size and prevent scaling issues
-                /> */}
                 <div>
-                  <p className="text-lg font-bold">{link.title}</p>
-                  <p className="text-gray-600">{link.description}</p>
+                  <p className="text-lg font-bold">{linkItem.title}</p>
+                  <p className="text-gray-600">{linkItem.description}</p>
                 </div>
               </div>
-            </a>
+            </Link>
           </div>
         ))}
       </div>

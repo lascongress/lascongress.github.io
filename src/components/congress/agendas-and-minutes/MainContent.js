@@ -12,6 +12,7 @@ const MainContent = () => {
       day: "Thursday 11 July 2024",
       description: "Latest House of Commons sitting",
       note: "You can also browse/find House of Commons Hansard content using the links below:",
+      link: "https://drive.google.com/drive/folders/1VgvnvDOZpS7iLkC_fYC92Qqrw06gTIW6",
     },
   ];
 
@@ -22,66 +23,35 @@ const MainContent = () => {
       day: "Wednesday 10 July 2024",
       description: "Latest House of Lords sitting",
       note: "You can also browse/find House of Lords Hansard content using the links below:",
+      link: "https://drive.google.com/drive/folders/1WOPS6BVzuCGRZntvDAzwxHJKAuyxRmJ5",
     },
   ];
 
   const commonsLinks = [
     {
-      title: "Browse sittings",
+      title: "Find All Minutes",
       description:
         "Browse the Commons sittings that have been recorded in Hansard.",
-      href: "#",
-      icon: "/images/batman.png",
+      link: "https://drive.google.com/drive/folders/1VgvnvDOZpS7iLkC_fYC92Qqrw06gTIW6",
     },
     {
-      title: "Find debates",
+      title: "Find Vote",
       description: "Find House of Commons debates by keyword and date.",
-      href: "#",
-      icon: "/images/batman.png",
-    },
-    {
-      title: "Find divisions",
-      description:
-        "Find House of Commons divisions (or votes) by keyword and date.",
-      href: "#",
-      icon: "/images/batman.png",
-    },
-    {
-      title: "Find MPs",
-      description:
-        "Find current and former Commons MPs and their Hansard contributions.",
-      href: "#",
-      icon: "/images/batman.png",
+      link: "votes/house",
     },
   ];
 
   const lordsLinks = [
     {
-      title: "Browse sittings",
+      title: "Find All Minutes",
       description:
-        "Browse the Lords sittings that have been recorded in Hansard.",
-      href: "#",
-      icon: "/images/batman.png",
+        "Browse the Commons sittings that have been recorded in Hansard.",
+      link: "https://drive.google.com/drive/folders/1WOPS6BVzuCGRZntvDAzwxHJKAuyxRmJ5",
     },
     {
-      title: "Find debates",
-      description: "Find House of Lords debates by keyword and date.",
-      href: "#",
-      icon: "/images/batman.png",
-    },
-    {
-      title: "Find divisions",
-      description:
-        "Find House of Lords divisions (or votes) by keyword and date.",
-      href: "#",
-      icon: "/images/batman.png",
-    },
-    {
-      title: "Find Lords",
-      description:
-        "Find current and former Lords Members and their Hansard contributions.",
-      href: "#",
-      icon: "/images/batman.png",
+      title: "Find Vote",
+      description: "Find House of Commons debates by keyword and date.",
+      link: "votes/senate",
     },
   ];
 
