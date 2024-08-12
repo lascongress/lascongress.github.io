@@ -1,11 +1,11 @@
-// src/app/congress/senate/page.js
+// src/app/congress/senate/business-of-the-senate/page.js
 import Head from "next/head";
-import Navbar from "../../../components/global/Navbar";
-import Header from "../../../components/global/Header";
-import MainContent from "../../../components/congress/senate/MainContent";
-import BreadCrumb from "../../../components/congress/senate/Breadcrumb";
+import Navbar from "../../../../components/global/Navbar";
+import Header from "../../../../components/global/Header";
+import MainContent from "../../../../components/congress/senate/business-of-the-senate/MainContent";
+import BreadCrumb from "../../../../components/congress/senate/business-of-the-senate/Breadcrumb";
 // import Announcement from "../components/homepage/Announcement";
-import Footer from "../../../components/global/Footer";
+import Footer from "../../../../components/global/Footer";
 
 export default function Home() {
   return (

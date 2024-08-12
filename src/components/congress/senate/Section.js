@@ -8,31 +8,31 @@ const Section = () => {
   const section = [
     {
       imageSrc: "/images/batman.png",
-      title: "Business of the House",
+      title: "Business of the Senate",
       description:
         "Keep up to date with the business of the Senate by referring to our Agenda & Minutes, Votes and other communications.",
-      link: "/",
+      link: "/congress/senate/business-of-the-senate",
     },
     {
       imageSrc: "/images/cap.png",
       title: "Composition of the Senate",
       description:
         "The Senate may establish ad-hoc (select) committees to study issues, bills & resolutions or any other matters of interest.",
-      link: "/",
+      link: "/congress/senate/composition-of-the-senate",
     },
     {
       imageSrc: "/images/cap.png",
       title: "Committees",
       description:
         "The Senate may establish ad-hoc (select) committees to study issues, bills & resolutions or any other matters of interest.",
-      link: "/",
+      link: "/congress/committees",
     },
     {
       imageSrc: "/images/deadpool.png",
       title: "Meeting Links",
       description:
         "Watch all Senate meetings online and find archived coverage.",
-      link: "/",
+      link: "/congress/meeting-links",
     },
   ];
 
@@ -49,7 +49,7 @@ const Section = () => {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {section.map((link, index) => (
           <Card
             key={index}
