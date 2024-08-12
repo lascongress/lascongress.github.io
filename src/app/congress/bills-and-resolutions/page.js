@@ -1,10 +1,10 @@
 // src/app/congress/bills-and-resolutions/page.js
 import Head from "next/head";
-import Navbar from "../../../components/Navbar";
-import Header from "../../../components/Header";
+import Navbar from "../../../components/global/Navbar";
+import Header from "../../../components/global/Header";
 import MainContent from "../../../components/congress/bills-and-resolutions/MainContent";
 // import Announcement from "../components/homepage/Announcement";
-import Footer from "../../../components/Footer";
+import Footer from "../../../components/global/Footer";
 
 export default function Home() {
   return (
@@ -15,7 +15,7 @@ export default function Home() {
       </Head>
       <Navbar />
       <Header />
-      <div className="container mx-auto p-4 flex-grow">
+      <div className="container mx-auto flex-grow">
         {/* <Announcement /> */}
         <MainContent />
       </div>
