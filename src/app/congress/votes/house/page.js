@@ -1,11 +1,12 @@
-// src/app/congress/votes/page.js
+// src/app/congress/votes/house/page.js
 import Head from "next/head";
-import Navbar from "../../../components/global/Navbar";
-import Header from "../../../components/global/Header";
-import MainContent from "../../../components/congress/votes/MainContent";
-import BreadCrumb from "../../../components/congress/votes/Breadcrumb";
+import Navbar from "../../../../components/global/Navbar";
+import Header from "../../../../components/global/Header";
+import MainContent from "../../../../components/congress/votes/house/MainContent";
+import BreadCrumb from "../../../../components/congress/votes/house/Breadcrumb";
+
 // import Announcement from "../components/homepage/Announcement";
-import Footer from "../../../components/global/Footer";
+import Footer from "../../../../components/global/Footer";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <Navbar />
       <Header />
       <BreadCrumb />
+
       <div className="container mx-auto flex-grow">
         {/* <Announcement /> */}
         <MainContent />

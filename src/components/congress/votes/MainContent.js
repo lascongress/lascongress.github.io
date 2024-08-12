@@ -34,14 +34,16 @@ const MainContent = () => {
           title="House Votes"
           imgSrc="/votes/ironwar.png"
           description="When a vote is held in the Commons the Speaker calls a division by announcing 'division, clear the lobbies'. MPs then vote on the topic being considered by walking through the Aye or No lobbies where they are counted by the tellers and their names are recorded."
-          buttonLabel="Find House of Commons votes"
+          buttonLabel="Find All House Votes"
+          buttonLink="/congress/votes/house"
           cards={houseCards}
         />
         <Section
           title="Senate Votes"
           imgSrc="/votes/carwar.png"
           description="Any member of the House of Lords can ask to 'test the opinion of the House' by pushing a question to a vote. When this happens, the Lord Speaker announces a division and members vote either Content or Not Content to determine the result."
-          buttonLabel="Find House of Lords votes"
+          buttonLabel="Find All Senate Votes"
+          buttonLink="/congress/votes/senate"
           cards={senateCards}
         />
       </div>

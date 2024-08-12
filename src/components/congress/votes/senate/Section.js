@@ -1,4 +1,4 @@
-// src/components/congress/votes/Section.js
+// src/components/congress/votes/senate/Section.js
 "use client";
 
 import React from "react";
@@ -9,8 +9,7 @@ const Section = ({
   title,
   imgSrc,
   description,
-  buttonLabel,
-  buttonLink = "/",
+
   cards,
 }) => {
   return (
@@ -23,13 +22,7 @@ const Section = ({
           className="w-full h-48 object-cover mb-4 rounded"
         />
         <p className="mb-4">{description}</p>
-        <div className="flex justify-center mb-4">
-          <Link href={buttonLink} className="w-full" passHref>
-            <button className="bg-lassonde-blue text-white px-2 py-2 rounded w-full">
-              {buttonLabel}
-            </button>
-          </Link>
-        </div>
+        <div className="flex justify-center mb-4"></div>
       </div>
       <div>
         {cards.map((card, index) => (
