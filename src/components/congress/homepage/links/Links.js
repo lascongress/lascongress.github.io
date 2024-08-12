@@ -11,7 +11,7 @@ const Links = () => {
       title: "House of Delegates",
       description:
         "Elected to make laws and check the work of the Secretariat.",
-      link: "/congress/house",
+      link: "/congress/house-of-delegates",
     },
     {
       imageSrc: "/images/cap.png",
@@ -20,7 +20,13 @@ const Links = () => {
         "Elected to check draft laws and challenge the work of the Congress.",
       link: "congress/senate",
     },
-
+    {
+      imageSrc: "/images/sups.png",
+      title: "Committees",
+      description:
+        "Latest news, inquiries and reports from Parliamentary select committees.",
+      link: "congress/committees",
+    },
     {
       imageSrc: "/images/flash.png",
       title: "Votes",
@@ -39,21 +45,14 @@ const Links = () => {
       title: "Bills & Resolutions",
       description:
         "Keep up to date with the progress of current and draft bills and resolutions before Congress.",
-      link: "congress/bills-and-resolutions",
-    },
-    {
-      imageSrc: "/images/sups.png",
-      title: "Committees",
-      description:
-        "Latest news, inquiries and reports from Parliamentary select committees.",
-      link: "congress/committees",
+      link: "https://docs.google.com/spreadsheets/d/1G4J-osCqip0KijyExAd2JaJjEH1Fa5bZCdDGx7oTSrQ/edit?gid=0#gid=0",
     },
   ];
 
   return (
     <section className="bg-white p-4 rounded shadow">
-      <h2 className="text-2xl font-bold mb-4">Links</h2>
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+      <h2 className="text-2xl font-bold mb-4"></h2>
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         {Links.map((link, index) => (
           <LinkCard
             key={index}
