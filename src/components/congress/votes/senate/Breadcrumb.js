@@ -3,7 +3,7 @@ import BreadcrumbNavBar from "../../../global/BreadcrumbNavBar";
 
 export default function ExamplePage() {
   const breadcrumbs = [
-    { label: "...", href: "/congress" },
+    { label: "Congress", href: "/congress" },
     { label: "Votes", href: "/congress/votes" },
     {
       label: "Senate Votes",

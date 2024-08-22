@@ -3,7 +3,7 @@ import BreadcrumbNavBar from "../../global/BreadcrumbNavBar";
 
 export default function ExamplePage() {
   const breadcrumbs = [
-    { label: "...", href: "/" },
+    { label: "Main", href: "/" },
     { label: "Government", href: "/government" },
   ];
 
