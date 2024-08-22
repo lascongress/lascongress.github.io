@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const BreadcrumbNavBar = ({ breadcrumbs }) => {
   return (
-    <nav className="bg-lassonde-teal text-white p-1">
+    <nav className="bg-zinc-500 text-white p-1">
       <div className="container mx-auto max-w-screen px-4">
         <ol className="flex flex-wrap space-x-0  text-sm md:text-base">
           {breadcrumbs.map((breadcrumb, index) => (
