@@ -7,13 +7,13 @@ import LinkCard from "./LinkCard";
 const Links = () => {
   const Links = [
     {
-      imageSrc: "/images/sups.png",
+      imageSrc: "/images/government.png",
       title: "Government",
       description: "Elected to check draft laws and challenge the.",
       link: "government",
     },
     {
-      imageSrc: "/images/batman.png",
+      imageSrc: "/images/congress.png",
       title: "Congress",
       description:
         "Elected to make laws and check the work of the Secretariat.",
@@ -24,7 +24,7 @@ const Links = () => {
   return (
     <section className="bg-white p-4 rounded shadow">
       <h2 className="text-2xl font-bold mb-4"></h2>
-      <div className="grid grid-cols-1 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-1 gap-4">
         {Links.map((link, index) => (
           <LinkCard
             key={index}

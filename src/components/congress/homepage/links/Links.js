@@ -7,14 +7,14 @@ import LinkCard from "./LinkCard";
 const Links = () => {
   const Links = [
     {
-      imageSrc: "/images/batman.png",
+      imageSrc: "/images/house-of-delegates.png",
       title: "House of Delegates",
       description:
         "Elected to make laws and check the work of the Secretariat.",
       link: "/congress/house-of-delegates",
     },
     {
-      imageSrc: "/images/cap.png",
+      imageSrc: "/images/senate.png",
       title: "Senate",
       description:
         "Elected to check draft laws and challenge the work of the Congress.",
