@@ -254,7 +254,7 @@ const Navbar = () => {
           </Link>
 
           <Link
-            href="/congress/house"
+            href="/congress/house-of-delegates"
             onClick={toggleMenu}
             className="block mb-4"
           >
