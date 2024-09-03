@@ -40,16 +40,10 @@ const Section = () => {
     <section className="bg-white p-4 rounded shadow">
       <div className="container mx-auto p-4 mb-4 border-b-2 border-neutral-200">
         <h2 className="text-3xl font-bold mb-2 text-gray-800">Services</h2>
-        <p className="text-lg text-gray-700">
-          The UK public elects 650 Members of Parliament (MPs) to represent
-          their interests and concerns in the House of Commons. MPs consider and
-          propose new laws, and can scrutinise government policies by asking
-          ministers questions about current issues either in the Commons Chamber
-          or in Committees.
-        </p>
+        <p className="text-lg text-gray-700">UNDER CONSTRUCTION</p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+      {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {section.map((link, index) => (
           <Card
             key={index}
@@ -59,7 +53,7 @@ const Section = () => {
             link={link.link}
           />
         ))}
-      </div>
+      </div> */}
     </section>
   );
 };
