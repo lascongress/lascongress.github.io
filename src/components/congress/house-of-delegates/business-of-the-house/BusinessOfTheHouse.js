@@ -38,13 +38,15 @@ const Card = ({ imageSrc, title, description, link }) => {
 const Section = () => {
   const section = [
     {
-      imageSrc: "/images/batman.png",
+      imageSrc:
+        "/images/congress/house-of-delegates/business-of-the-house/agendas-and-minutes.png",
       title: "Agendas & Minutes",
       description: "Read transcripts of debates.",
       link: "/congress/agendas-and-minutes",
     },
     {
-      imageSrc: "/images/cap.png",
+      imageSrc:
+        "/images/congress/house-of-delegates/business-of-the-house/votes.png",
       title: "Votes",
       description: "Find vote results from the house.",
       link: "/congress/votes",

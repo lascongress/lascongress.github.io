@@ -126,7 +126,7 @@ const Section = ({ title, departments, count }) => {
 const MainContent = () => {
   const departments = [
     {
-      iconSrc: "/images/office-of-the-secretariat.png",
+      iconSrc: "/images/government/ministry/office-of-the-secretariat.png",
       name: "Office Of The Secretariat",
       linkText: "Works with 4 agencies and public bodies",
       linkHref: "#",
@@ -140,7 +140,8 @@ const MainContent = () => {
 
   const departments1 = [
     {
-      iconSrc: "/images/department-of-community-affairs.png",
+      iconSrc:
+        "/images/government/ministry/department-of-community-affairs.png",
       name: "Department of Community Affairs",
       linkText: "Works with 4 agencies and public bodies",
       linkHref: "#",
@@ -151,7 +152,8 @@ const MainContent = () => {
       ],
     },
     {
-      iconSrc: "/images/department-of-finance-and-admin.png",
+      iconSrc:
+        "/images/government/ministry/department-of-finance-and-admin.png",
       name: "Department of Finance And Admin",
       linkText: "Works with 4 agencies and public bodies",
       linkHref: "#",
@@ -162,7 +164,7 @@ const MainContent = () => {
       ],
     },
     {
-      iconSrc: "/images/department-of-internal-affairs.png",
+      iconSrc: "/images/government/ministry/department-of-internal-affairs.png",
       name: "Department of Internal Affairs",
       linkText: "Works with 4 agencies and public bodies",
       linkHref: "#",
@@ -173,7 +175,7 @@ const MainContent = () => {
       ],
     },
     {
-      iconSrc: "/images/office-of-the-accountability.png",
+      iconSrc: "/images/government/ministry/office-of-the-accountability.png",
       name: "Office of Accountablity",
       linkText: "Works with 4 agencies and public bodies",
       linkHref: "#",

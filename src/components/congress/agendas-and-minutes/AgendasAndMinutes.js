@@ -124,14 +124,14 @@ const MainContent = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <Section
           title="House Agendas & Minutes"
-          imgSrc="/images/house-of-delegates.png"
+          imgSrc="/images/congress/agendas-and-minutes/house-of-delegates.png"
           description="The latest House sitting recorded in Hansard is:"
           cards={commonsCards}
           links={commonsLinks}
         />
         <Section
           title="Senate Agendas & Minutes"
-          imgSrc="/images/senate.png"
+          imgSrc="/images/congress/agendas-and-minutes/senate.png"
           description="The latest House sitting recorded in Hansard is:"
           cards={lordsCards}
           links={lordsLinks}

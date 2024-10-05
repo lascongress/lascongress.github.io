@@ -107,7 +107,7 @@ const MainContent = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <Section
           title="House Votes"
-          imgSrc="/images/house-of-delegates.png"
+          imgSrc="/images/congress/votes/house-of-delegates.png"
           description="When a vote is held in the Commons the Speaker calls a division by announcing 'division, clear the lobbies'. MPs then vote on the topic being considered by walking through the Aye or No lobbies where they are counted by the tellers and their names are recorded."
           buttonLabel="Find All House Votes"
           buttonLink="/congress/votes/house"
@@ -115,7 +115,7 @@ const MainContent = () => {
         />
         <Section
           title="Senate Votes"
-          imgSrc="/images/senate.png"
+          imgSrc="/images/congress/votes/senate.png"
           description="Any member of the House of Lords can ask to 'test the opinion of the House' by pushing a question to a vote. When this happens, the Lord Speaker announces a division and members vote either Content or Not Content to determine the result."
           buttonLabel="Find All Senate Votes"
           buttonLink="/congress/votes/senate"

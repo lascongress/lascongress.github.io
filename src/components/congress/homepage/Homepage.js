@@ -39,41 +39,41 @@ const LinkCard = ({ imageSrc, title, description, link }) => {
 const Links = () => {
   const Links = [
     {
-      imageSrc: "/images/house-of-delegates.png",
+      imageSrc: "/images/congress/house-of-delegates.png",
       title: "House of Delegates",
       description:
         "Elected to make laws and check the work of the Secretariat.",
       link: "/congress/house-of-delegates",
     },
     {
-      imageSrc: "/images/senate.png",
+      imageSrc: "/images/congress/senate.png",
       title: "Senate",
       description:
         "Elected to check draft laws and challenge the work of the Congress.",
       link: "congress/senate",
     },
     {
-      imageSrc: "/images/sups.png",
+      imageSrc: "/images/congress/committee.png",
       title: "Committees",
       description:
         "Latest news, inquiries and reports from Parliamentary select committees.",
       link: "congress/committees",
     },
     {
-      imageSrc: "/images/flash.png",
+      imageSrc: "/images/congress/votes.png",
       title: "Votes",
       description: "Find vote results from the House and Senate.",
       link: "congress/votes",
     },
     {
-      imageSrc: "/images/punisher.png",
+      imageSrc: "/images/congress/agendas-and-minutes.png",
       title: "Agendas & Minutes",
       description:
         "Read transcripts of debates and find communications from both Chambers.",
       link: "congress/agendas-and-minutes",
     },
     {
-      imageSrc: "/images/spidey.png",
+      imageSrc: "/images/congress/bills-and-resolutions.png",
       title: "Bills & Resolutions",
       description:
         "Keep up to date with the progress of current and draft bills and resolutions before Congress.",

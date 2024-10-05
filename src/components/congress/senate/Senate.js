@@ -38,28 +38,28 @@ const Card = ({ imageSrc, title, description, link }) => {
 const Section = () => {
   const section = [
     {
-      imageSrc: "/images/batman.png",
+      imageSrc: "/images/congress/senate/business.png",
       title: "Business of the Senate",
       description:
         "Keep up to date with the business of the Senate by referring to our Agenda & Minutes, Votes and other communications.",
       link: "/congress/senate/business-of-the-senate",
     },
     {
-      imageSrc: "/images/cap.png",
+      imageSrc: "/images/congress/senate/composition.png",
       title: "Composition of the Senate",
       description:
         "The Senate may establish ad-hoc (select) committees to study issues, bills & resolutions or any other matters of interest.",
       link: "/congress/senate/composition-of-the-senate",
     },
     {
-      imageSrc: "/images/cap.png",
+      imageSrc: "/images/congress/senate/committee.png",
       title: "Committees",
       description:
         "The Senate may establish ad-hoc (select) committees to study issues, bills & resolutions or any other matters of interest.",
       link: "/congress/committees",
     },
     {
-      imageSrc: "/images/deadpool.png",
+      imageSrc: "/images/congress/senate/meeting.png",
       title: "Meeting Links",
       description:
         "Watch all Senate meetings online and find archived coverage.",

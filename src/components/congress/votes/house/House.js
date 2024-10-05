@@ -104,7 +104,7 @@ const MainContent = () => {
       <div className="grid grid-cols-1 gap-4">
         <Section
           title="House Votes"
-          imgSrc="/votes/ironwar.png"
+          imgSrc="/images/congress/votes/house-of-delegates.png"
           description="When a vote is held in the Commons the Speaker calls a division by announcing 'division, clear the lobbies'. MPs then vote on the topic being considered by walking through the Aye or No lobbies where they are counted by the tellers and their names are recorded."
           buttonLink="/congress"
           cards={houseCards}

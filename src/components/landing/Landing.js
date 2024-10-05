@@ -39,13 +39,13 @@ const LinkCard = ({ imageSrc, title, description, link }) => {
 const Links = () => {
   const Links = [
     {
-      imageSrc: "/images/government.png",
+      imageSrc: "/images/landing/empty_government.png",
       title: "Government",
       description: "Elected to check draft laws and challenge the.",
       link: "government",
     },
     {
-      imageSrc: "/images/congress.png",
+      imageSrc: "/images/landing/empty_congress.png",
       title: "Congress",
       description:
         "Elected to make laws and check the work of the Secretariat.",

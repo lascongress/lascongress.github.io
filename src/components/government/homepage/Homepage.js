@@ -39,14 +39,14 @@ const LinkCard = ({ imageSrc, title, description, link }) => {
 const Links = () => {
   const Links = [
     {
-      imageSrc: "/images/batman.png",
+      imageSrc: "/images/government/services.png",
       title: "Services",
       description:
         "Elected to make laws and check the work of the Secretariat.",
       link: "/government/services",
     },
     {
-      imageSrc: "/images/cap.png",
+      imageSrc: "/images/government/ministry.png",
       title: "Ministry",
       description:
         "Elected to check draft laws and challenge the work of the Congress.",
@@ -54,7 +54,7 @@ const Links = () => {
     },
 
     {
-      imageSrc: "/images/flash.png",
+      imageSrc: "/images/government/reports-and-documents.png",
       title: "Reports and Documents",
       description: "Find vote results from the House and Senate.",
       link: "/government/reports-and-documents",
@@ -115,14 +115,14 @@ const ResourceCard = ({ imageSrc, title, description, link }) => {
 const Resources = () => {
   const Resources = [
     {
-      imageSrc: "/images/batman.png",
+      imageSrc: "/images/government/student-run.png",
       title: "Student-Run",
       description:
         "Elected to make laws and check the work of the Secretariat.",
       link: "/government/resources/student-run",
     },
     {
-      imageSrc: "/images/cap.png",
+      imageSrc: "/images/government/lassonde-school.png",
       title: "Lassonde School",
       description:
         "Elected to check draft laws and challenge the work of the Congress.",

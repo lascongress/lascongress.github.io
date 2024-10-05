@@ -38,28 +38,28 @@ const Card = ({ imageSrc, title, description, link }) => {
 const Section = () => {
   const section = [
     {
-      imageSrc: "/images/batman.png",
+      imageSrc: "/images/congress/house-of-delegates/business.png",
       title: "Business of the House",
       description:
         "Keep up to date with the business of the House by referring to our Agenda & Minutes, Votes and other communications.",
       link: "/congress/house-of-delegates/business-of-the-house",
     },
     {
-      imageSrc: "/images/cap.png",
+      imageSrc: "/images/congress/house-of-delegates/composition.png",
       title: "Composition of the House",
       description:
         "The House of Commons is governed by a group of Delegates who make up the Steering Committee.",
       link: "/congress/house-of-delegates/composition-of-the-house",
     },
     {
-      imageSrc: "/images/deadpool.png",
+      imageSrc: "/images/congress/house-of-delegates/committee.png",
       title: "Standing Committees",
       description:
         "A lot of the work and discussions of the House takes place in committees. The committee examines issues in detail, from proposed bills  to wider topics of community concern.",
       link: "/congress/committees",
     },
     {
-      imageSrc: "/images/spidey.png",
+      imageSrc: "/images/congress/house-of-delegates/meeting.png",
       title: "Meeting Links",
       description:
         "Watch all House meetings online and find archived coverage.",
