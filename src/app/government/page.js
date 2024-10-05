@@ -2,7 +2,7 @@
 import Navbar from "../../components/global/Navbar";
 import Header from "../../components/government/homepage/Header";
 import Announcement from "../../components/landing/Announcement";
-import MainContent from "../../components/government/homepage/MainContent";
+import MainContent from "../../components/government/homepage/Homepage";
 import BreadCrumb from "../../components/government/homepage/Breadcrumb";
 import Footer from "../../components/global/Footer";
 

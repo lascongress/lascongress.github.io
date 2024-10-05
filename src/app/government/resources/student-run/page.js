@@ -2,7 +2,7 @@
 import Navbar from "../../../../components/global/Navbar";
 import Header from "../../../../components/global/Header";
 import Announcement from "../../../../components/landing/Announcement";
-import MainContent from "../../../../components/government/resources/student-run/MainContent";
+import MainContent from "../../../../components/government/resources/student-run/StudentRun";
 import BreadCrumb from "../../../../components/government/resources/student-run/Breadcrumb";
 import Footer from "../../../../components/global/Footer";
 

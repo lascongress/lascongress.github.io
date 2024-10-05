@@ -1,8 +1,39 @@
-// src/components/government/resources/student-run/Section.js
-"use client";
-
+// src/components/government/reports-and-documents/ReportsAndDocuments.js
 import React from "react";
-import Card from "./Card";
+import Link from "next/link";
+
+const Card = ({ imageSrc, title, description, link }) => {
+  return (
+    <Link href={link}>
+      <div className="bg-white p-4 rounded shadow hover:bg-gray-100 transition duration-200 flex flex-col h-80">
+        {/* adjust the height in increments of +/- 8 */}
+        <img
+          src={imageSrc}
+          alt={title}
+          className="mb-4 w-full h-32 object-cover rounded"
+        />
+        <div className="flex justify-between items-center mb-2">
+          <h3 className="font-bold text-lg">{title}</h3>
+          <svg
+            className="h-5 w-5"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              d="M9 5l7 7-7 7"
+            />
+          </svg>
+        </div>
+        <p className="flex-grow">{description}</p>
+      </div>
+    </Link>
+  );
+};
 
 const Section = () => {
   const section = [];
@@ -10,7 +41,9 @@ const Section = () => {
   return (
     <section className="bg-white p-4 rounded shadow">
       <div className="container mx-auto p-4 mb-4 border-b-2 border-neutral-200">
-        <h2 className="text-3xl font-bold mb-2 text-gray-800">Student-Run</h2>
+        <h2 className="text-3xl font-bold mb-2 text-gray-800">
+          Reports and Documents
+        </h2>
         <p className="text-lg text-gray-700">
           The UK public elects 650 Members of Parliament (MPs) to represent
           their interests and concerns in the House of Commons. MPs consider and
@@ -153,4 +186,12 @@ const Section = () => {
   );
 };
 
-export default Section;
+const MainContent = () => {
+  return (
+    <main className="container mx-auto p-4">
+      <Section />
+    </main>
+  );
+};
+
+export default MainContent;

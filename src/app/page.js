@@ -2,7 +2,7 @@
 import Navbar from "../components/global/Navbar";
 import Header from "../components/landing/Header";
 import Announcement from "../components/landing/Announcement";
-import MainContent from "../components/landing/MainContent";
+import MainContent from "../components/landing/Landing";
 import Footer from "../components/global/Footer";
 
 export default function Home() {

@@ -2,7 +2,7 @@
 import Navbar from "../../../../components/global/Navbar";
 import Header from "../../../../components/global/Header";
 import Announcement from "../../../../components/landing/Announcement";
-import MainContent from "../../../../components/government/resources/lassonde-school/MainContent";
+import MainContent from "../../../../components/government/resources/lassonde-school/LassondeSchool";
 import BreadCrumb from "../../../../components/government/resources/lassonde-school/Breadcrumb";
 import Footer from "../../../../components/global/Footer";
 
