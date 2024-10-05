@@ -2,7 +2,7 @@
 import Navbar from "../../components/global/Navbar";
 import Header from "../../components/congress/homepage/Header";
 import Announcement from "../../components/landing/Announcement";
-import MainContent from "../../components/congress/homepage/MainContent";
+import MainContent from "../../components/congress/homepage/Homepage";
 import BreadCrumb from "../../components/congress/homepage/Breadcrumb";
 import Footer from "../../components/global/Footer";
 

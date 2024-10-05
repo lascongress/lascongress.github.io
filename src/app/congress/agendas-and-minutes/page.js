@@ -2,7 +2,7 @@
 import Head from "next/head";
 import Navbar from "../../../components/global/Navbar";
 import Header from "../../../components/global/Header";
-import MainContent from "../../../components/congress/agendas-and-minutes/MainContent";
+import MainContent from "../../../components/congress/agendas-and-minutes/AgendasAndMinutes";
 import BreadCrumb from "../../../components/congress/agendas-and-minutes/Breadcrumb";
 
 // import Announcement from "../components/homepage/Announcement";

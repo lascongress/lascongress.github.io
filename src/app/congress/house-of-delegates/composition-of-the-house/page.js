@@ -2,7 +2,7 @@
 import Head from "next/head";
 import Navbar from "../../../../components/global/Navbar";
 import Header from "../../../../components/global/Header";
-import MainContent from "../../../../components/congress/house-of-delegates/composition-of-the-house/MainContent";
+import MainContent from "../../../../components/congress/house-of-delegates/composition-of-the-house/CompositionOfTheHouse";
 import BreadCrumb from "../../../../components/congress/house-of-delegates/composition-of-the-house/Breadcrumb";
 
 // import Announcement from "../components/homepage/Announcement";
