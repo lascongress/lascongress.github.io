@@ -25,7 +25,7 @@ const Footer = () => {
           </div>
           <div className="flex flex-wrap md:flex-row md:space-x-16 mb-4">
             <a
-              href="https://www.instagram.com/lassondecongress/"
+              href="https://discord.gg/ntN69q9HfK"
               className="flex items-center space-x-2 hover:underline mb-2 md:mb-0"
             >
               <img
