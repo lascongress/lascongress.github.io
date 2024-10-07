@@ -55,15 +55,14 @@ const Section = () => {
       imageSrc: "/images/congress/house-of-delegates/committee.png",
       title: "Standing Committees",
       description:
-        "A lot of the work and discussions of the House takes place in committees. The committee examines issues in detail, from proposed bills  to wider topics of community concern.",
+        "The committees examine issues in detail, from proposed bills  to wider topics of community concern.",
       link: "/congress/committees",
     },
     {
       imageSrc: "/images/congress/house-of-delegates/meeting.png",
       title: "Meeting Links",
-      description:
-        "Watch all House meetings online and find archived coverage.",
-      link: "/congress/meeting-links",
+      description: "Join our discord.",
+      link: "https://discord.gg/ntN69q9HfK",
     },
   ];
 
@@ -74,11 +73,10 @@ const Section = () => {
           House of Delegates
         </h2>
         <p className="text-lg text-gray-700">
-          The UK public elects 650 Members of Parliament (MPs) to represent
-          their interests and concerns in the House of Commons. MPs consider and
-          propose new laws, and can scrutinise government policies by asking
-          ministers questions about current issues either in the Commons Chamber
-          or in Committees.
+          The House of Delegates consist students from Engineering, Computer
+          Science & Security, Digital Media, Earth and Atmoshperic Science,
+          Digital Techologies and Lassonde/Bethune Representative that come
+          together to pursue change, discuss opportunies and argue new laws
         </p>
       </div>
 

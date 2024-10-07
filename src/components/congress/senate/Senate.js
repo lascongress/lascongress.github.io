@@ -61,9 +61,8 @@ const Section = () => {
     {
       imageSrc: "/images/congress/senate/meeting.png",
       title: "Meeting Links",
-      description:
-        "Watch all Senate meetings online and find archived coverage.",
-      link: "/congress/meeting-links",
+      description: "Join our discord.",
+      link: "https://discord.gg/ntN69q9HfK",
     },
   ];
 
@@ -72,11 +71,10 @@ const Section = () => {
       <div className="container mx-auto p-4 mb-4 border-b-2 border-neutral-200">
         <h2 className="text-3xl font-bold mb-2 text-gray-800">Senate</h2>
         <p className="text-lg text-gray-700">
-          The Lassonde undergraduate students elect 10 Senators to represent
-          their interests and concerns in the upper chamber of Congress as well
-          as the York University Senate. It plays a crucial role in examining
-          bills and resolutions, questioning House and Secretariat actions and
-          investigating community issues.
+          The Senate consist students from Engineering, Computer Science &
+          Security, Digital Media, Earth and Atmoshperic Science, Digital
+          Techologies and Lassonde/Bethune Representative that come together to
+          pursue change, discuss opportunies and argue new laws
         </p>
       </div>
 

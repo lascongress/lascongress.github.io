@@ -10,7 +10,7 @@ const Header = () => {
         <h1 className="text-4xl font-bold mb-2">Lassonde Student Congress</h1>
         <p className="mb-2">
           Welcome to the official website of your undergraduate student
-          government, the Lassonde Student Congress
+          government
         </p>
       </div>
     </header>

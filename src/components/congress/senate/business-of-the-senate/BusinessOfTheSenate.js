@@ -57,22 +57,16 @@ const Section = () => {
       <div className="container mx-auto p-4 mb-4 border-b-2 border-neutral-200">
         <h2 className="text-3xl font-bold mb-2 text-gray-800">Senate</h2>
         <p className="text-lg text-gray-700">
-          The UK public elects 650 Members of Parliament (MPs) to represent
-          their interests and concerns in the House of Commons. MPs consider and
-          propose new laws, and can scrutinise government policies by asking
-          ministers questions about current issues either in the Commons Chamber
-          or in Committees.
+          Students from different programs in Lassonde come together to argue,
+          decide and vote on policies/laws the dictact student life and growth.
         </p>
         <br />
         <h2 className="text-xl font-bold mb-2 text-gray-800">
           Other information
         </h2>
         <p className="text-lg text-gray-700">
-          The UK public elects 650 Members of Parliament (MPs) to represent
-          their interests and concerns in the House of Commons. MPs consider and
-          propose new laws, and can scrutinise government policies by asking
-          ministers questions about current issues either in the Commons Chamber
-          or in Committees.
+          We have seats availible for Digital Media, Digital Technologies and
+          Digital Technologies!
         </p>
       </div>
 

@@ -4,7 +4,6 @@
 import React from "react";
 import Link from "next/link";
 
-// Card Component (from Section.js)
 const Card = ({ date, year, day, description, link }) => {
   return (
     <Link href={link}>
@@ -22,7 +21,6 @@ const Card = ({ date, year, day, description, link }) => {
   );
 };
 
-// Section Component (from Section.js)
 const Section = ({ title, imgSrc, description, cards, links }) => {
   return (
     <div className="bg-white p-6 rounded shadow mb-6">
@@ -67,7 +65,6 @@ const Section = ({ title, imgSrc, description, cards, links }) => {
   );
 };
 
-// MainContent Component (from MainContent.js)
 const MainContent = () => {
   const commonsCards = [
     {

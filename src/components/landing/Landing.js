@@ -41,14 +41,13 @@ const Links = () => {
     {
       imageSrc: "/images/landing/empty_government.png",
       title: "Government",
-      description: "Elected to check draft laws and challenge the.",
+      description: "Find information about our services, resources and news!",
       link: "government",
     },
     {
       imageSrc: "/images/landing/empty_congress.png",
       title: "Congress",
-      description:
-        "Elected to make laws and check the work of the Secretariat.",
+      description: "Learn more about the laws and rules that govern us!",
       link: "congress",
     },
   ];

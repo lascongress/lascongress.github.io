@@ -193,11 +193,11 @@ const MainContent = () => {
         <div className="mx-auto p-4 mb-4 border-b-2 border-neutral-200">
           <h2 className="text-3xl font-bold mb-2 text-gray-800">Ministry</h2>
           <p className="text-lg text-gray-700">
-            The UK public elects 650 Members of Parliament (MPs) to represent
-            their interests and concerns in the House of Commons. MPs consider
-            and propose new laws, and can scrutinise government policies by
-            asking ministers questions about current issues either in the
-            Commons Chamber or in Committees.
+            The house of delegates and senate elect 10 Members of Congress to
+            represent their interests and concerns in the Congress. The
+            ministers consider and propose new laws, and can scrutinise
+            government policies by asking ministers questions about current
+            issues either in the Congress or in Committees.
           </p>
         </div>
         <div className="flex justify-center">

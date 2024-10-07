@@ -41,22 +41,20 @@ const Links = () => {
     {
       imageSrc: "/images/congress/house-of-delegates.png",
       title: "House of Delegates",
-      description:
-        "Elected to make laws and check the work of the Secretariat.",
+      description: "Elected to serve and protect the student body.",
       link: "/congress/house-of-delegates",
     },
     {
       imageSrc: "/images/congress/senate.png",
       title: "Senate",
-      description:
-        "Elected to check draft laws and challenge the work of the Congress.",
+      description: "Elected to oversee the decisions of the House.",
       link: "congress/senate",
     },
     {
       imageSrc: "/images/congress/committee.png",
       title: "Committees",
       description:
-        "Latest news, inquiries and reports from Parliamentary select committees.",
+        "Latest news, inquiries and reports from Lassonde select committees.",
       link: "congress/committees",
     },
     {

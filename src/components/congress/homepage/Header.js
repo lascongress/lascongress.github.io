@@ -9,10 +9,9 @@ const Header = () => {
       <div className="container mx-auto max-w-screen px-4">
         <h1 className="text-4xl font-bold mb-2">Congress</h1>
         <p className="mb-2">
-          The Congress has two Chambers and a Secretariat that work on behalf of
-          the Lassonde Community to provide services, challenge decisions of the
-          Faculty Council, make and shape policies/laws, and advocate on key
-          issues of the day.
+          The Congress has two Chambers that work on behalf of the Lassonde
+          Community to provide services, challenge decisions of the Faculty
+          Council, and advocate on key issues of the day.
         </p>
       </div>
     </header>

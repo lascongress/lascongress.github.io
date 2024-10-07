@@ -8,7 +8,9 @@ const Header = () => {
     <header className="bg-lassonde-grey text-slate-100 p-4 border-t-2 border-neutral-700">
       <div className="container mx-auto max-w-screen px-4">
         <h1 className="text-4xl font-bold mb-2">Government</h1>
-        <p className="mb-2">The best place to find information at Lassonde</p>
+        <p className="mb-2">
+          Find information about our services, resources and news!
+        </p>
       </div>
     </header>
   );

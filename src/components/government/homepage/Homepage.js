@@ -42,21 +42,21 @@ const Links = () => {
       imageSrc: "/images/government/services.png",
       title: "Services",
       description:
-        "Elected to make laws and check the work of the Secretariat.",
+        "Find our services that promote student accesibility, opportunity and experience",
       link: "/government/services",
     },
     {
       imageSrc: "/images/government/ministry.png",
       title: "Ministry",
-      description:
-        "Elected to check draft laws and challenge the work of the Congress.",
+      description: "Learn more about the 2024-2025 ministers",
       link: "/government/ministry",
     },
 
     {
       imageSrc: "/images/government/reports-and-documents.png",
       title: "Reports and Documents",
-      description: "Find vote results from the House and Senate.",
+      description:
+        "See our reports and documents concerning the future of student life and success",
       link: "/government/reports-and-documents",
     },
   ];
@@ -117,15 +117,14 @@ const Resources = () => {
     {
       imageSrc: "/images/government/student-run.png",
       title: "Student-Run",
-      description:
-        "Elected to make laws and check the work of the Secretariat.",
+      description: "Find resources made by students for students",
       link: "/government/resources/student-run",
     },
     {
       imageSrc: "/images/government/lassonde-school.png",
       title: "Lassonde School",
       description:
-        "Elected to check draft laws and challenge the work of the Congress.",
+        "Find resources offered by the Student Welcome and Support Centre ",
       link: "/government/resources/lassonde-school",
     },
   ];
