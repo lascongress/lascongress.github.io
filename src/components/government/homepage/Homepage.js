@@ -57,7 +57,8 @@ const Links = () => {
       title: "Reports and Documents",
       description:
         "See our reports and documents concerning the future of student life and success",
-      link: "/government/reports-and-documents",
+      //link: "/government/reports-and-documents", - previous link to the page
+      link: "https://drive.google.com/drive/folders/1R5QQI-FC_tQOVcOZm-cGnHWHNM_dVEWf",
     },
   ];
 
