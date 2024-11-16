@@ -4,9 +4,9 @@
 import React from "react";
 import Link from "next/link";
 
-const Card = ({ date, year, day, description, link }) => {
+const Card = ({ date, year, day, description, link, external}) => {
   return (
-    <Link href={link}>
+    <a href={link} target={external ? "_blank" : "_self"} rel={external ? "noopener noreferrer" : undefined}>
       <div className="bg-white p-6 rounded shadow mb-6">
         <div className="border-l-4 border-neutral-600 pl-4">
           <div className="flex items-center mb-4">
@@ -17,7 +17,7 @@ const Card = ({ date, year, day, description, link }) => {
           </div>
         </div>
       </div>
-    </Link>
+    </a>
   );
 };
 
@@ -40,6 +40,7 @@ const Section = ({ title, imgSrc, description, cards, links }) => {
             day={card.day}
             description={card.description}
             link={card.link}
+            external={card.external} // external prop
           />
         ))}
       </div>
@@ -50,7 +51,12 @@ const Section = ({ title, imgSrc, description, cards, links }) => {
             key={index}
             className="bg-white p-4 rounded shadow hover:bg-gray-100 transition duration-200"
           >
-            <Link href={linkItem.link} className="block p-4 rounded">
+            <Link 
+              href={linkItem.link}
+              target={linkItem.external ? "_blank" : "_self"} //added target prop
+              rel={linkItem.external ? "noopener noreferrer" : undefined} //added rel prop
+              className="block p-4 rounded"
+            >
               <div className="flex items-center">
                 <div>
                   <p className="text-lg font-bold">{linkItem.title}</p>
@@ -74,6 +80,7 @@ const MainContent = () => {
       description: "Latest House of Commons sitting",
       note: "You can also browse/find House of Commons Hansard content using the links below:",
       link: "https://drive.google.com/drive/folders/1VgvnvDOZpS7iLkC_fYC92Qqrw06gTIW6",
+      external: true, // Mark as external link
     },
   ];
 
@@ -85,6 +92,7 @@ const MainContent = () => {
       description: "Latest House of Lords sitting",
       note: "You can also browse/find House of Lords Hansard content using the links below:",
       link: "https://drive.google.com/drive/folders/1WOPS6BVzuCGRZntvDAzwxHJKAuyxRmJ5",
+      external: true, // Mark as external link
     },
   ];
 
@@ -94,6 +102,7 @@ const MainContent = () => {
       description:
         "Browse the Commons sittings that have been recorded in Hansard.",
       link: "https://drive.google.com/drive/folders/1VgvnvDOZpS7iLkC_fYC92Qqrw06gTIW6",
+      external: true, // Mark as external link
     },
     {
       title: "Find Vote",
@@ -108,6 +117,7 @@ const MainContent = () => {
       description:
         "Browse the Commons sittings that have been recorded in Hansard.",
       link: "https://drive.google.com/drive/folders/1WOPS6BVzuCGRZntvDAzwxHJKAuyxRmJ5",
+      external: true, // Mark as external link
     },
     {
       title: "Find Vote",

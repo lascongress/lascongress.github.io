@@ -3,9 +3,10 @@ import React from "react";
 import Link from "next/link";
 import Announcement from "./Announcement";
 
-const LinkCard = ({ imageSrc, title, description, link }) => {
+const LinkCard = ({ imageSrc, title, description, link,external }) => {
   return (
-    <Link href={link}>
+    // change the target to _blank if the link is external
+    <a href={link} target={external ? "_blank" : "_self"} rel={external ? "noopener noreferrer" : undefined}>
       <div className="bg-white p-4 rounded shadow hover:bg-gray-100 transition duration-200 flex flex-col h-80">
         {/* adjust the height in increments of +/- 8 */}
         <img
@@ -32,7 +33,7 @@ const LinkCard = ({ imageSrc, title, description, link }) => {
         </div>
         <p className="flex-grow">{description}</p>
       </div>
-    </Link>
+    </a>
   );
 };
 
@@ -59,6 +60,7 @@ const Links = () => {
         "See our reports and documents concerning the future of student life and success",
       //link: "/government/reports-and-documents", - previous link to the page
       link: "https://drive.google.com/drive/folders/1R5QQI-FC_tQOVcOZm-cGnHWHNM_dVEWf",
+      external: true, //Marking link as external
     },
   ];
 
@@ -73,6 +75,7 @@ const Links = () => {
             title={link.title}
             description={link.description}
             link={link.link}
+            external={link.external} //Passing the external prop
           />
         ))}
       </div>
