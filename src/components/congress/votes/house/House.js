@@ -3,12 +3,25 @@
 
 import React from "react";
 
-const Card = ({ primaryInfo, number, singleText, date, valueA, valueB, link }) => {
+const Card = ({
+  primaryInfo,
+  number,
+  singleText,
+  date,
+  valueA,
+  valueB,
+  link,
+}) => {
   return (
     <div className="bg-white p-6 rounded shadow mb-6">
       <div className="border-l-4 border-neutral-600 pl-4">
         <div className="text-xl font-bold mb-2">
-          <a href={link} target="_blank" rel="noopener noreferrer" className="hover:underline hover:text-blue-500">
+          <a
+            href={link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:underline hover:text-blue-500"
+          >
             {primaryInfo}
           </a>
         </div>
@@ -39,12 +52,7 @@ const Card = ({ primaryInfo, number, singleText, date, valueA, valueB, link }) =
   );
 };
 
-const Section = ({
-  title,
-  imgSrc,
-  description,
-  cards,
-}) => {
+const Section = ({ title, imgSrc, description, cards }) => {
   return (
     <div className="bg-white p-6 rounded shadow mb-6">
       <div className="mb-4 border-b-2 border-gray-200">
@@ -77,15 +85,15 @@ const Section = ({
 
 const MainContent = () => {
   const houseCards = [
-    {
-      primaryInfo: "No Pineapple on Pizza And Obligatory Garlic Dip Act",
-      number: "99999",
-      singleText: "Passed!",
-      date: "Nth Meeting: held on Day Month Year at x:xxPM",
-      valueA: "99999",
-      valueB: "0",
-      link: "",
-    },
+    // {
+    //   primaryInfo: "No Pineapple on Pizza And Obligatory Garlic Dip Act",
+    //   number: "99999",
+    //   singleText: "Passed!",
+    //   date: "Nth Meeting: held on Day Month Year at x:xxPM",
+    //   valueA: "99999",
+    //   valueB: "0",
+    //   link: "",
+    // },
     {
       primaryInfo: "H.R 010 - 1: RECALL OF SANTUSHT ARORA",
       number: "13",
@@ -222,7 +230,8 @@ const MainContent = () => {
       link: "https://drive.google.com/file/d/1frCyEg6AZnlcOOJ8FWpH8hYBR-5YZy29/view?usp=sharing",
     },
     {
-      primaryInfo: "J.R 002 – 1: CABINET AMENDMENTS – TABLED TO SEPTEMBER (NO QUORUM)",
+      primaryInfo:
+        "J.R 002 – 1: CABINET AMENDMENTS – TABLED TO SEPTEMBER (NO QUORUM)",
       number: "Unanimous",
       singleText: "No Decision",
       date: "3rd Meeting: held on 30 Aug 2024 at 6:00PM",
@@ -300,7 +309,7 @@ const MainContent = () => {
       date: "1st Meeting: held on 3 JUL 2024 at 6:30PM",
       valueA: "7",
       valueB: "0",
-      link:"https://drive.google.com/file/d/15ZLrsd_y-yGO8uA3XMsu5O_uwsMFslOy/view?usp=drive_link",
+      link: "https://drive.google.com/file/d/15ZLrsd_y-yGO8uA3XMsu5O_uwsMFslOy/view?usp=drive_link",
     },
     {
       primaryInfo: "H.R 002 - 1: Steering Committee",
@@ -312,7 +321,8 @@ const MainContent = () => {
       link: "https://drive.google.com/file/d/1e7VzAHEu7yUne6ro23XS9dvVZzj68gAA/view?usp=sharing",
     },
     {
-      primaryInfo: "H.D 002 - 1: Charter & Bylaw Critical Adjustments Act (APPENDIX C) (To be considered by the Senate)",
+      primaryInfo:
+        "H.D 002 - 1: Charter & Bylaw Critical Adjustments Act (APPENDIX C) (To be considered by the Senate)",
       number: "7",
       singleText: "Passed",
       date: "1st Meeting: held on 3 JUL 2024 at 6:30PM",
@@ -321,7 +331,8 @@ const MainContent = () => {
       link: "https://drive.google.com/file/d/1PJ271k7au0e8BS9QhHrCWQlohVVlXcuf/view?usp=drive_link",
     },
     {
-      primaryInfo: "The House elects Luca Filippelli to be the Speaker of the House for the 1st Congress",
+      primaryInfo:
+        "The House elects Luca Filippelli to be the Speaker of the House for the 1st Congress",
       number: "7",
       singleText: "Passed",
       date: "1st Meeting: held on 3 JUL 2024 at 6:30PM",
