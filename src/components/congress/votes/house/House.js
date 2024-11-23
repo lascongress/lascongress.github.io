@@ -67,7 +67,7 @@ const Section = ({
             date={card.date}
             valueA={card.valueA}
             valueB={card.valueB}
-            link={card.link}
+            link={card.link} 
           />
         ))}
       </div>
