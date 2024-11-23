@@ -4,11 +4,30 @@
 import React from "react";
 import Link from "next/link";
 
-const Card = ({ primaryInfo, number, singleText, date, valueA, valueB }) => {
+const Card = ({
+  primaryInfo,
+  number,
+  singleText,
+  date,
+  ayeVotes,
+  noeVotes,
+  abstainVotes,
+  link,
+  minuteslink,
+}) => {
   return (
     <div className="bg-white p-6 rounded shadow mb-6">
       <div className="border-l-4 border-neutral-600 pl-4">
-        <div className="text-xl font-bold mb-2">{primaryInfo}</div>
+        <div className="text-xl font-bold mb-2">
+          <a
+            href={link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:underline hover:text-blue-500"
+          >
+            {primaryInfo}
+          </a>
+        </div>
         <div className="border-t border-gray-200 pt-4">
           <div className="flex justify-between items-center">
             <div className="flex text-center flex-col">
@@ -18,15 +37,27 @@ const Card = ({ primaryInfo, number, singleText, date, valueA, valueB }) => {
             <div className="flex flex-col items-center">
               <div className="text-xl font-bold text-center">{singleText}</div>
               <div className="text-gray-600 text-center">{date}</div>
+              <a
+                href={minuteslink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-500 hover:underline mt-2"
+              >
+                Access Meeting Minutes
+              </a>
             </div>
             <div className="flex flex-col items-end">
               <div className="flex items-center mb-2">
                 <div className="text-gray-600 mr-2">Ayes</div>
-                <div className="text-xl font-bold">{valueA}</div>
+                <div className="text-xl font-bold">{ayeVotes}</div>
+              </div>
+              <div className="flex items-center mb-2">
+                <div className="text-gray-600 mr-2">Noes</div>
+                <div className="text-xl font-bold">{noeVotes}</div>
               </div>
               <div className="flex items-center">
-                <div className="text-gray-600 mr-2">Noes</div>
-                <div className="text-xl font-bold">{valueB}</div>
+                <div className="text-gray-600 mr-2">Abstain</div>
+                <div className="text-xl font-bold">{abstainVotes}</div>
               </div>
             </div>
           </div>
@@ -70,8 +101,11 @@ const Section = ({
             number={card.number}
             singleText={card.singleText}
             date={card.date}
-            valueA={card.valueA}
-            valueB={card.valueB}
+            ayeVotes={card.ayeVotes}
+            noeVotes={card.noeVotes}
+            abstainVotes={card.abstainVotes}
+            link={card.link}
+            minuteslink={card.minuteslink}
           />
         ))}
       </div>
@@ -82,23 +116,31 @@ const Section = ({
 const MainContent = () => {
   const houseCards = [
     {
-      primaryInfo: "Pineapple on Pizza",
-      number: "123",
+      primaryInfo: "S. 001 - 1: OATH OF OFFICE ACT",
+      number: "15",
       singleText: "Passed",
-      date: "Division 160: held on 24 May 2024 at 12:27",
-      valueA: "455",
-      valueB: "789",
+      date: "6th Meeting: held on 14 Nov 2024 at 6:00PM",
+      ayeVotes: "15",
+      noeVotes: "0",
+      abstainVotes: "0",
+      link: "https://drive.google.com/file/d/102k81VwGFFMhZK0g53vkKysgEAQy5wnB/view?usp=drive_link",
+      minuteslink:
+        "https://docs.google.com/document/d/15J1LWF0ugFvARei6nwiZigjYRrD-RlnYA52UVQcjknM/edit?tab=t.0",
     },
   ];
 
   const senateCards = [
     {
-      primaryInfo: "Is Lassy a Zebra?",
-      number: "789",
-      singleText: "Rejected",
-      date: "Division 1: held on 23 May 2024",
-      valueA: "101",
-      valueB: "112",
+      primaryInfo: "S. 001 - 1: OATH OF OFFICE ACT",
+      number: "15",
+      singleText: "Passed",
+      date: "6th Meeting: held on 14 Nov 2024 at 6:00PM",
+      ayeVotes: "15",
+      noeVotes: "0",
+      abstainVotes: "0",
+      link: "https://drive.google.com/file/d/102k81VwGFFMhZK0g53vkKysgEAQy5wnB/view?usp=drive_link",
+      minuteslink:
+        "https://docs.google.com/document/d/15J1LWF0ugFvARei6nwiZigjYRrD-RlnYA52UVQcjknM/edit?tab=t.0",
     },
   ];
 
