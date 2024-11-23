@@ -10,7 +10,9 @@ const Card = ({
   date,
   valueA,
   valueB,
+  valueC,
   link,
+  minuteslink
 }) => {
   return (
     <div className="bg-white p-6 rounded shadow mb-6">
@@ -34,15 +36,27 @@ const Card = ({
             <div className="flex flex-col items-center">
               <div className="text-xl font-bold text-center">{singleText}</div>
               <div className="text-gray-600 text-center">{date}</div>
+              <a 
+                href={minuteslink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-500 hover:underline mt-2"
+              >
+                Access Meeting Minutes
+              </a>
             </div>
             <div className="flex flex-col items-end">
               <div className="flex items-center mb-2">
                 <div className="text-gray-600 mr-2">Ayes</div>
                 <div className="text-xl font-bold">{valueA}</div>
               </div>
-              <div className="flex items-center">
+              <div className="flex items-center mb-2">
                 <div className="text-gray-600 mr-2">Noes</div>
                 <div className="text-xl font-bold">{valueB}</div>
+              </div>
+              <div className="flex items-center">
+                <div className="text-gray-600 mr-2">Abstain</div>
+                <div className="text-xl font-bold">{valueC}</div>
               </div>
             </div>
           </div>
@@ -75,7 +89,9 @@ const Section = ({ title, imgSrc, description, cards }) => {
             date={card.date}
             valueA={card.valueA}
             valueB={card.valueB}
-            link={card.link} 
+            valueC={card.valueC}
+            link={card.link}
+            minuteslink={card.minuteslink}
           />
         ))}
       </div>
@@ -92,7 +108,9 @@ const MainContent = () => {
     //   date: "Nth Meeting: held on Day Month Year at x:xxPM",
     //   valueA: "99999",
     //   valueB: "0",
+    //   valueC: "1",
     //   link: "",
+    //   minuteslink: "",
     // },
     {
       primaryInfo: "H.R 010 - 1: RECALL OF SANTUSHT ARORA",
@@ -102,6 +120,7 @@ const MainContent = () => {
       valueA: "13",
       valueB: "0",
       link: "https://drive.google.com/file/d/1GajTMpRwyUY0VkHH1AQ8QDZccm7skeE7/view?usp=drive_link",
+      minuteslink:"",
     },
     {
       primaryInfo: "S. 001 - 1: OATH OF OFFICE ACT",
@@ -111,6 +130,7 @@ const MainContent = () => {
       valueA: "15",
       valueB: "0",
       link: "https://drive.google.com/file/d/102k81VwGFFMhZK0g53vkKysgEAQy5wnB/view?usp=drive_link",
+      minuteslink:"",
     },
     {
       primaryInfo: "J.R 006 – 1: ADDITIONAL CABINET AMENDMENTS",
@@ -120,6 +140,7 @@ const MainContent = () => {
       valueA: "13",
       valueB: "0",
       link: "https://drive.google.com/file/d/19aAZoUE6S2TLUorhC-_zy4QXx5dmiFgZ/view?usp=drive_link",
+      minuteslink:"",
     },
     {
       primaryInfo: "H.D 012 – 1: ACCESSIBILITY, COMPLAINTS AND INTERESTS ACT",
@@ -129,6 +150,7 @@ const MainContent = () => {
       valueA: "16",
       valueB: "0",
       link: "https://drive.google.com/file/d/1IMpGSZoqNfkvr2fSgoiqsBmLo2ki26cw/view?usp=drive_link",
+      minuteslink:"",
     },
     {
       primaryInfo: "H.D 011 – 1: WEEKZERO ACT [AS AMENDED]",
@@ -138,6 +160,7 @@ const MainContent = () => {
       valueA: "16",
       valueB: "0",
       link: "https://drive.google.com/file/d/15G5Bfe1LuGROKAKF3-oBtGNstpJLsR0y/view?usp=drive_link",
+      minuteslink:"",
     },
     {
       primaryInfo: "H.D 010 – 1: AGENCY ACT",
@@ -147,6 +170,7 @@ const MainContent = () => {
       valueA: "16",
       valueB: "0",
       link: "https://drive.google.com/file/d/1Q37yvAc0UOz3ZPiXE_pT0fEWkecMQM1r/view?usp=drive_link",
+      minuteslink:"",
     },
     {
       primaryInfo: "H.D 009 – 1: SUPPLY & APPROPRIATIONS ACT 2024",
@@ -156,6 +180,7 @@ const MainContent = () => {
       valueA: "16",
       valueB: "0",
       link: "https://drive.google.com/file/d/1odECaqcc09uAylgKx1Okhav8bKWEo1Op/view?usp=drive_link",
+      minuteslink:"",
     },
     {
       primaryInfo: "H.R 009 (5 mins): OCTOBER FACULTY COUNCIL APPOINTMENTS",
@@ -165,6 +190,7 @@ const MainContent = () => {
       valueA: "9",
       valueB: "0",
       link: "https://drive.google.com/file/d/1vxVgt6BN5CBggY_Od_UiJPjl3nhu3Hi2/view?usp=drive_link",
+      minuteslink:"",
     },
     {
       primaryInfo: "H.R. 008 (5 mins): OCTOBER CABINET SHUFFLE",
@@ -174,6 +200,7 @@ const MainContent = () => {
       valueA: "9",
       valueB: "0",
       link: "https://drive.google.com/file/d/1VLquA_p5QhkhSSenKujZZCKDsoC7HZg-/view?usp=drive_link",
+      minuteslink:"",
     },
     {
       primaryInfo: "J.R. 005 – 1: BUDGET 24/25",
@@ -183,6 +210,7 @@ const MainContent = () => {
       valueA: "10",
       valueB: "0",
       link: "https://drive.google.com/file/d/1fEsztFjiVYTHfNagB2QEy2YuSXhpHSS0/view?usp=drive_link",
+      minuteslink:"",
     },
     {
       primaryInfo: "H.R. 007 – 1: SEPTEMBER CABINET APPOINTMENT",
@@ -192,6 +220,7 @@ const MainContent = () => {
       valueA: "12",
       valueB: "0",
       link: "https://drive.google.com/file/d/1JFhBdY9nEfNstTJ32MBlikghonE9cyiR/view?usp=drive_link",
+      minuteslink:"",
     },
     {
       primaryInfo: "J.R. 004 – 1: BYLAW 2 PROVISIONS FOR SSIA",
@@ -201,6 +230,7 @@ const MainContent = () => {
       valueA: "12",
       valueB: "0",
       link: "https://drive.google.com/file/d/1Ksq844KUtzxxKhEErKD22UooqqMCT_IJ/view?usp=drive_link",
+      minuteslink:"",
     },
     {
       primaryInfo: "H.D. 008 – 1: STUDENT SUCCESS INITIATIVE ACT",
@@ -210,6 +240,7 @@ const MainContent = () => {
       valueA: "11",
       valueB: "0",
       link: "https://drive.google.com/file/d/1jIMYeawg7gdTEcu74xaw1qRKCc5juVPi/view?usp=drive_link",
+      minuteslink:"",
     },
     {
       primaryInfo: "H.D. 007 – 1: COMMUNITY RIGHTS ACT",
@@ -219,6 +250,7 @@ const MainContent = () => {
       valueA: "11",
       valueB: "0",
       link: "https://drive.google.com/file/d/1yaBKXL7UQ7ZdlyCJMtTrhKtQuNINb1kK/view?usp=drive_link",
+      minuteslink:"",
     },
     {
       primaryInfo: "J.R 002 – 1: CABINET AMENDMENTS – TABLED FROM AUGUST",
@@ -228,6 +260,7 @@ const MainContent = () => {
       valueA: "10",
       valueB: "0",
       link: "https://drive.google.com/file/d/1frCyEg6AZnlcOOJ8FWpH8hYBR-5YZy29/view?usp=sharing",
+      minuteslink:"",
     },
     {
       primaryInfo:
@@ -238,6 +271,7 @@ const MainContent = () => {
       valueA: "Unanimous",
       valueB: "0",
       link: "https://drive.google.com/file/d/1frCyEg6AZnlcOOJ8FWpH8hYBR-5YZy29/view?usp=sharing",
+      minuteslink:"",
     },
     {
       primaryInfo: "H.R 006 – 1: AUGUST FACULTY COUNCIL APPOINTMENTS",
@@ -247,6 +281,7 @@ const MainContent = () => {
       valueA: "Unanimous",
       valueB: "0",
       link: "https://drive.google.com/file/d/1Mxi8qrmsaAuiQAPdEjqPuyVYFYhmPh5Q/view?usp=sharing",
+      minuteslink:"",
     },
     {
       primaryInfo: "H.D. 006 - LEGISLATION CONTROL ACT",
@@ -256,6 +291,7 @@ const MainContent = () => {
       valueA: "Unanimous",
       valueB: "0",
       link: "https://drive.google.com/file/d/1hgbrsl--AychbZHCUssUiyi3GXdYaUCv/view?usp=sharing",
+      minuteslink:"",
     },
     {
       primaryInfo: "H.R 005 – 1: AUGUST COMMITTEE ELECTIONS",
@@ -265,6 +301,7 @@ const MainContent = () => {
       valueA: "Unanimous",
       valueB: "0",
       link: "https://drive.google.com/file/d/1YtXWA7Svqd8SSsc0HOiZVl2uT54A_YG7/view?usp=sharing",
+      minuteslink:"",
     },
     {
       primaryInfo: "H.D. 005 - 1: THE ELECTIONS ACCESSIBILITY ACT",
@@ -274,6 +311,7 @@ const MainContent = () => {
       valueA: "6",
       valueB: "0",
       link: "https://drive.google.com/file/d/1gKIBVTirILfK4jwiEjiQpEumWWndE15V/view?usp=drive_link",
+      minuteslink:"",
     },
     {
       primaryInfo: "H.D. 004 – 1: THE GOVERNMENT ACT",
@@ -283,6 +321,7 @@ const MainContent = () => {
       valueA: "8",
       valueB: "0",
       link: "https://drive.google.com/file/d/1jI7MKJJpm96i4RHtHnk8VbkAfWxWuLm5/view?usp=drive_link",
+      minuteslink:"",
     },
     {
       primaryInfo: "H.D. 003 - 1: Representative Contribution Act",
@@ -292,6 +331,7 @@ const MainContent = () => {
       valueA: "7",
       valueB: "0",
       link: "https://drive.google.com/file/d/1giWGluLvUzU_fkUQRRrdmMkPvL_zwBeN/view?usp=drive_link",
+      minuteslink:"",
     },
     {
       primaryInfo: "H.R 004 – 1: Faculty Council",
@@ -301,6 +341,7 @@ const MainContent = () => {
       valueA: "7",
       valueB: "0",
       link: "https://drive.google.com/file/d/1OXHX7eGQrHm8V4ibJD0mknfHOdiYBjH3/view?usp=drive_link",
+      minuteslink:"",
     },
     {
       primaryInfo: "H.R 003 – 1: Committee Elections",
@@ -310,6 +351,7 @@ const MainContent = () => {
       valueA: "7",
       valueB: "0",
       link: "https://drive.google.com/file/d/15ZLrsd_y-yGO8uA3XMsu5O_uwsMFslOy/view?usp=drive_link",
+      minuteslink:"",
     },
     {
       primaryInfo: "H.R 002 - 1: Steering Committee",
@@ -319,6 +361,7 @@ const MainContent = () => {
       valueA: "7",
       valueB: "0",
       link: "https://drive.google.com/file/d/1e7VzAHEu7yUne6ro23XS9dvVZzj68gAA/view?usp=sharing",
+      minuteslink:"",
     },
     {
       primaryInfo:
@@ -329,6 +372,7 @@ const MainContent = () => {
       valueA: "7",
       valueB: "0",
       link: "https://drive.google.com/file/d/1PJ271k7au0e8BS9QhHrCWQlohVVlXcuf/view?usp=drive_link",
+      minuteslink:"",
     },
     {
       primaryInfo:
@@ -338,6 +382,7 @@ const MainContent = () => {
       date: "1st Meeting: held on 3 JUL 2024 at 6:30PM",
       valueA: "7",
       valueB: "0",
+      minuteslink:"https://stackoverflow.com/questions/1125968/how-do-i-force-git-pull-to-overwrite-local-files",
     },
   ];
 
