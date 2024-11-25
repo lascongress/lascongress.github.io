@@ -93,37 +93,54 @@ const MainContent = () => {
 
   const rightSideEvents = [
     {
-      time: "Aug 13th 2024",
-      title: "Advocacy Commitee Meeting",
-      date: "Time: 5:30pm",
+      time: "Time: 6:00pm",
+      title: "Bi-weekly: Cabinet Meeting",
+      date: "Nov 26th 2024",
+      committees: "Executive Cabinet",
+      location: "Location: Discord",
+      link: "https://discord.com/events/1205712080385351710/1301302258696458240",
+    },
+    {
+      time: "Time: 8:15pm",
+      title: "Bi-weekly: Senate Meetings",
+      date: "Nov 27th 2024",
       committees: "Members: Advocacy Committee",
       location: "Location: Discord",
-      link: "https://discord.gg/ZrVqTKhDHr?event=1271654755000913970",
+      link: "https://discord.com/events/1205712080385351710/1306388075634753536",
     },
-    {
-      time: "Aug 16th 2024",
-      title: "LSC Government Working Session",
-      date: "Time: 2:00pm",
-      committees: "Members: Government",
-      location: "Location: Discord",
-      link: "https://discord.gg/ntN69q9HfK?event=1268024577745748159",
-    },
-    {
-      time: "Aug 18th 2024",
-      title: "Biweekly Senate Meetings",
-      date: "Time: 6:30pm",
-      committees: "Members: Senate",
-      location: "Location: Discord",
-      link: "https://discord.gg/ZrVqTKhDHr?event=1265801755250130944",
-    },
-    {
-      time: "Aug 30th 2024",
-      title: "House of Delegates Meeting #3",
-      date: "Time: 6:00pm",
-      committees: "Members: House",
-      location: "Location: Discord",
-      link: "https://discord.gg/ZrVqTKhDHr?event=1271329331066703934",
-    },
+
+    // {
+    //   time: "Aug 13th 2024",
+    //   title: "Advocacy Commitee Meeting",
+    //   date: "Time: 5:30pm",
+    //   committees: "Members: Advocacy Committee",
+    //   location: "Location: Discord",
+    //   link: "https://discord.gg/ZrVqTKhDHr?event=1271654755000913970",
+    // },
+    // {
+    //   time: "Aug 16th 2024",
+    //   title: "LSC Government Working Session",
+    //   date: "Time: 2:00pm",
+    //   committees: "Members: Government",
+    //   location: "Location: Discord",
+    //   link: "https://discord.gg/ntN69q9HfK?event=1268024577745748159",
+    // },
+    // {
+    //   time: "Aug 18th 2024",
+    //   title: "Biweekly Senate Meetings",
+    //   date: "Time: 6:30pm",
+    //   committees: "Members: Senate",
+    //   location: "Location: Discord",
+    //   link: "https://discord.gg/ZrVqTKhDHr?event=1265801755250130944",
+    // },
+    // {
+    //   time: "Aug 30th 2024",
+    //   title: "House of Delegates Meeting #3",
+    //   date: "Time: 6:00pm",
+    //   committees: "Members: House",
+    //   location: "Location: Discord",
+    //   link: "https://discord.gg/ZrVqTKhDHr?event=1271329331066703934",
+    // },
   ];
 
   return (
