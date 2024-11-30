@@ -109,18 +109,20 @@ const MainContent = () => {
       noeVotes: "0",
       abstainVotes: "0",
       link: "https://drive.google.com/file/d/1IMpGSZoqNfkvr2fSgoiqsBmLo2ki26cw/view?usp=drive_link",
-      minuteslink:"https://docs.google.com/document/d/1UPL-aUgPxgsniX_e_OLk0iELypT2kvxydwv6ZQrTKBo/edit?tab=t.0",
+      minuteslink:
+        "https://docs.google.com/document/d/1UPL-aUgPxgsniX_e_OLk0iELypT2kvxydwv6ZQrTKBo/edit?tab=t.0",
     },
     {
       primaryInfo: "H.D 011 – 1: WEEKZERO ACT [AS AMENDED]",
       number: "3",
-      singleText: "Tabled for February",
+      singleText: "Tabled to February",
       date: "10th Meeting: held on 27 Nov 2024 at 8:15PM",
       ayeVotes: "3",
       noeVotes: "0",
       abstainVotes: "0",
       link: "https://drive.google.com/file/d/15G5Bfe1LuGROKAKF3-oBtGNstpJLsR0y/view?usp=drive_link",
-      minuteslink:"https://docs.google.com/document/d/1UPL-aUgPxgsniX_e_OLk0iELypT2kvxydwv6ZQrTKBo/edit?tab=t.0",
+      minuteslink:
+        "https://docs.google.com/document/d/1UPL-aUgPxgsniX_e_OLk0iELypT2kvxydwv6ZQrTKBo/edit?tab=t.0",
     },
     {
       primaryInfo: "H.D 010 – 1: AGENCY ACT",
@@ -131,7 +133,8 @@ const MainContent = () => {
       noeVotes: "0",
       abstainVotes: "0",
       link: "https://drive.google.com/file/d/1Q37yvAc0UOz3ZPiXE_pT0fEWkecMQM1r/view?usp=drive_link",
-      minuteslink:"https://docs.google.com/document/d/1UPL-aUgPxgsniX_e_OLk0iELypT2kvxydwv6ZQrTKBo/edit?tab=t.0",
+      minuteslink:
+        "https://docs.google.com/document/d/1UPL-aUgPxgsniX_e_OLk0iELypT2kvxydwv6ZQrTKBo/edit?tab=t.0",
     },
     {
       primaryInfo: "H.D 009 – 1: SUPPLY & APPROPRIATIONS ACT 2024",
@@ -142,7 +145,8 @@ const MainContent = () => {
       noeVotes: "0",
       abstainVotes: "0",
       link: "https://drive.google.com/file/d/1odECaqcc09uAylgKx1Okhav8bKWEo1Op/view?usp=drive_link",
-      minuteslink:"https://docs.google.com/document/d/1UPL-aUgPxgsniX_e_OLk0iELypT2kvxydwv6ZQrTKBo/edit?tab=t.0",
+      minuteslink:
+        "https://docs.google.com/document/d/1UPL-aUgPxgsniX_e_OLk0iELypT2kvxydwv6ZQrTKBo/edit?tab=t.0",
     },
     {
       primaryInfo: "J.R 006 – 1: ADDITIONAL CABINET AMENDMENTS",
@@ -153,7 +157,8 @@ const MainContent = () => {
       noeVotes: "0",
       abstainVotes: "0",
       link: "https://drive.google.com/file/d/19aAZoUE6S2TLUorhC-_zy4QXx5dmiFgZ/view?usp=drive_link",
-      minuteslink:"https://docs.google.com/document/d/1kOVoJYPSCMX5dgWrmR7CoBWpaKa4IawCPxUYKq7c4pc/edit?tab=t.0",
+      minuteslink:
+        "https://docs.google.com/document/d/1kOVoJYPSCMX5dgWrmR7CoBWpaKa4IawCPxUYKq7c4pc/edit?tab=t.0",
     },
     {
       primaryInfo: "S. 001 - OATH OF OFFICE ACT",
@@ -164,7 +169,8 @@ const MainContent = () => {
       noeVotes: "0",
       abstainVotes: "0",
       link: "https://drive.google.com/file/d/102k81VwGFFMhZK0g53vkKysgEAQy5wnB/view?usp=drive_link",
-      minuteslink:"https://docs.google.com/document/d/1kOVoJYPSCMX5dgWrmR7CoBWpaKa4IawCPxUYKq7c4pc/edit?tab=t.0",
+      minuteslink:
+        "https://docs.google.com/document/d/1kOVoJYPSCMX5dgWrmR7CoBWpaKa4IawCPxUYKq7c4pc/edit?tab=t.0",
     },
     {
       primaryInfo: "S.R. 003 - 2024 OCTOBER DIRECTOR APPOINTMENTS",
@@ -175,7 +181,8 @@ const MainContent = () => {
       noeVotes: "0",
       abstainVotes: "0",
       link: "https://docs.google.com/spreadsheets/d/1AMyFikCbkqbTWJyrivesalIrP-wpUokCP8OcDiONuq8/edit?gid=0#gid=0",
-      minuteslink:"https://docs.google.com/document/d/1NpsFkZASVbafKdJWAWzB4arD6wKYNMF6kNM63Irqin4/edit?tab=t.0",
+      minuteslink:
+        "https://docs.google.com/document/d/1NpsFkZASVbafKdJWAWzB4arD6wKYNMF6kNM63Irqin4/edit?tab=t.0",
     },
     {
       primaryInfo: "S.R. 002 - 2024 FALL ELECTION RATIFICATION",
@@ -186,7 +193,8 @@ const MainContent = () => {
       noeVotes: "0",
       abstainVotes: "0",
       link: "https://docs.google.com/spreadsheets/d/1t_K1Otm7psB8jW5orFcP8AY2XABWyh9UG0AKS3CQvzc/edit?gid=0#gid=0",
-      minuteslink:"https://docs.google.com/document/d/1NpsFkZASVbafKdJWAWzB4arD6wKYNMF6kNM63Irqin4/edit?tab=t.0",
+      minuteslink:
+        "https://docs.google.com/document/d/1NpsFkZASVbafKdJWAWzB4arD6wKYNMF6kNM63Irqin4/edit?tab=t.0",
     },
     {
       primaryInfo: "H.D. 008 – 1: STUDENT SUCCESS INITIATIVE ACT",
@@ -197,7 +205,8 @@ const MainContent = () => {
       noeVotes: "0",
       abstainVotes: "0",
       link: "https://drive.google.com/file/d/1jIMYeawg7gdTEcu74xaw1qRKCc5juVPi/view?usp=drive_link",
-      minuteslink:"https://docs.google.com/document/d/1GcOvPctxo9hwWM2PrQKhpz43d4qpAe8XlEHHTcFTUAM/edit?tab=t.0",
+      minuteslink:
+        "https://docs.google.com/document/d/1GcOvPctxo9hwWM2PrQKhpz43d4qpAe8XlEHHTcFTUAM/edit?tab=t.0",
     },
     {
       primaryInfo: "H.D. 007 – 1: COMMUNITY RIGHTS ACT",
@@ -208,7 +217,8 @@ const MainContent = () => {
       noeVotes: "0",
       abstainVotes: "0",
       link: "https://drive.google.com/file/d/1yaBKXL7UQ7ZdlyCJMtTrhKtQuNINb1kK/view?usp=drive_link",
-      minuteslink:"https://docs.google.com/document/d/1GcOvPctxo9hwWM2PrQKhpz43d4qpAe8XlEHHTcFTUAM/edit?tab=t.0",
+      minuteslink:
+        "https://docs.google.com/document/d/1GcOvPctxo9hwWM2PrQKhpz43d4qpAe8XlEHHTcFTUAM/edit?tab=t.0",
     },
     {
       primaryInfo: "J.R. 005 – 1: BUDGET 24/25",
@@ -219,7 +229,8 @@ const MainContent = () => {
       noeVotes: "0",
       abstainVotes: "0",
       link: "https://drive.google.com/file/d/1fEsztFjiVYTHfNagB2QEy2YuSXhpHSS0/view?usp=drive_link",
-      minuteslink:"https://docs.google.com/document/d/1GcOvPctxo9hwWM2PrQKhpz43d4qpAe8XlEHHTcFTUAM/edit?tab=t.0",
+      minuteslink:
+        "https://docs.google.com/document/d/1GcOvPctxo9hwWM2PrQKhpz43d4qpAe8XlEHHTcFTUAM/edit?tab=t.0",
     },
     {
       primaryInfo: "J.R. 004 – 1: BYLAW 2 PROVISIONS FOR SSIA",
@@ -230,7 +241,8 @@ const MainContent = () => {
       noeVotes: "0",
       abstainVotes: "0",
       link: "https://drive.google.com/file/d/1Ksq844KUtzxxKhEErKD22UooqqMCT_IJ/view?usp=drive_link",
-      minuteslink:"https://docs.google.com/document/d/1GcOvPctxo9hwWM2PrQKhpz43d4qpAe8XlEHHTcFTUAM/edit?tab=t.0",
+      minuteslink:
+        "https://docs.google.com/document/d/1GcOvPctxo9hwWM2PrQKhpz43d4qpAe8XlEHHTcFTUAM/edit?tab=t.0",
     },
     {
       primaryInfo: "J.R 002 – 1: CABINET AMENDMENTS",
@@ -241,7 +253,8 @@ const MainContent = () => {
       noeVotes: "0",
       abstainVotes: "0",
       link: "https://drive.google.com/file/d/1frCyEg6AZnlcOOJ8FWpH8hYBR-5YZy29/view?usp=sharing",
-      minuteslink:"https://docs.google.com/document/d/1GcOvPctxo9hwWM2PrQKhpz43d4qpAe8XlEHHTcFTUAM/edit?tab=t.0",
+      minuteslink:
+        "https://docs.google.com/document/d/1GcOvPctxo9hwWM2PrQKhpz43d4qpAe8XlEHHTcFTUAM/edit?tab=t.0",
     },
     {
       primaryInfo: "JR 001 : 2024 AUGUST BY ELECTIONS AND APPTMTS.",
@@ -252,7 +265,8 @@ const MainContent = () => {
       noeVotes: "0",
       abstainVotes: "0",
       link: "https://drive.google.com/file/d/1lgvR3q8N0gKmOAq-MxCLaf7_djcIv_n-/view?usp=sharing",
-      minuteslink:"https://docs.google.com/document/d/1MMzlIx4GjVrU-sgjPPYFG9292bqVYtMFHVE5JBOmtYM/edit?tab=t.0",
+      minuteslink:
+        "https://docs.google.com/document/d/1MMzlIx4GjVrU-sgjPPYFG9292bqVYtMFHVE5JBOmtYM/edit?tab=t.0",
     },
     {
       primaryInfo: "H.D. 006 - LEGISLATION CONTROL ACT",
@@ -263,7 +277,8 @@ const MainContent = () => {
       noeVotes: "0",
       abstainVotes: "0",
       link: "https://drive.google.com/file/d/1hgbrsl--AychbZHCUssUiyi3GXdYaUCv/view?usp=sharing",
-      minuteslink:"https://docs.google.com/document/d/1lA7gShFFeuKUaYR_d3xtL8uG0jgsHrXxcUvDMi4B9H8/edit?tab=t.0",
+      minuteslink:
+        "https://docs.google.com/document/d/1lA7gShFFeuKUaYR_d3xtL8uG0jgsHrXxcUvDMi4B9H8/edit?tab=t.0",
     },
     {
       primaryInfo: "H.D. 004 – 1: THE GOVERNMENT ACT",
@@ -274,7 +289,8 @@ const MainContent = () => {
       noeVotes: "0",
       abstainVotes: "0",
       link: "https://drive.google.com/file/d/1YWtCsUt1JZhK5fZI9O4S9OGlVAOzxhMP/view?usp=drive_link",
-      minuteslink: "https://docs.google.com/document/d/1pYXL-17pJtvpK0KxeOJrMoMaKzs8v4XCtryQJDtztvw/edit?tab=t.0",
+      minuteslink:
+        "https://docs.google.com/document/d/1pYXL-17pJtvpK0KxeOJrMoMaKzs8v4XCtryQJDtztvw/edit?tab=t.0",
     },
     {
       primaryInfo: "S.R. 001 – 1: Alumni Senator (Class 2)",
@@ -285,7 +301,8 @@ const MainContent = () => {
       noeVotes: "0",
       abstainVotes: "0",
       link: "https://drive.google.com/file/d/1MwZKsrLQWjH7KJV8xVlp6KKKBspDBKEA/view?usp=drive_link",
-      minuteslink: "https://docs.google.com/document/d/1LW_l2Cq_Qac-OPF2hMOxjSjLme3jrZVgGHIjdmEGmxM/edit?tab=t.0",
+      minuteslink:
+        "https://docs.google.com/document/d/1LW_l2Cq_Qac-OPF2hMOxjSjLme3jrZVgGHIjdmEGmxM/edit?tab=t.0",
     },
     {
       primaryInfo: "H.D. 003 - 1: Representative Contribution Act",
@@ -296,7 +313,8 @@ const MainContent = () => {
       noeVotes: "0",
       abstainVotes: "0",
       link: "https://drive.google.com/file/d/1giWGluLvUzU_fkUQRRrdmMkPvL_zwBeN/view?usp=drive_link",
-      minuteslink: "https://docs.google.com/document/d/1LW_l2Cq_Qac-OPF2hMOxjSjLme3jrZVgGHIjdmEGmxM/edit?tab=t.0",
+      minuteslink:
+        "https://docs.google.com/document/d/1LW_l2Cq_Qac-OPF2hMOxjSjLme3jrZVgGHIjdmEGmxM/edit?tab=t.0",
     },
     {
       primaryInfo: "H.D 002 – 1: Charter & Bylaw Critical Adjustments Act",
@@ -307,7 +325,8 @@ const MainContent = () => {
       noeVotes: "0",
       abstainVotes: "0",
       link: "https://drive.google.com/file/d/1e7VzAHEu7yUne6ro23XS9dvVZzj68gAA/view?usp=sharing",
-      minuteslink: "https://docs.google.com/document/d/1LW_l2Cq_Qac-OPF2hMOxjSjLme3jrZVgGHIjdmEGmxM/edit?tab=t.0",
+      minuteslink:
+        "https://docs.google.com/document/d/1LW_l2Cq_Qac-OPF2hMOxjSjLme3jrZVgGHIjdmEGmxM/edit?tab=t.0",
     },
     {
       primaryInfo: "S.R. 001 – 1: Alumni Senator (Class 2)",
@@ -318,9 +337,9 @@ const MainContent = () => {
       noeVotes: "0",
       abstainVotes: "0",
       link: "https://drive.google.com/file/d/1mWS_hzcBgE4AwV7dC3-h93GTxSjHlyle/view?usp=drive_link",
-      minuteslink: "https://docs.google.com/document/d/1LW_l2Cq_Qac-OPF2hMOxjSjLme3jrZVgGHIjdmEGmxM/edit?tab=t.0",
+      minuteslink:
+        "https://docs.google.com/document/d/1LW_l2Cq_Qac-OPF2hMOxjSjLme3jrZVgGHIjdmEGmxM/edit?tab=t.0",
     },
-
   ];
 
   return (
@@ -329,7 +348,7 @@ const MainContent = () => {
         <Section
           title="Senate Votes"
           imgSrc="/images/congress/votes/senate.png"
-          description="When a vote is held in the Commons the Speaker calls a division by announcing 'division, clear the lobbies'. MPs then vote on the topic being considered by walking through the Aye or No lobbies where they are counted by the tellers and their names are recorded."
+          description="When a vote is held in the Senate, the Speaker calls the members individually to vote on the topic being considered by walking through the Aye or No lobbies where they are counted and their names are recorded."
           buttonLink="/congress"
           cards={senateCards}
         />
