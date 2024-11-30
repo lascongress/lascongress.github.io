@@ -100,6 +100,17 @@ const Section = ({ title, imgSrc, description, cards }) => {
 
 const MainContent = () => {
   const senateCards = [
+    // {
+    //   primaryInfo: "No Pineapple on Pizza And Obligatory Garlic Dip Act",
+    //   number: "N",
+    //   singleText: "Passed!",
+    //   date: "Nth Meeting: held on Day Month Year at x:xxPM",
+    //   ayeVotes: "N",
+    //   noeVotes: "N",
+    //   abstainVotes: "N",
+    //   link: "",
+    //   minuteslink: "",
+    // },
     {
       primaryInfo: "H.D 012 – 1: ACCESSIBILITY, COMPLAINTS AND INTERESTS ACT",
       number: "3",
