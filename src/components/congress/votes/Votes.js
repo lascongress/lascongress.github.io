@@ -131,16 +131,16 @@ const MainContent = () => {
 
   const senateCards = [
     {
-      primaryInfo: "S. 001 - 1: OATH OF OFFICE ACT",
-      number: "15",
+      primaryInfo: "H.D 012 – 1: ACCESSIBILITY, COMPLAINTS AND INTERESTS ACT",
+      number: "3",
       singleText: "Passed",
-      date: "6th Meeting: held on 14 Nov 2024 at 6:00PM",
-      ayeVotes: "15",
+      date: "10th Meeting: held on 27 Nov 2024 at 8:15PM",
+      ayeVotes: "3",
       noeVotes: "0",
       abstainVotes: "0",
-      link: "https://drive.google.com/file/d/102k81VwGFFMhZK0g53vkKysgEAQy5wnB/view?usp=drive_link",
+      link: "https://drive.google.com/file/d/1IMpGSZoqNfkvr2fSgoiqsBmLo2ki26cw/view?usp=drive_link",
       minuteslink:
-        "https://docs.google.com/document/d/15J1LWF0ugFvARei6nwiZigjYRrD-RlnYA52UVQcjknM/edit?tab=t.0",
+        "https://docs.google.com/document/d/1UPL-aUgPxgsniX_e_OLk0iELypT2kvxydwv6ZQrTKBo/edit?tab=t.0",
     },
   ];
 
@@ -150,7 +150,7 @@ const MainContent = () => {
         <Section
           title="House Votes"
           imgSrc="/images/congress/votes/house-of-delegates.png"
-          description="When a vote is held in the Commons the Speaker calls a division by announcing 'division, clear the lobbies'. MPs then vote on the topic being considered by walking through the Aye or No lobbies where they are counted by the tellers and their names are recorded."
+          description="When a vote is held in the House of Delegates, the Speaker calls the members individually to vote on the topic being considered by walking through the Aye or No lobbies where they are counted and their names are recorded."
           buttonLabel="Find All House Votes"
           buttonLink="/congress/votes/house"
           cards={houseCards}
@@ -158,7 +158,7 @@ const MainContent = () => {
         <Section
           title="Senate Votes"
           imgSrc="/images/congress/votes/senate.png"
-          description="Any member of the House of Lords can ask to 'test the opinion of the House' by pushing a question to a vote. When this happens, the Lord Speaker announces a division and members vote either Content or Not Content to determine the result."
+          description="When a vote is held in the Senate, the Speaker calls the members individually to vote on the topic being considered by walking through the Aye or No lobbies where they are counted and their names are recorded."
           buttonLabel="Find All Senate Votes"
           buttonLink="/congress/votes/senate"
           cards={senateCards}
