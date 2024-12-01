@@ -4,9 +4,13 @@
 import React from "react";
 import Link from "next/link";
 
-const Card = ({ date, year, day, description, link, external}) => {
+const Card = ({ date, year, day, description, link, external }) => {
   return (
-    <a href={link} target={external ? "_blank" : "_self"} rel={external ? "noopener noreferrer" : undefined}>
+    <a
+      href={link}
+      target={external ? "_blank" : "_self"}
+      rel={external ? "noopener noreferrer" : undefined}
+    >
       <div className="bg-white p-6 rounded shadow mb-6">
         <div className="border-l-4 border-neutral-600 pl-4">
           <div className="flex items-center mb-4">
@@ -51,7 +55,7 @@ const Section = ({ title, imgSrc, description, cards, links }) => {
             key={index}
             className="bg-white p-4 rounded shadow hover:bg-gray-100 transition duration-200"
           >
-            <Link 
+            <Link
               href={linkItem.link}
               target={linkItem.external ? "_blank" : "_self"} //added target prop
               rel={linkItem.external ? "noopener noreferrer" : undefined} //added rel prop
@@ -76,10 +80,10 @@ const MainContent = () => {
     {
       date: "11",
       year: "2024",
-      day: "Thursday 11 July 2024",
-      description: "Latest House of Commons sitting",
-      note: "You can also browse/find House of Commons Hansard content using the links below:",
-      link: "https://drive.google.com/drive/folders/1VgvnvDOZpS7iLkC_fYC92Qqrw06gTIW6",
+      day: "Thursday 14 November 2024",
+      description: "Latest House of Delegates Meeting",
+      note: "You can search for previous House Agendas and Minutes using the links below:",
+      link: "https://drive.google.com/drive/folders/1o8VT8qwHS69hPNA0aegkMtk_uQ-BRXHa",
       external: true, // Mark as external link
     },
   ];
@@ -88,10 +92,10 @@ const MainContent = () => {
     {
       date: "10",
       year: "2024",
-      day: "Wednesday 10 July 2024",
-      description: "Latest House of Lords sitting",
-      note: "You can also browse/find House of Lords Hansard content using the links below:",
-      link: "https://drive.google.com/drive/folders/1WOPS6BVzuCGRZntvDAzwxHJKAuyxRmJ5",
+      day: "Wednesday 27 November 2024",
+      description: "Latest Senate Meeting",
+      note: "You can search for previous Senate Agendas and Minutes using the links below:",
+      link: "https://drive.google.com/drive/folders/14IR2JsP8qkqXaqsPTSMRhjD20y8kuo5Y",
       external: true, // Mark as external link
     },
   ];
@@ -100,13 +104,13 @@ const MainContent = () => {
     {
       title: "Find All Minutes",
       description:
-        "Browse the Commons sittings that have been recorded in Hansard.",
-      link: "https://drive.google.com/drive/folders/1VgvnvDOZpS7iLkC_fYC92Qqrw06gTIW6",
+        "Browse the House meetings that have been recorded in Congress.",
+      link: "https://drive.google.com/drive/folders/1-Iz9kwWyA4k-letRkeuL0v9TU7p8DJ-z",
       external: true, // Mark as external link
     },
     {
       title: "Find Vote",
-      description: "Find House of Commons debates by keyword and date.",
+      description: "Find all the House votes.",
       link: "votes/house",
     },
   ];
@@ -115,13 +119,13 @@ const MainContent = () => {
     {
       title: "Find All Minutes",
       description:
-        "Browse the Commons sittings that have been recorded in Hansard.",
-      link: "https://drive.google.com/drive/folders/1WOPS6BVzuCGRZntvDAzwxHJKAuyxRmJ5",
+        "Browse the Senate meetings that have been recorded in Congress.",
+      link: "https://drive.google.com/drive/folders/1H8vFdyr4hOvWbEDJ7s01hxItQqKoayfR",
       external: true, // Mark as external link
     },
     {
       title: "Find Vote",
-      description: "Find House of Commons debates by keyword and date.",
+      description: "Find all the Senate votes.",
       link: "votes/senate",
     },
   ];
@@ -132,14 +136,14 @@ const MainContent = () => {
         <Section
           title="House Agendas & Minutes"
           imgSrc="/images/congress/agendas-and-minutes/house-of-delegates.png"
-          description="The latest House sitting recorded in Hansard is:"
+          description="The latest House of Delegates meeting recorded in Congress is:"
           cards={commonsCards}
           links={commonsLinks}
         />
         <Section
           title="Senate Agendas & Minutes"
           imgSrc="/images/congress/agendas-and-minutes/senate.png"
-          description="The latest House sitting recorded in Hansard is:"
+          description="The latest Senate meeting recorded in Congress is:"
           cards={lordsCards}
           links={lordsLinks}
         />
