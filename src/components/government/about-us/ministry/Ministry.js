@@ -86,7 +86,7 @@ const Links = () => {
   return (
     <div>
       <section className="bg-white p-4 rounded shadow mb-4">
-        <h2 className="text-2xl font-bold mb-4">Prime Minister's Cabinet</h2>
+        <h2 className="text-2xl font-bold mb-4">Prime Minister</h2>
         <div className="grid grid-cols-1 md:grid-cols-1 gap-4">
           {Links.map((link, index) => (
             <LinkCard
