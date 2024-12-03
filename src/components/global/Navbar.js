@@ -87,7 +87,7 @@ const Navbar = () => {
           </Link>
 
           <Link
-            href="/government/services"
+            href="/government/resources/services"
             onClick={toggleMenu}
             className="block mb-4"
           >
@@ -111,12 +111,12 @@ const Navbar = () => {
           </Link>
 
           <Link
-            href="/government/ministry"
+            href="/government/resources/community"
             onClick={toggleMenu}
             className="block mb-4"
           >
             <div className="p-4 bg-gray-100 rounded flex justify-between items-center">
-              Ministry
+              Community Resources
               <svg
                 className="h-6 w-6 text-gray-600"
                 fill="none"
@@ -159,12 +159,12 @@ const Navbar = () => {
           </Link>
 
           <Link
-            href="/government/resources/student-run"
+            href="/government/about-us/ministry"
             onClick={toggleMenu}
             className="block mb-4"
           >
             <div className="p-4 bg-gray-100 rounded flex justify-between items-center">
-              Student-Run Resources
+              Ministry
               <svg
                 className="h-6 w-6 text-gray-600"
                 fill="none"
@@ -183,12 +183,12 @@ const Navbar = () => {
           </Link>
 
           <Link
-            href="/government/resources/lassonde-school"
+            href="/government/about-us/frequently-asked-questions"
             onClick={toggleMenu}
             className="block mb-4"
           >
             <div className="p-4 bg-gray-100 rounded flex justify-between items-center">
-              Lassonde School Resources
+              Frequently Asked Questions
               <svg
                 className="h-6 w-6 text-gray-600"
                 fill="none"
