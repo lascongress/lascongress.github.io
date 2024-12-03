@@ -1,9 +1,9 @@
-// src/app/government/resources/student-run/page.js
+// src/app/government/resources/lassonde-school/page.js
 import Navbar from "../../../../components/global/Navbar";
 import Header from "../../../../components/global/Header";
 import Announcement from "../../../../components/landing/Announcement";
-import MainContent from "../../../../components/government/resources/student-run/StudentRun";
-import BreadCrumb from "../../../../components/government/resources/student-run/Breadcrumb";
+import MainContent from "../../../../components/government/about-us/frequently-asked-questions/FAQ";
+import BreadCrumb from "../../../../components/government/about-us/frequently-asked-questions/Breadcrumb";
 import Footer from "../../../../components/global/Footer";
 
 export default function Home() {

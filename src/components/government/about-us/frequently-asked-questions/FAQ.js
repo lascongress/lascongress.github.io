@@ -1,4 +1,4 @@
-// src/components/government/resources/student-run/StudentRun.js
+// src/components/government/resources/lassonde-school/LassondeSchool.js
 import React from "react";
 import Link from "next/link";
 
@@ -41,7 +41,9 @@ const Section = () => {
   return (
     <section className="bg-white p-4 rounded shadow">
       <div className="container mx-auto p-4 mb-4 border-b-2 border-neutral-200">
-        <h2 className="text-3xl font-bold mb-2 text-gray-800">Student-Run</h2>
+        <h2 className="text-3xl font-bold mb-2 text-gray-800">
+          Frequently Asked Questions
+        </h2>
         <p className="text-lg text-gray-700">
           The UK public elects 650 Members of Parliament (MPs) to represent
           their interests and concerns in the House of Commons. MPs consider and
