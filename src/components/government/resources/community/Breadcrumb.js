@@ -1,13 +1,13 @@
-// src/components/government/ministry/Breadcrumb.js
-import BreadcrumbNavBar from "../../global/BreadcrumbNavBar";
+// src/components/government/resources/student-run/Breadcrumb.js
+import BreadcrumbNavBar from "../../../global/BreadcrumbNavBar";
 
 export default function ExamplePage() {
   const breadcrumbs = [
     { label: "Main", href: "/" },
     { label: "Government", href: "/government/" },
     {
-      label: "Ministry",
-      href: "/government/ministry",
+      label: "Community",
+      href: "/government/resources/community",
     },
   ];
 

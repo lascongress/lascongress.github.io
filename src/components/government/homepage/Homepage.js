@@ -3,10 +3,14 @@ import React from "react";
 import Link from "next/link";
 import Announcement from "./Announcement";
 
-const LinkCard = ({ imageSrc, title, description, link,external }) => {
+const LinkCard = ({ imageSrc, title, description, link, external }) => {
   return (
     // change the target to _blank if the link is external
-    <a href={link} target={external ? "_blank" : "_self"} rel={external ? "noopener noreferrer" : undefined}>
+    <a
+      href={link}
+      target={external ? "_blank" : "_self"}
+      rel={external ? "noopener noreferrer" : undefined}
+    >
       <div className="bg-white p-4 rounded shadow hover:bg-gray-100 transition duration-200 flex flex-col h-80">
         {/* adjust the height in increments of +/- 8 */}
         <img
@@ -37,20 +41,20 @@ const LinkCard = ({ imageSrc, title, description, link,external }) => {
   );
 };
 
-const Links = () => {
-  const Links = [
+const Resources = () => {
+  const Resources = [
     {
       imageSrc: "/images/government/services.png",
       title: "Services",
       description:
         "Find our services that promote student accesibility, opportunity and experience",
-      link: "/government/services",
+      link: "/government/resources/services",
     },
     {
-      imageSrc: "/images/government/ministry.png",
-      title: "Ministry",
-      description: "Learn more about the 2024-2025 ministers",
-      link: "/government/ministry",
+      imageSrc: "/images/government/student-run.png",
+      title: "Community",
+      description: "Search for resources made by the Lassonde community",
+      link: "/government/resources/community",
     },
 
     {
@@ -66,9 +70,9 @@ const Links = () => {
 
   return (
     <section className="bg-white p-4 rounded shadow">
-      <h2 className="text-2xl font-bold mb-4"></h2>
+      <h2 className="text-2xl font-bold mb-4">Resources</h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-        {Links.map((link, index) => (
+        {Resources.map((link, index) => (
           <LinkCard
             key={index}
             imageSrc={link.imageSrc}
@@ -116,28 +120,28 @@ const ResourceCard = ({ imageSrc, title, description, link }) => {
   );
 };
 
-const Resources = () => {
-  const Resources = [
+const AboutUs = () => {
+  const AboutUs = [
     {
-      imageSrc: "/images/government/student-run.png",
-      title: "Student-Run",
-      description: "Find resources made by students for students",
-      link: "/government/resources/student-run",
+      imageSrc: "/images/government/ministry.png",
+      title: "Ministry",
+      description: "Learn more about the 2024-2025 ministers",
+      link: "/government/about-us/ministry",
     },
     {
       imageSrc: "/images/government/lassonde-school.png",
-      title: "Lassonde School",
+      title: "Frequently Asked Questions",
       description:
-        "Find resources offered by the Student Welcome and Support Centre ",
-      link: "/government/resources/lassonde-school",
+        "Find answered questions about your undergraduate engineering student government",
+      link: "/government/about-us/frequently-asked-questions",
     },
   ];
 
   return (
     <section className="bg-white p-4 rounded shadow">
-      <h2 className="text-2xl font-bold mb-4">Resources</h2>
+      <h2 className="text-2xl font-bold mb-4">About Us</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        {Resources.map((link, index) => (
+        {AboutUs.map((link, index) => (
           <ResourceCard
             key={index}
             imageSrc={link.imageSrc}
@@ -241,9 +245,9 @@ const MainContent = () => {
   return (
     <div className="container mx-auto p-4">
       <Announcement />
-      <Links />
-      <br />
       <Resources />
+      <br />
+      <AboutUs />
       <br />
       <News />
     </div>

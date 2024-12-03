@@ -1,4 +1,4 @@
-// src/components/government/resources/lassonde-school/Breadcrumb.js
+// src/components/government/services/Breadcrumb.js
 import BreadcrumbNavBar from "../../../global/BreadcrumbNavBar";
 
 export default function ExamplePage() {
@@ -6,8 +6,8 @@ export default function ExamplePage() {
     { label: "Main", href: "/" },
     { label: "Government", href: "/government/" },
     {
-      label: "Lassonde School",
-      href: "/government/resources/lassonde-school",
+      label: "Services",
+      href: "/government/services",
     },
   ];
 
