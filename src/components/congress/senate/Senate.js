@@ -52,13 +52,6 @@ const Section = () => {
       link: "/congress/senate/composition-of-the-senate",
     },
     {
-      imageSrc: "/images/congress/senate/committee.png",
-      title: "Committees",
-      description:
-        "The Senate may establish ad-hoc (select) committees to study issues, bills & resolutions or any other matters of interest.",
-      link: "/congress/committees",
-    },
-    {
       imageSrc: "/images/congress/senate/meeting.png",
       title: "Meeting Links",
       description: "Join our discord.",
@@ -78,7 +71,7 @@ const Section = () => {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         {section.map((link, index) => (
           <Card
             key={index}

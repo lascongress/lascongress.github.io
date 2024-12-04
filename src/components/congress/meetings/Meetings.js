@@ -93,22 +93,6 @@ const MainContent = () => {
 
   const rightSideEvents = [
     {
-      date: "Nov 26th 2024",
-      title: "Bi-weekly: Cabinet Meeting",
-      time: "6:00pm",
-      committees: "Executive Cabinet",
-      location: "Location: Discord",
-      link: "https://discord.com/events/1205712080385351710/1301302258696458240",
-    },
-    {
-      date: "Nov 27th 2024",
-      title: "Bi-weekly: Senate Meetings",
-      time: "8:15pm",
-      committees: "Members: Advocacy Committee",
-      location: "Location: Discord",
-      link: "https://discord.com/events/1205712080385351710/1306388075634753536",
-    },
-    {
       date: "Dec 10th 2024",
       title: "Bi-weekly: Cabinet Meeting",
       time: "6:00pm",
