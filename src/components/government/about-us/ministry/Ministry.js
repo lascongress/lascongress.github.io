@@ -43,7 +43,7 @@ const Links = () => {
       imageSrc: "/images/government/ministry/office-of-the-secretariat.png",
       title: "Office Of The Secretariat",
       description: "Elected to lead the government.",
-      link: "/congress/house-of-delegates",
+      link: "/government/about-us/ministry/secretariat",
     },
   ];
 
@@ -52,34 +52,34 @@ const Links = () => {
       imageSrc: "/images/government/ministry/office-of-the-accountability.png",
       title: "Office Of Accountability",
       description: "Elected to hold members accountable.",
-      link: "/congress/house-of-delegates",
+      link: "/government/about-us/ministry/accountability",
     },
     {
       imageSrc:
         "/images/government/ministry/department-of-community-affairs.png",
-      title: "Department Of Community Affair",
+      title: "Department Of Community Affairs",
       description: "Elected to engage with the student body.",
-      link: "/congress/house-of-delegates",
+      link: "/government/about-us/ministry/community-affairs",
     },
     {
       imageSrc:
         "/images/government/ministry/department-of-finance-and-admin.png",
       title: "Department Of Finance and Admin",
       description: "Elected to monitor financial responsibilites.",
-      link: "/congress/house-of-delegates",
+      link: "/government/about-us/ministry/finance-and-admin",
     },
     {
       imageSrc:
         "/images/government/ministry/department-of-internal-affairs.png",
       title: "Department Of Internal Affairs",
       description: "Elected to resolve internal concerns.",
-      link: "/congress/house-of-delegates",
+      link: "/government/about-us/ministry/internal-affairs",
     },
     {
       imageSrc: "/images/government/ministry/department-of-student-success.png",
       title: "Department Of Student Success",
       description: "Elected to serve students.",
-      link: "/congress/house-of-delegates",
+      link: "/government/about-us/ministry/student-success",
     },
   ];
 
