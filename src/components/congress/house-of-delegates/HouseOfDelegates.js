@@ -41,14 +41,14 @@ const Section = () => {
       imageSrc: "/images/congress/house-of-delegates/business.png",
       title: "Business of the House",
       description:
-        "Keep up to date with the business of the House by referring to our Agenda & Minutes, Votes and other communications.",
+        "Learn more and keep up to date with the business of the House.",
       link: "/congress/house-of-delegates/business-of-the-house",
     },
     {
       imageSrc: "/images/congress/house-of-delegates/composition.png",
       title: "Composition of the House",
       description:
-        "The House of Commons is governed by a group of Delegates who make up the Steering Committee.",
+        "Visually witness the composition of the House of Delegates.",
       link: "/congress/house-of-delegates/composition-of-the-house",
     },
     {
@@ -66,10 +66,11 @@ const Section = () => {
           House of Delegates
         </h2>
         <p className="text-lg text-gray-700">
-          The House of Delegates consist students from Engineering, Computer
+          The House of Delegates consist of students from Engineering, Computer
           Science & Security, Digital Media, Earth and Atmoshperic Science,
           Digital Techologies and Lassonde/Bethune Representative that come
-          together to pursue change, discuss opportunies and argue new laws
+          together to pursue change, discuss opportunies and argue Faculty
+          council decisions
         </p>
       </div>
 
