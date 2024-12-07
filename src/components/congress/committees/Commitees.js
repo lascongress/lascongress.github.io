@@ -68,7 +68,16 @@ const Section = () => {
             rel="noopener noreferrer"
           >
             here.
-          </Link>
+          </Link>{" "}
+          To read about our discussions, find the minutes{" "}
+          <Link
+            href="https://drive.google.com/drive/folders/13TFNrO5Ud7tV89ZHU8YzfcbpTYJtIS4W"
+            className="text-blue-500 hover:underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            here.
+          </Link>{" "}
         </p>
         <br />
         <p className="text-lg text-gray-700">
