@@ -64,10 +64,11 @@ const Section = () => {
       <div className="container mx-auto p-4 mb-4 border-b-2 border-neutral-200">
         <h2 className="text-3xl font-bold mb-2 text-gray-800">Senate</h2>
         <p className="text-lg text-gray-700">
-          The Senate consist students from Engineering, Computer Science &
+          The Senate consist of students from Engineering, Computer Science &
           Security, Digital Media, Earth and Atmoshperic Science, Digital
           Techologies and Lassonde/Bethune Representative that come together to
-          pursue change, discuss opportunies and argue new laws
+          pursue change, discuss opportunies and argue Faculty council
+          decisions.
         </p>
       </div>
 
