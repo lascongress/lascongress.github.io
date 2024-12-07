@@ -43,11 +43,38 @@ const Section = () => {
       <div className="container mx-auto p-4 mb-4 border-b-2 border-neutral-200">
         <h2 className="text-3xl font-bold mb-2 text-gray-800">Committees</h2>
         <p className="text-lg text-gray-700">
-          The UK public elects 650 Members of Parliament (MPs) to represent
-          their interests and concerns in the House of Commons. MPs consider and
-          propose new laws, and can scrutinise government policies by asking
-          ministers questions about current issues either in the Commons Chamber
-          or in Committees.
+          At Lassonde School of Engineering, we have committees that serve to
+          improve our education, address ongoing issues and discuss future
+          opportunities. In other words, these standing committees and
+          sub-committees of the Council have been established to assist Council
+          in carrying out its mandate. They review and make recommendations to
+          the Faculty Council on policy matters within their purview. In these
+          committees, we have student representatives that were elected by the
+          Lassonde Student Congress to act as the voice for students. At the
+          meetings, we provide the opinions of students, share our concerns as
+          students and highlight important changes for students.
+        </p>
+        <br />
+        <p className="text-lg text-gray-700">
+          In the Lassonde Student Congress, we routinely meet to share our
+          experiences at the committee meetings. This is done through our own
+          internal committee, Advocacy Committee. Overtime, we have created and
+          collected documents to showcase our experiences to the Lassonde
+          community. It can be found{" "}
+          <Link
+            href="https://drive.google.com/drive/folders/1sseAx2GBJHKuEjzukrmoOv0PVI-UsJ45"
+            className="text-blue-500 hover:underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            here.
+          </Link>
+        </p>
+        <br />
+        <p className="text-lg text-gray-700">
+          To learn more about the committees and their responsibilities, we
+          created this webpage for students! For further clarification, please
+          join our discord that can be found at the bottom of the page.
         </p>
         <br />
         <h2 className="text-2xl font-bold mb-2 text-gray-800">
@@ -57,33 +84,60 @@ const Section = () => {
           Executive Committee (EC)
         </h2>
         <p className="text-lg text-gray-700">
-          The UK public elects 650 Members of Parliament (MPs) to represent
-          their interests and concerns in the House of Commons. MPs consider and
-          propose new laws, and can scrutinise government policies by asking
-          ministers questions about current issues either in the Commons Chamber
-          or in Committees.
-        </p>
-        <br />
-        <h2 className="text-xl font-bold mb-2 text-gray-800">
-          Planning, Academic Resources & Research Committee (PARR)
-        </h2>
-        <p className="text-lg text-gray-700">
-          The UK public elects 650 Members of Parliament (MPs) to represent
-          their interests and concerns in the House of Commons. MPs consider and
-          propose new laws, and can scrutinise government policies by asking
-          ministers questions about current issues either in the Commons Chamber
-          or in Committees.
+          The Executive Committee is responsible for coordinating the work of
+          Council and its committees, monitoring the organization and structure
+          of Council and other bodies, ensuring that equity considerations are
+          integrated into the work of Council and its committees, serving as
+          Council{"'"}s liaison with external bodies, and overseeing nominations
+          and elections processes. For more information, check the{" "}
+          <Link
+            href="https://lassonde.yorku.ca/about/lassonde-faculty-council/committees/executive-committee"
+            className="text-blue-500 hover:underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            lassonde page.
+          </Link>
         </p>
         <br />
         <h2 className="text-xl font-bold mb-2 text-gray-800">
           Learning, Curriculum & Students Committee (LCS)
         </h2>
         <p className="text-lg text-gray-700">
-          The UK public elects 650 Members of Parliament (MPs) to represent
-          their interests and concerns in the House of Commons. MPs consider and
-          propose new laws, and can scrutinise government policies by asking
-          ministers questions about current issues either in the Commons Chamber
-          or in Committees.
+          The LCS Committee is responsible for the development and oversight of
+          curriculum, academic standards and pedagogy for the degrees and
+          non-degree programming across the School, including supporting the
+          delivery of curriculum and service courses for programs across the
+          university in areas where Lassonde has disciplinary expertise. For
+          more information, check the{" "}
+          <Link
+            href="https://lassonde.yorku.ca/about/lassonde-faculty-council/committees/learning-curriculum-students-committee"
+            className="text-blue-500 hover:underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            lassonde page.
+          </Link>
+        </p>
+
+        <br />
+        <h2 className="text-xl font-bold mb-2 text-gray-800">
+          Planning, Academic Resources & Research Committee (PARR)
+        </h2>
+        <p className="text-lg text-gray-700">
+          The PARR Committee is responsible for consultations and
+          recommendations on academic plans and major academic processes and
+          will advise the Dean on the allocation of academic resources. The
+          committee also promotes research and evaluates research resources at
+          the Faculty level. For more information, check the{" "}
+          <Link
+            href="https://lassonde.yorku.ca/about/lassonde-faculty-council/committees/planning-academic-resources-research-parr-committee"
+            className="text-blue-500 hover:underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            lassonde page.
+          </Link>
         </p>
         <br />
         <br />
@@ -92,38 +146,29 @@ const Section = () => {
           Class B Committee
         </h2>
         <h2 className="text-xl font-bold mb-2 text-gray-800">
-          Committee On Evaluations & Academic Standards (CEAS-M)
+          Committee On Evaluations & Academic Standards
         </h2>
         <p className="text-lg text-gray-700">
-          The UK public elects 650 Members of Parliament (MPs) to represent
-          their interests and concerns in the House of Commons. MPs consider and
-          propose new laws, and can scrutinise government policies by asking
-          ministers questions about current issues either in the Commons Chamber
-          or in Committees.
-        </p>
-        <br />
-        <h2 className="text-xl font-bold mb-2 text-gray-800">
-          Committee On Evaluations & Academic Standards - Academic Honesty Panel
-          (CEAS-AHP)
-        </h2>
-        <p className="text-lg text-gray-700">
-          The UK public elects 650 Members of Parliament (MPs) to represent
-          their interests and concerns in the House of Commons. MPs consider and
-          propose new laws, and can scrutinise government policies by asking
-          ministers questions about current issues either in the Commons Chamber
-          or in Committees.
-        </p>
-        <br />
-        <h2 className="text-xl font-bold mb-2 text-gray-800">
-          Committee On Evaluations & Academic Standards - Academic Petitions
-          Subcomm (CEAS-APS)
-        </h2>
-        <p className="text-lg text-gray-700">
-          The UK public elects 650 Members of Parliament (MPs) to represent
-          their interests and concerns in the House of Commons. MPs consider and
-          propose new laws, and can scrutinise government policies by asking
-          ministers questions about current issues either in the Commons Chamber
-          or in Committees.
+          The Committee on Evaluations and Academic Standards oversees academic
+          policy, academic standards and policies and practices related to
+          graded evaluations, as well as the development and oversight of the
+          academic petitions process, including review and decisions of academic
+          petitions and appeals. It will monitor and provide Faculty-level
+          academic oversight of grades exercises undertaken by academic units.
+          The Committee shall conduct hearings and make decisions in cases of
+          suspected breach of the Senate Policy on Academic Honesty in
+          accordance with Senate Policy, and oversee a panel system for the
+          hearing of petitions and appeals. The Committee embodies appropriate
+          standards of fairness and natural justice in all its proceedings. For
+          more information, check the{" "}
+          <Link
+            href="https://lassonde.yorku.ca/about/lassonde-faculty-council/committees/committee-on-evaluations-and-academic-standards"
+            className="text-blue-500 hover:underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            lassonde page.
+          </Link>
         </p>
         <br />
         <br />
@@ -131,25 +176,50 @@ const Section = () => {
           Class C Committee
         </h2>
         <h2 className="text-xl font-bold mb-2 text-gray-800">
-          Tenure & Promotions Committee (TPC)
-        </h2>
-        <p className="text-lg text-gray-700">
-          The UK public elects 650 Members of Parliament (MPs) to represent
-          their interests and concerns in the House of Commons. MPs consider and
-          propose new laws, and can scrutinise government policies by asking
-          ministers questions about current issues either in the Commons Chamber
-          or in Committees.
-        </p>
-        <br />
-        <h2 className="text-xl font-bold mb-2 text-gray-800">
           Awards Committee (AC)
         </h2>
         <p className="text-lg text-gray-700">
-          The UK public elects 650 Members of Parliament (MPs) to represent
-          their interests and concerns in the House of Commons. MPs consider and
-          propose new laws, and can scrutinise government policies by asking
-          ministers questions about current issues either in the Commons Chamber
-          or in Committees.
+          The Committee on Awards shall make recommendations and provide advice
+          to Council on policy matters related to awards and scholarship. It
+          will promote and celebrate outstanding performance and creative
+          scholarship across the School. It will adjudicate student, faculty and
+          staff awards as applicable. This committee will propose policy for
+          student, staff and faculty awards (creation, advertisement,
+          nominations and selections) in the Lassonde School of Engineering;
+          additionally, this committee will adjudicate School-wide awards. On
+          behalf of the Lassonde School of Engineering, and in the context of
+          promoting, recognizing and celebrating outstanding achievements in
+          teaching, learning, service and research, the Committee shall be
+          responsible for those aspects of awards, prizes and medals under the
+          School{"'"}s jurisdiction.For more information, check the{" "}
+          <Link
+            href="https://lassonde.yorku.ca/about/lassonde-faculty-council/committees/committee-on-awards"
+            className="text-blue-500 hover:underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            lassonde page.
+          </Link>
+        </p>
+
+        <br />
+        <h2 className="text-xl font-bold mb-2 text-gray-800">
+          Tenure & Promotions Committee (TPC)
+        </h2>
+        <p className="text-lg text-gray-700">
+          The Committee on Tenure and Promotions (T&P) makes recommendations, as
+          required, on Faculty and University policy concerning tenure and
+          promotions. It deliberates on Faculty tenure and promotions policy and
+          makes recommendations on such policy to Faculty Council and the Dean.
+          For more information, check the{" "}
+          <Link
+            href="https://lassonde.yorku.ca/about/lassonde-faculty-council/committees/tenure-promotion-committee"
+            className="text-blue-500 hover:underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            lassonde page.
+          </Link>
         </p>
         <br />
         <br />
@@ -161,11 +231,25 @@ const Section = () => {
           Faculty Council At-Large
         </h2>
         <p className="text-lg text-gray-700">
-          The UK public elects 650 Members of Parliament (MPs) to represent
-          their interests and concerns in the House of Commons. MPs consider and
-          propose new laws, and can scrutinise government policies by asking
-          ministers questions about current issues either in the Commons Chamber
-          or in Committees.
+          The Lassonde Faculty Council is a forum where members of the Lassonde
+          School of Engineering approve academic planning, curricular and
+          research items, and discuss matters relating to the development of the
+          School. Faculty Council is open to everyone in the Lassonde community,
+          although voting rights are reserved for full members. Members of the
+          Dean{"'"}s executive team and support staff attend and participate in
+          meetings, and provide updates on activities taking place within the
+          School. Lassonde students are also members of the Council, and
+          representatives of the student clubs and associations affiliated with
+          Lassonde regularly present their latest plans and achievements. For
+          more information, check the{" "}
+          <Link
+            href="https://lassonde.yorku.ca/about/lassonde-faculty-council/committees/tenure-promotion-committee"
+            className="text-blue-500 hover:underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            lassonde page.
+          </Link>
         </p>
       </div>
 
