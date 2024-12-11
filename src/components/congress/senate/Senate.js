@@ -1,12 +1,16 @@
-// src/components/congress/senate/Senate.js
+// src/components/congress/house-of-delegates/HouseOfDelegates.js
 import React from "react";
 import Link from "next/link";
 
-const Card = ({ imageSrc, title, description, link }) => {
+const Card = ({ imageSrc, title, description, link, external }) => {
   return (
-    <Link href={link}>
-      <div className="bg-white p-4 rounded shadow hover:bg-gray-100 transition duration-200 flex flex-col h-80">
-        {/* adjust the height in increments of +/- 8 */}
+    <div className="bg-white p-4 rounded shadow hover:bg-gray-100 transition duration-200 flex flex-col h-80">
+      {/* adjust the height in increments of +/- 8 */}
+      <Link
+        href={link}
+        target={external ? "_blank" : "_self"}
+        rel={external ? "noopener noreferrer" : undefined}
+      >
         <img
           src={imageSrc}
           alt={title}
@@ -30,39 +34,94 @@ const Card = ({ imageSrc, title, description, link }) => {
           </svg>
         </div>
         <p className="flex-grow">{description}</p>
-      </div>
-    </Link>
+      </Link>
+    </div>
   );
 };
 
 const Section = () => {
-  const section = [
+  const realsht = [
     {
-      imageSrc: "/images/congress/senate/business.png",
-      title: "Business of the Senate",
-      description:
-        "Keep up to date with the business of the Senate by referring to our Agenda & Minutes, Votes and other communications.",
-      link: "/congress/senate/business-of-the-senate",
+      imageSrc: "/images/congress/house-of-delegates/file_cabinet.png",
+      title: "Public Drive",
+      description: "Find resources in our House repository.",
+      link: "https://drive.google.com/drive/folders/1WOPS6BVzuCGRZntvDAzwxHJKAuyxRmJ5",
+      external: true,
     },
+  ];
+
+  const section = [
     {
       imageSrc: "/images/congress/senate/composition.png",
       title: "Composition of the Senate",
-      description:
-        "The Senate may establish ad-hoc (select) committees to study issues, bills & resolutions or any other matters of interest.",
+      description: "Visually witness the composition of the Senate.",
       link: "/congress/senate/composition-of-the-senate",
+      external: false,
+    },
+  ];
+
+  const typsht = [
+    {
+      imageSrc: "/images/congress/house-of-delegates/agendas-and-minutes.png",
+      title: "Agendas & Minutes",
+      description: "Read transcripts of debates.",
+      link: "/congress/agendas-and-minutes",
+      external: false,
     },
     {
-      imageSrc: "/images/congress/senate/meeting.png",
+      imageSrc: "/images/congress/house-of-delegates/votes.png",
+      title: "Votes",
+      description: "Find vote results from the house.",
+      link: "/congress/votes",
+      external: false,
+    },
+    {
+      imageSrc: "/images/congress/house-of-delegates/meeting.png",
       title: "Meeting Links",
       description: "Join our discord.",
       link: "https://discord.gg/ntN69q9HfK",
+      external: false,
     },
   ];
 
   return (
     <section className="bg-white p-4 rounded shadow">
-      <div className="container mx-auto p-4 mb-4 border-b-2 border-neutral-200">
-        <h2 className="text-3xl font-bold mb-2 text-gray-800">Senate</h2>
+      <div className="container mx-auto p-4  border-neutral-200">
+        <h2 className="text-3xl font-bold mb-2 text-gray-800">
+          Business of the Senate
+        </h2>
+        <p className="text-lg text-gray-700">
+          Every two weeks, the senate come together to provide updates and news
+          on any recent changes. During the meeting, the Speaker reports to the
+          Senate about changes from the house. After, the Speaker allows them to
+          speak on the matter and voice any ideas. Once all this is complete,
+          the Speaker moves onto the consent iteams and bills & resolut. At this
+          stage, a democratic vote is done for every item. Finally, the speaker
+          adjourns the Senate to conclude the session.
+        </p>
+        <br />
+        <p className="text-lg text-gray-700">
+          To learn more about the Senate and find updates from us, please refer
+          to the card below.
+        </p>
+      </div>
+      <div className="grid grid-cols-1 md:grid-cols-1 gap-4">
+        {realsht.map((link, index) => (
+          <Card
+            key={index}
+            imageSrc={link.imageSrc}
+            title={link.title}
+            description={link.description}
+            link={link.link}
+            external={link.external} // external prop
+          />
+        ))}
+      </div>
+      <br />
+      <div className="container mx-auto p-4 border-neutral-200">
+        <h2 className="text-3xl font-bold mb-2 text-gray-800">
+          Composition of the Senate
+        </h2>
         <p className="text-lg text-gray-700">
           The Senate consist of students from Engineering, Computer Science &
           Security, Digital Media, Earth and Atmoshperic Science, Digital
@@ -71,8 +130,7 @@ const Section = () => {
           decisions.
         </p>
       </div>
-
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-1 gap-4">
         {section.map((link, index) => (
           <Card
             key={index}
@@ -80,6 +138,30 @@ const Section = () => {
             title={link.title}
             description={link.description}
             link={link.link}
+            external={link.external} // external prop
+          />
+        ))}
+      </div>
+      <br />
+      <div className="container mx-auto p-4 border-neutral-200">
+        <h2 className="text-3xl font-bold mb-2 text-gray-800">
+          Other Information{" "}
+        </h2>
+        <p className="text-lg text-gray-700">
+          If you want to learn more about our meetings. Please refer to our
+          agendas & Minutes and Votes to see what happened so far. If you want
+          to attend any future meetings, join our discord!
+        </p>{" "}
+      </div>
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+        {typsht.map((link, index) => (
+          <Card
+            key={index}
+            imageSrc={link.imageSrc}
+            title={link.title}
+            description={link.description}
+            link={link.link}
+            external={link.external} // external prop
           />
         ))}
       </div>
