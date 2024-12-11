@@ -28,8 +28,8 @@ const Section = () => {
       <div className="mb-4">
         <h2 className="text-2xl font-bold mb-2">Senate Visualization</h2>
         <p className="mb-4">
-          Explore the current state of the senate through this interactive
-          visualization.
+          Explore the current state of the house through this interactive
+          visualization. If nothing appears, please refresh the page!
         </p>
       </div>
       <div>

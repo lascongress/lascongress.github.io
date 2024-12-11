@@ -29,7 +29,7 @@ const Section = () => {
         <h2 className="text-2xl font-bold mb-2">House Visualization</h2>
         <p className="mb-4">
           Explore the current state of the house through this interactive
-          visualization.
+          visualization. If nothing appears, please refresh the page!
         </p>
       </div>
       <div>

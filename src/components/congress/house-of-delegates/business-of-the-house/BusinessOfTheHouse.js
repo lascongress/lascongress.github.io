@@ -57,19 +57,49 @@ const Section = () => {
     <section className="bg-white p-4 rounded shadow">
       <div className="container mx-auto p-4 mb-4 border-b-2 border-neutral-200">
         <h2 className="text-3xl font-bold mb-2 text-gray-800">
-          House of Commons
+          Business of the House
         </h2>
         <p className="text-lg text-gray-700">
-          Students from different programs in Lassonde come together to argue,
-          decide and vote on policies/laws the dictact student life and growth.
+          Every month, the delegates come together to provide updates and news
+          on any recent changes. During the meeting, the government reports on
+          anything that is of importance to the house. Following this, the
+          Speaker begins a question period for anyone to question the government
+          members. After, we share updates from committees and discuess any
+          topics of key interest. Once the government and committee members
+          finish sharing, the Speaker allows the delegate to speak and present
+          any new ideas or points of discussion. Once all this is complete, the
+          Speaker moves onto the consent iteams, bills & resolutuons from the
+          senate and member bills & resolutions. At this stage, we do a
+          democratic vote to pass any new changes. Finally, the speaker adjourns
+          the House to conclude the session.
         </p>
         <br />
-        <h2 className="text-xl font-bold mb-2 text-gray-800">
-          Other information
-        </h2>
         <p className="text-lg text-gray-700">
-          We have seats availible for Digital Media, Digital Technologies and
-          Lassonde/Bethune Representative!
+          To learn more about the House of Delegates, please refer to this{" "}
+          <Link
+            href="https://drive.google.com/drive/folders/1Xjpy4Es5EkNqTptFC8FJcrH6tn1Q1LBG"
+            className="text-blue-500 hover:underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            document.
+          </Link>
+        </p>
+        <p className="text-lg text-gray-700">
+          To find more updates from us, please refer to this{" "}
+          <Link
+            href="https://drive.google.com/drive/folders/1VgvnvDOZpS7iLkC_fYC92Qqrw06gTIW6"
+            className="text-blue-500 hover:underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            drive.
+          </Link>
+        </p>
+        <br />
+        <p className="text-lg text-gray-700">
+          For any more questions or concerns, join our discord that can be found
+          at the bottom of the page!
         </p>
       </div>
 

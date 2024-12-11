@@ -55,18 +55,34 @@ const Section = () => {
   return (
     <section className="bg-white p-4 rounded shadow">
       <div className="container mx-auto p-4 mb-4 border-b-2 border-neutral-200">
-        <h2 className="text-3xl font-bold mb-2 text-gray-800">Senate</h2>
-        <p className="text-lg text-gray-700">
-          Students from different programs in Lassonde come together to argue,
-          decide and vote on policies/laws the dictact student life and growth.
-        </p>
-        <br />
-        <h2 className="text-xl font-bold mb-2 text-gray-800">
-          Other information
+        <h2 className="text-3xl font-bold mb-2 text-gray-800">
+          Business of the Senate
         </h2>
         <p className="text-lg text-gray-700">
-          We have seats availible for Digital Media, Digital Technologies and
-          Digital Technologies!
+          Every two weeks, the senate come together to provide updates and news
+          on any recent changes. During the meeting, the Speaker reports to the
+          Senate about changes from the house. After, the Speaker allows them to
+          speak on the matter and voice any ideas. Once all this is complete,
+          the Speaker moves onto the consent iteams and bills & resolut. At this
+          stage, a democratic vote is done for every item. Finally, the speaker
+          adjourns the Senate to conclude the session.
+        </p>
+        <br />
+        <p className="text-lg text-gray-700">
+          To find more updates from us, please refer to this{" "}
+          <Link
+            href="https://drive.google.com/drive/folders/1WOPS6BVzuCGRZntvDAzwxHJKAuyxRmJ5"
+            className="text-blue-500 hover:underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            drive.
+          </Link>
+        </p>
+        <br />
+        <p className="text-lg text-gray-700">
+          For any more questions or concerns, join our discord that can be found
+          at the bottom of the page!
         </p>
       </div>
 

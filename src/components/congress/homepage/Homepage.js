@@ -2,13 +2,15 @@
 import React from "react";
 import Link from "next/link";
 
-// import Announcement from "./Announcement";
-
-const LinkCard = ({ imageSrc, title, description, link }) => {
+const LinkCard = ({ imageSrc, title, description, link, external }) => {
   return (
-    <Link href={link}>
-      <div className="bg-white p-4 rounded shadow hover:bg-gray-100 transition duration-200 flex flex-col h-80">
-        {/* adjust the height in increments of +/- 8 */}
+    <div className="bg-white p-4 rounded shadow hover:bg-gray-100 transition duration-200 flex flex-col h-80">
+      {/* adjust the height in increments of +/- 8 */}
+      <Link
+        href={link}
+        target={external ? "_blank" : "_self"}
+        rel={external ? "noopener noreferrer" : undefined}
+      >
         <img
           src={imageSrc}
           alt={title}
@@ -32,64 +34,72 @@ const LinkCard = ({ imageSrc, title, description, link }) => {
           </svg>
         </div>
         <p className="flex-grow">{description}</p>
-      </div>
-    </Link>
+      </Link>
+    </div>
   );
 };
-const Links = () => {
-  const Links = [
-    {
-      imageSrc: "/images/congress/house-of-delegates.png",
-      title: "House of Delegates",
-      description: "Elected to serve and protect the student body.",
-      link: "/congress/house-of-delegates",
-    },
-    {
-      imageSrc: "/images/congress/senate.png",
-      title: "Senate",
-      description: "Elected to oversee the decisions of the House.",
-      link: "congress/senate",
-    },
-    {
-      imageSrc: "/images/congress/committee.png",
-      title: "Committees",
-      description:
-        "Latest news, inquiries and reports from Lassonde select committees.",
-      link: "congress/committees",
-    },
-    {
-      imageSrc: "/images/congress/votes.png",
-      title: "Votes",
-      description: "Find vote results from the House and Senate.",
-      link: "congress/votes",
-    },
-    {
-      imageSrc: "/images/congress/agendas-and-minutes.png",
-      title: "Agendas & Minutes",
-      description:
-        "Read transcripts of debates and find communications from both Chambers.",
-      link: "congress/agendas-and-minutes",
-    },
-    {
-      imageSrc: "/images/congress/bills-and-resolutions.png",
-      title: "Bills & Resolutions",
-      description:
-        "Keep up to date with the progress of current and draft bills and resolutions before Congress.",
-      link: "https://docs.google.com/spreadsheets/d/1G4J-osCqip0KijyExAd2JaJjEH1Fa5bZCdDGx7oTSrQ/edit?gid=0#gid=0",
-    },
-  ];
 
+const linkData = [
+  {
+    imageSrc: "/images/congress/house-of-delegates.png",
+    title: "House of Delegates",
+    description: "Elected to serve and protect the student body.",
+    link: "/congress/house-of-delegates",
+    external: false,
+  },
+  {
+    imageSrc: "/images/congress/senate.png",
+    title: "Senate",
+    description: "Elected to oversee the decisions of the House.",
+    link: "/congress/senate",
+    external: false,
+  },
+  {
+    imageSrc: "/images/congress/committee.png",
+    title: "Committees",
+    description:
+      "Latest news, inquiries and reports from Lassonde select committees.",
+    link: "/congress/committees",
+    external: false,
+  },
+  {
+    imageSrc: "/images/congress/votes.png",
+    title: "Votes",
+    description: "Find vote results from the House and Senate.",
+    link: "/congress/votes",
+    external: false,
+  },
+  {
+    imageSrc: "/images/congress/agendas-and-minutes.png",
+    title: "Agendas & Minutes",
+    description:
+      "Read transcripts of debates and find communications from both Chambers.",
+    link: "/congress/agendas-and-minutes",
+    external: false,
+  },
+  {
+    imageSrc: "/images/congress/bills-and-resolutions.png",
+    title: "Bills & Resolutions",
+    description:
+      "Keep up to date with the progress of current and draft bills and resolutions before Congress.",
+    link: "https://docs.google.com/spreadsheets/d/1G4J-osCqip0KijyExAd2JaJjEH1Fa5bZCdDGx7oTSrQ/edit?gid=0#gid=0",
+    external: true,
+  },
+];
+
+const Links = () => {
   return (
     <section className="bg-white p-4 rounded shadow">
-      <h2 className="text-2xl font-bold mb-4"></h2>
+      <h2 className="text-2xl font-bold mb-4">Congress Links</h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-        {Links.map((link, index) => (
+        {linkData.map((link, index) => (
           <LinkCard
             key={index}
             imageSrc={link.imageSrc}
             title={link.title}
             description={link.description}
             link={link.link}
+            external={link.external} // external prop
           />
         ))}
       </div>
