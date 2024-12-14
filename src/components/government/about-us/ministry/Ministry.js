@@ -38,42 +38,12 @@ const LinkCard = ({ imageSrc, title, description, link }) => {
 };
 
 const Links = () => {
-  const Links = [
+  const pm = [
     {
       imageSrc: "/images/government/ministry/office-of-the-secretariat.png",
       title: "Office Of The Secretariat",
       description: "Elected to lead the government.",
       link: "/government/about-us/ministry/secretariat",
-    },
-  ];
-
-  const Links2 = [
-    {
-      imageSrc: "/images/government/ministry/office-of-the-accountability.png",
-      title: "Office Of Accountability",
-      description: "Elected to hold members accountable.",
-      link: "/government/about-us/ministry/accountability",
-    },
-    {
-      imageSrc:
-        "/images/government/ministry/department-of-community-affairs.png",
-      title: "Department Of Community Affairs",
-      description: "Elected to engage with the student body.",
-      link: "/government/about-us/ministry/community-affairs",
-    },
-    {
-      imageSrc:
-        "/images/government/ministry/department-of-finance-and-admin.png",
-      title: "Department Of Finance and Admin",
-      description: "Elected to monitor financial responsibilites.",
-      link: "/government/about-us/ministry/finance-and-admin",
-    },
-    {
-      imageSrc:
-        "/images/government/ministry/department-of-internal-affairs.png",
-      title: "Department Of Internal Affairs",
-      description: "Elected to resolve internal concerns.",
-      link: "/government/about-us/ministry/internal-affairs",
     },
     {
       imageSrc: "/images/government/ministry/department-of-student-success.png",
@@ -83,12 +53,51 @@ const Links = () => {
     },
   ];
 
+  const oa = [
+    {
+      imageSrc: "/images/government/ministry/office-of-the-accountability.png",
+      title: "Office Of Accountability",
+      description: "Elected to hold members accountable.",
+      link: "/government/about-us/ministry/accountability",
+    },
+  ];
+
+  const ca = [
+    {
+      imageSrc:
+        "/images/government/ministry/department-of-community-affairs.png",
+      title: "Department Of Community Affairs",
+      description: "Elected to engage with the student body.",
+      link: "/government/about-us/ministry/community-affairs",
+    },
+  ];
+  const fa = [
+    {
+      imageSrc:
+        "/images/government/ministry/department-of-finance-and-admin.png",
+      title: "Department Of Finance and Admin",
+      description: "Elected to monitor financial responsibilites.",
+      link: "/government/about-us/ministry/finance-and-admin",
+    },
+  ];
+  const ia = [
+    {
+      imageSrc:
+        "/images/government/ministry/department-of-internal-affairs.png",
+      title: "Department Of Internal Affairs",
+      description: "Elected to resolve internal concerns.",
+      link: "/government/about-us/ministry/internal-affairs",
+    },
+  ];
+
   return (
     <div>
       <section className="bg-white p-4 rounded shadow mb-4">
-        <h2 className="text-2xl font-bold mb-4">Prime Minister</h2>
+        <h2 className="text-2xl font-bold mb-4">
+          Prime Minister - Behrouz Homam
+        </h2>
         <div className="grid grid-cols-1 md:grid-cols-1 gap-4">
-          {Links.map((link, index) => (
+          {pm.map((link, index) => (
             <LinkCard
               key={index}
               imageSrc={link.imageSrc}
@@ -100,12 +109,63 @@ const Links = () => {
         </div>
       </section>
 
-      <section className="bg-white p-4 rounded shadow">
+      <section className="bg-white p-4 rounded shadow mb-4">
         <h2 className="text-2xl font-bold mb-4">
-          Other Ministerial Departments
+          Minister of Accountability - Alexander Brown
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-1 gap-4">
-          {Links2.map((link, index) => (
+          {oa.map((link, index) => (
+            <LinkCard
+              key={index}
+              imageSrc={link.imageSrc}
+              title={link.title}
+              description={link.description}
+              link={link.link}
+            />
+          ))}
+        </div>
+      </section>
+
+      <section className="bg-white p-4 rounded shadow mb-4">
+        <h2 className="text-2xl font-bold mb-4">
+          Minister of Community Affairs - Radhey Patel
+        </h2>
+        <div className="grid grid-cols-1 md:grid-cols-1 gap-4">
+          {ca.map((link, index) => (
+            <LinkCard
+              key={index}
+              imageSrc={link.imageSrc}
+              title={link.title}
+              description={link.description}
+              link={link.link}
+            />
+          ))}
+        </div>
+      </section>
+
+      <section className="bg-white p-4 rounded shadow mb-4">
+        <h2 className="text-2xl font-bold mb-4">
+          Minister of Finance & Admin - Alireza Hakim
+        </h2>
+        <div className="grid grid-cols-1 md:grid-cols-1 gap-4">
+          {fa.map((link, index) => (
+            <LinkCard
+              key={index}
+              imageSrc={link.imageSrc}
+              title={link.title}
+              description={link.description}
+              link={link.link}
+            />
+          ))}
+        </div>
+      </section>
+
+      <section className="bg-white p-4 rounded shadow mb-4">
+        <h2 className="text-2xl font-bold mb-4">
+          Minister of Internal Affairs - Mehwish Saiyed
+        </h2>
+        <div className="grid grid-cols-1 md:grid-cols-1 gap-4">
+          {ia.map((link, index) => (
             <LinkCard
               key={index}
               imageSrc={link.imageSrc}

@@ -62,9 +62,8 @@ const Resources = () => {
       title: "Reports and Documents",
       description:
         "See our reports and documents concerning the future of student life and success",
-      //link: "/government/reports-and-documents", - previous link to the page
-      link: "https://drive.google.com/drive/folders/1R5QQI-FC_tQOVcOZm-cGnHWHNM_dVEWf",
-      external: true, //Marking link as external
+      link: "/government/resources/reports-and-documents",
+      external: false,
     },
   ];
 
@@ -135,6 +134,12 @@ const AboutUs = () => {
         "Find answered questions about your undergraduate engineering student government",
       link: "/government/about-us/frequently-asked-questions",
     },
+    {
+      imageSrc: "/images/government/community.png",
+      title: "Join Us!",
+      description: "Interested in helping other Lassonde students?",
+      link: "/government/about-us/join-us",
+    },
   ];
 
   return (
@@ -192,26 +197,26 @@ const NewsCard = ({ imageSrc, title, description, date, link }) => {
 const News = () => {
   const newsItems = [
     {
-      imageSrc: "/news/news1.png",
-      title: "Bergeron Closed???",
-      description: "Has the lack of funding eventually led to its closure?",
-      date: "4 July 2024",
-      link: "government/spotlight/bergeron-closed",
+      imageSrc: "/logos/logo-black.png",
+      title: "LSC Upcoming General Election",
+      description: "Find more about elections in your student government",
+      date: "13 December 2024",
+      link: "government/spotlight/elections",
     },
-    {
-      imageSrc: "/news/news2.png",
-      title: "Strike on Lassonde",
-      description: "How has the strike affected Lassonde students?",
-      date: "24 May 2024",
-      link: "government/spotlight/strike-on-lassonde",
-    },
-    {
-      imageSrc: "/news/news3.png",
-      title: "Mental Health",
-      description: "Taking care of your mental health!",
-      date: "31 January 2024",
-      link: "government/spotlight/mental-health",
-    },
+    // {
+    //   imageSrc: "/news/news2.png",
+    //   title: "Strike on Lassonde",
+    //   description: "How has the strike affected Lassonde students?",
+    //   date: "24 May 2024",
+    //   link: "government/spotlight/strike-on-lassonde",
+    // },
+    // {
+    //   imageSrc: "/news/news3.png",
+    //   title: "Mental Health",
+    //   description: "Taking care of your mental health!",
+    //   date: "31 January 2024",
+    //   link: "government/spotlight/mental-health",
+    // },
   ];
 
   return (

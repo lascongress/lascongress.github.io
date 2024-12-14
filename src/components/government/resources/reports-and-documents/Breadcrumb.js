@@ -1,5 +1,5 @@
 // src/components/government/reports-and-documents/Breadcrumb.js
-import BreadcrumbNavBar from "../../global/BreadcrumbNavBar";
+import BreadcrumbNavBar from "../../../global/BreadcrumbNavBar";
 
 export default function ExamplePage() {
   const breadcrumbs = [
@@ -7,7 +7,7 @@ export default function ExamplePage() {
     { label: "Government", href: "/government/" },
     {
       label: "Reports and Documents",
-      href: "/government/reports-and-documents",
+      href: "/government/resources/reports-and-documents",
     },
   ];
 

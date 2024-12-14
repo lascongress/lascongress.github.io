@@ -2,7 +2,7 @@
 import Head from "next/head";
 import Navbar from "../../../../components/global/Navbar";
 import Header from "../../../../components/global/Header";
-import MainContent from "../../../../components/government/spotlight/articles/bergeron-closed";
+import MainContent from "../../../../components/government/spotlight/articles/elections";
 import BreadCrumb from "../../../../components/government/spotlight/Breadcrumb";
 
 // import Announcement from "../components/homepage/Announcement";
