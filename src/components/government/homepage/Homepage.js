@@ -145,7 +145,7 @@ const AboutUs = () => {
   return (
     <section className="bg-white p-4 rounded shadow">
       <h2 className="text-2xl font-bold mb-4">About Us</h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         {AboutUs.map((link, index) => (
           <ResourceCard
             key={index}
