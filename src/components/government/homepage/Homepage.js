@@ -62,9 +62,8 @@ const Resources = () => {
       title: "Reports and Documents",
       description:
         "See our reports and documents concerning the future of student life and success",
-      //link: "/government/reports-and-documents", - previous link to the page
-      link: "https://drive.google.com/drive/folders/1R5QQI-FC_tQOVcOZm-cGnHWHNM_dVEWf",
-      external: true, //Marking link as external
+      link: "/government/resources/reports-and-documents",
+      external: false,
     },
   ];
 
@@ -134,6 +133,12 @@ const AboutUs = () => {
       description:
         "Find answered questions about your undergraduate engineering student government",
       link: "/government/about-us/frequently-asked-questions",
+    },
+    {
+      imageSrc: "/images/government/community.png",
+      title: "Join Us!",
+      description: "Interested in helping other Lassonde students?",
+      link: "/government/about-us/join-us",
     },
   ];
 
