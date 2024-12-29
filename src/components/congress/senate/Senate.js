@@ -88,6 +88,48 @@ const Section = () => {
     <section className="bg-white p-4 rounded shadow">
       <div className="container mx-auto p-4  border-neutral-200">
         <h2 className="text-3xl font-bold mb-2 text-gray-800">
+          Responsiblities of the Senator
+        </h2>
+        <p className="text-lg ml-2 text-gray-700">
+          1. Senators are elected to 2 year terms, with half of the Senate being
+          up for election each year.
+          <br />
+          <br />
+          2. Two Senators from Class 1 (elected in an odd numbered year, for
+          example 2025) are to be appointed to the York University Senate (YUS)
+          for the duration of their term, and are responsible for representing
+          the Lassonde Community at YUS.
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp; a. The two Senators appointed to YUS are
+          required to attend Faculty Council as an ex-officio member.
+          <br />
+          <br />
+          3. One Senator, by recommendation of Cabinet , will serve as the
+          government representative in the Senate.
+          <br />
+          <br />
+          4. An example of a typical month of a Senator:
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp; a. two Senate meetings; and
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp; b. if established and appointed, one Senate
+          Select Committee meeting.
+          <br />
+          <br />
+          5. An example of a typical month of a Senator holding a YUS seat:
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp; a. two Senate meetings;
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp; b. one YUS meeting;
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp; c. one Faculty Council meeting; and
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp; d. if established and appointed, one Senate
+          Select Committee meeting.
+          <br />
+        </p>
+        <br />
+        <h2 className="text-3xl font-bold mb-2 text-gray-800">
           Business of the Senate
         </h2>
         <p className="text-lg text-gray-700">

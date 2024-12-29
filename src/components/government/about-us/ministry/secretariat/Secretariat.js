@@ -44,130 +44,110 @@ const Section = () => {
         <h2 className="text-3xl font-bold mb-2 text-gray-800">
           Office of The Secretariat
         </h2>
-        <p className="text-lg text-gray-700">
-          The UK public elects 650 Members of Parliament (MPs) to represent
-          their interests and concerns in the House of Commons. MPs consider and
-          propose new laws, and can scrutinise government policies by asking
-          ministers questions about current issues either in the Commons Chamber
-          or in Committees.
-        </p>
-        <br />
+        <p className="text-lg text-gray-700"></p>
+        {/* <br /> */}
         <h2 className="text-2xl font-bold mb-2 text-gray-800">
-          Class A Committee
+          Prime Minister{" "}
         </h2>
-        <h2 className="text-xl font-bold mb-2 text-gray-800">
-          Executive Committee (EC)
-        </h2>
-        <p className="text-lg text-gray-700">
-          The UK public elects 650 Members of Parliament (MPs) to represent
-          their interests and concerns in the House of Commons. MPs consider and
-          propose new laws, and can scrutinise government policies by asking
-          ministers questions about current issues either in the Commons Chamber
-          or in Committees.
-        </p>
-        <br />
-        <h2 className="text-xl font-bold mb-2 text-gray-800">
-          Planning, Academic Resources & Research Committee (PARR)
-        </h2>
-        <p className="text-lg text-gray-700">
-          The UK public elects 650 Members of Parliament (MPs) to represent
-          their interests and concerns in the House of Commons. MPs consider and
-          propose new laws, and can scrutinise government policies by asking
-          ministers questions about current issues either in the Commons Chamber
-          or in Committees.
-        </p>
-        <br />
-        <h2 className="text-xl font-bold mb-2 text-gray-800">
-          Learning, Curriculum & Students Committee (LCS)
-        </h2>
-        <p className="text-lg text-gray-700">
-          The UK public elects 650 Members of Parliament (MPs) to represent
-          their interests and concerns in the House of Commons. MPs consider and
-          propose new laws, and can scrutinise government policies by asking
-          ministers questions about current issues either in the Commons Chamber
-          or in Committees.
+        <p className="text-lg ml-2 text-gray-700">
+          1. The Prime Minister or the Chair of the Cabinet is the head of the
+          Cabinet and the head of government, or chief executive. They are
+          ultimately responsible for the policy and decisions of the LSC
+          Government.
+          <br />
+          <br />
+          2. The Prime Minister has the overall responsibility for the Office of
+          the Secretariat and exercises control and supervision over the whole
+          Secretariat and relevant agencies.
+          <br />
+          <br />
+          3. The responsibilities of the Prime Minister include, but are not
+          limited to:
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp; a. Signing Cabinet correspondence and orders.
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp; b. Representing the LSC to:
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; i. The Faculty
+          leadership.
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ii. The Student
+          Representative Roundtable (SRR).
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; iii. Other York
+          University committees or officials as appropriate or relevant to the
+          Prime Minister’s portfolio.
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp; c. Providing leadership, support, and
+          oversight for LSC and congressional goals and initiatives.
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp; d. Developing an understanding of, and
+          working to advance Lassonde student interests in, issues pertaining
+          to:
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; i. Academics.
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ii. Student
+          life and wellbeing.
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; iii. Financial
+          needs.
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp; e. Acting as the primary spokesperson for the
+          LSC.
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp; f. Coordinating efforts to communicate with
+          the Lassonde Community and the public.
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp; g. Developing the engagement of Members with
+          the LSC.
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp; h. Organizing meetings with other student
+          organization executives as needed or upon request of Cabinet or
+          Congress.
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp; i. Other roles and responsibilities as may be
+          assigned to the Prime Minister by the Charter, Bylaws, Acts of
+          Congress, or Policy.
+          <br />
         </p>
         <br />
         <br />
 
         <h2 className="text-2xl font-bold mb-2 text-gray-800">
-          Class B Committee
+          Secretary General{" "}
         </h2>
-        <h2 className="text-xl font-bold mb-2 text-gray-800">
-          Committee On Evaluations & Academic Standards (CEAS-M)
-        </h2>
-        <p className="text-lg text-gray-700">
-          The UK public elects 650 Members of Parliament (MPs) to represent
-          their interests and concerns in the House of Commons. MPs consider and
-          propose new laws, and can scrutinise government policies by asking
-          ministers questions about current issues either in the Commons Chamber
-          or in Committees.
-        </p>
-        <br />
-        <h2 className="text-xl font-bold mb-2 text-gray-800">
-          Committee On Evaluations & Academic Standards - Academic Honesty Panel
-          (CEAS-AHP)
-        </h2>
-        <p className="text-lg text-gray-700">
-          The UK public elects 650 Members of Parliament (MPs) to represent
-          their interests and concerns in the House of Commons. MPs consider and
-          propose new laws, and can scrutinise government policies by asking
-          ministers questions about current issues either in the Commons Chamber
-          or in Committees.
-        </p>
-        <br />
-        <h2 className="text-xl font-bold mb-2 text-gray-800">
-          Committee On Evaluations & Academic Standards - Academic Petitions
-          Subcomm (CEAS-APS)
-        </h2>
-        <p className="text-lg text-gray-700">
-          The UK public elects 650 Members of Parliament (MPs) to represent
-          their interests and concerns in the House of Commons. MPs consider and
-          propose new laws, and can scrutinise government policies by asking
-          ministers questions about current issues either in the Commons Chamber
-          or in Committees.
-        </p>
-        <br />
-        <br />
-        <h2 className="text-2xl font-bold mb-2 text-gray-800">
-          Class C Committee
-        </h2>
-        <h2 className="text-xl font-bold mb-2 text-gray-800">
-          Tenure & Promotions Committee (TPC)
-        </h2>
-        <p className="text-lg text-gray-700">
-          The UK public elects 650 Members of Parliament (MPs) to represent
-          their interests and concerns in the House of Commons. MPs consider and
-          propose new laws, and can scrutinise government policies by asking
-          ministers questions about current issues either in the Commons Chamber
-          or in Committees.
-        </p>
-        <br />
-        <h2 className="text-xl font-bold mb-2 text-gray-800">
-          Awards Committee (AC)
-        </h2>
-        <p className="text-lg text-gray-700">
-          The UK public elects 650 Members of Parliament (MPs) to represent
-          their interests and concerns in the House of Commons. MPs consider and
-          propose new laws, and can scrutinise government policies by asking
-          ministers questions about current issues either in the Commons Chamber
-          or in Committees.
-        </p>
-        <br />
-        <br />
-
-        <h2 className="text-2xl font-bold mb-2 text-gray-800">
-          Class O Committee
-        </h2>
-        <h2 className="text-xl font-bold mb-2 text-gray-800">
-          Faculty Council At-Large
-        </h2>
-        <p className="text-lg text-gray-700">
-          The UK public elects 650 Members of Parliament (MPs) to represent
-          their interests and concerns in the House of Commons. MPs consider and
-          propose new laws, and can scrutinise government policies by asking
-          ministers questions about current issues either in the Commons Chamber
-          or in Committees.
+        <p className="text-lg ml-2 text-gray-700">
+          1. The Secretary General is the chief administrative officer of the
+          LSC, and the head of the Secretariat.
+          <br />
+          <br />
+          2. The Secretary General is responsible for the operations of the
+          Office of the Secretariat, responsible for elections and overseeing
+          all aspects of the Secretariat and its programs.
+          <br />
+          <br />
+          3. The Secretary General directly reports to the Prime Minister.
+          <br />
+          <br />
+          4. The responsibilities of the Secretary General include:
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp; a. assist the Cabinet in program delivery;
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp; b. ensure that all forms required by the
+          University and Faculty for ratification, registration, office-space,
+          and funding are completed and submitted on time;
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp; c. bring to the attention of the Congress any
+          matter which in their opinion may affect the Lassonde Community and
+          its members;
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp; d. responsible for the collection of year-end
+          reports from all outgoing Directors and Secretaries; and
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp; e. Create an annual report to the General
+          Assembly on the work of the Congress and Secretariat.
+          <br />
         </p>
       </div>
 

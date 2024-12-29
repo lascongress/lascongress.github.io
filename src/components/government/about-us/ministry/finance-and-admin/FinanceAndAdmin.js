@@ -42,132 +42,125 @@ const Section = () => {
     <section className="bg-white p-4 rounded shadow">
       <div className="container mx-auto p-4 mb-4 border-b-2 border-neutral-200">
         <h2 className="text-3xl font-bold mb-2 text-gray-800">
-          Finance and Admin
+          Finance and Administration Portfolio
         </h2>
-        <p className="text-lg text-gray-700">
-          The UK public elects 650 Members of Parliament (MPs) to represent
-          their interests and concerns in the House of Commons. MPs consider and
-          propose new laws, and can scrutinise government policies by asking
-          ministers questions about current issues either in the Commons Chamber
-          or in Committees.
+        <h2 className="text-2xl font-bold mb-2 text-gray-800">Services </h2>
+        <p className="text-lg ml-6 text-gray-700">
+          <li>Buy Back Program </li>
         </p>
+        <p className="text-lg text-gray-700"></p>
         <br />
         <h2 className="text-2xl font-bold mb-2 text-gray-800">
-          Class A Committee
+          Minister of Finance & Administration{" "}
         </h2>
-        <h2 className="text-xl font-bold mb-2 text-gray-800">
-          Executive Committee (EC)
-        </h2>
-        <p className="text-lg text-gray-700">
-          The UK public elects 650 Members of Parliament (MPs) to represent
-          their interests and concerns in the House of Commons. MPs consider and
-          propose new laws, and can scrutinise government policies by asking
-          ministers questions about current issues either in the Commons Chamber
-          or in Committees.
-        </p>
-        <br />
-        <h2 className="text-xl font-bold mb-2 text-gray-800">
-          Planning, Academic Resources & Research Committee (PARR)
-        </h2>
-        <p className="text-lg text-gray-700">
-          The UK public elects 650 Members of Parliament (MPs) to represent
-          their interests and concerns in the House of Commons. MPs consider and
-          propose new laws, and can scrutinise government policies by asking
-          ministers questions about current issues either in the Commons Chamber
-          or in Committees.
-        </p>
-        <br />
-        <h2 className="text-xl font-bold mb-2 text-gray-800">
-          Learning, Curriculum & Students Committee (LCS)
-        </h2>
-        <p className="text-lg text-gray-700">
-          The UK public elects 650 Members of Parliament (MPs) to represent
-          their interests and concerns in the House of Commons. MPs consider and
-          propose new laws, and can scrutinise government policies by asking
-          ministers questions about current issues either in the Commons Chamber
-          or in Committees.
+        <p className="text-lg ml-2 text-gray-700">
+          1. The Minister of Finance & Administration is overall responsible for
+          the fiscal and monetary policy of the LSC, being the budget and supply
+          of the government as well as procurement.
+          <br />
+          <br />
+          2. The Minister of Finance & Administration has the overall
+          responsibility for overseeing the Department of Finance &
+          Administration.
+          <br />
+          <br />
+          3. The responsibilities of the Minister of Finance & Administration
+          include, but are not limited to:
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp; a. Chairing the Treasury Board;
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp; b. monetary policy, including levies and
+          other taxation instruments.
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp; c. public expenditure including:
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; i. spending
+          reviews and strategic planning;
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ii. Tin-year
+          spending control;
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; iii.
+          procurement;
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; iv. capital
+          investment;
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; v.
+          infrastructure spending;
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp; d. financial services policy, including clubs
+          and design team funding, ensuring the sustainability of student-led
+          initiatives;
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp; e. the delivery of any capital or
+          infrastructure projects funded by LSC; and
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp; f. ensuring the Lassonde Community is growing
+          sustainability.
+          <br />
         </p>
         <br />
         <br />
 
         <h2 className="text-2xl font-bold mb-2 text-gray-800">
-          Class B Committee
+          Secretary of Finance & Administration
         </h2>
-        <h2 className="text-xl font-bold mb-2 text-gray-800">
-          Committee On Evaluations & Academic Standards (CEAS-M)
-        </h2>
-        <p className="text-lg text-gray-700">
-          The UK public elects 650 Members of Parliament (MPs) to represent
-          their interests and concerns in the House of Commons. MPs consider and
-          propose new laws, and can scrutinise government policies by asking
-          ministers questions about current issues either in the Commons Chamber
-          or in Committees.
-        </p>
-        <br />
-        <h2 className="text-xl font-bold mb-2 text-gray-800">
-          Committee On Evaluations & Academic Standards - Academic Honesty Panel
-          (CEAS-AHP)
-        </h2>
-        <p className="text-lg text-gray-700">
-          The UK public elects 650 Members of Parliament (MPs) to represent
-          their interests and concerns in the House of Commons. MPs consider and
-          propose new laws, and can scrutinise government policies by asking
-          ministers questions about current issues either in the Commons Chamber
-          or in Committees.
-        </p>
-        <br />
-        <h2 className="text-xl font-bold mb-2 text-gray-800">
-          Committee On Evaluations & Academic Standards - Academic Petitions
-          Subcomm (CEAS-APS)
-        </h2>
-        <p className="text-lg text-gray-700">
-          The UK public elects 650 Members of Parliament (MPs) to represent
-          their interests and concerns in the House of Commons. MPs consider and
-          propose new laws, and can scrutinise government policies by asking
-          ministers questions about current issues either in the Commons Chamber
-          or in Committees.
-        </p>
-        <br />
-        <br />
-        <h2 className="text-2xl font-bold mb-2 text-gray-800">
-          Class C Committee
-        </h2>
-        <h2 className="text-xl font-bold mb-2 text-gray-800">
-          Tenure & Promotions Committee (TPC)
-        </h2>
-        <p className="text-lg text-gray-700">
-          The UK public elects 650 Members of Parliament (MPs) to represent
-          their interests and concerns in the House of Commons. MPs consider and
-          propose new laws, and can scrutinise government policies by asking
-          ministers questions about current issues either in the Commons Chamber
-          or in Committees.
-        </p>
-        <br />
-        <h2 className="text-xl font-bold mb-2 text-gray-800">
-          Awards Committee (AC)
-        </h2>
-        <p className="text-lg text-gray-700">
-          The UK public elects 650 Members of Parliament (MPs) to represent
-          their interests and concerns in the House of Commons. MPs consider and
-          propose new laws, and can scrutinise government policies by asking
-          ministers questions about current issues either in the Commons Chamber
-          or in Committees.
-        </p>
-        <br />
-        <br />
-
-        <h2 className="text-2xl font-bold mb-2 text-gray-800">
-          Class O Committee
-        </h2>
-        <h2 className="text-xl font-bold mb-2 text-gray-800">
-          Faculty Council At-Large
-        </h2>
-        <p className="text-lg text-gray-700">
-          The UK public elects 650 Members of Parliament (MPs) to represent
-          their interests and concerns in the House of Commons. MPs consider and
-          propose new laws, and can scrutinise government policies by asking
-          ministers questions about current issues either in the Commons Chamber
-          or in Committees.
+        <p className="text-lg ml-2 text-gray-700">
+          1. The Secretary of Finance & Administration is responsible for
+          overseeing the operating budget of the LSC and relevant financial
+          legislation.
+          <br />
+          <br />
+          2. The Secretary of Finance & Administration is responsible for the
+          operations of the Department of Finance & Administration.
+          <br />
+          <br />
+          3. The Secretary of Finance & Administration directly reports to the
+          Minister of Finance & Administration. .
+          <br />
+          <br />
+          4. The responsibilities of the Secretary of Finance & Administration
+          include:
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp; a. reporting, at all regular Meetings of the
+          House, the financial position of the LSC, including but not limited
+          to:
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; i. a comparison
+          of actual income and expenses pertaining to the budget;
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ii. a breakdown
+          of fund disbursement;
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; iii. a
+          statement of expected income and expenses;
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp; b. the maintenance of records of:
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; i. all the sums
+          of money received and disbursed by the LSC and the matters with
+          respect to which receipt and disbursement took place;
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ii. all sales
+          and purchases;
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; iii. the assets
+          and liabilities;
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; iv. call other
+          transactions affecting the financial position of the LSC;
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; v. trademarks,
+          copyrights, and other intellectual property;
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp; c. annual auditing activities;
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp; d. cheque requisition and approval; and
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp; e. presenting the auditor’s report at a
+          General Assembly during their term of office.
+          <br />
         </p>
       </div>
 

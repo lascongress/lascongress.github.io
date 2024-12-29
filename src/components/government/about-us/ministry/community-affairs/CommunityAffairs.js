@@ -44,130 +44,65 @@ const Section = () => {
         <h2 className="text-3xl font-bold mb-2 text-gray-800">
           Community Affairs
         </h2>
-        <p className="text-lg text-gray-700">
-          The UK public elects 650 Members of Parliament (MPs) to represent
-          their interests and concerns in the House of Commons. MPs consider and
-          propose new laws, and can scrutinise government policies by asking
-          ministers questions about current issues either in the Commons Chamber
-          or in Committees.
-        </p>
-        <br />
+        <p className="text-lg text-gray-700"></p>
+        {/* <br /> */}
         <h2 className="text-2xl font-bold mb-2 text-gray-800">
-          Class A Committee
+          Minister of Community Affairs{" "}
         </h2>
-        <h2 className="text-xl font-bold mb-2 text-gray-800">
-          Executive Committee (EC)
-        </h2>
-        <p className="text-lg text-gray-700">
-          The UK public elects 650 Members of Parliament (MPs) to represent
-          their interests and concerns in the House of Commons. MPs consider and
-          propose new laws, and can scrutinise government policies by asking
-          ministers questions about current issues either in the Commons Chamber
-          or in Committees.
-        </p>
-        <br />
-        <h2 className="text-xl font-bold mb-2 text-gray-800">
-          Planning, Academic Resources & Research Committee (PARR)
-        </h2>
-        <p className="text-lg text-gray-700">
-          The UK public elects 650 Members of Parliament (MPs) to represent
-          their interests and concerns in the House of Commons. MPs consider and
-          propose new laws, and can scrutinise government policies by asking
-          ministers questions about current issues either in the Commons Chamber
-          or in Committees.
-        </p>
-        <br />
-        <h2 className="text-xl font-bold mb-2 text-gray-800">
-          Learning, Curriculum & Students Committee (LCS)
-        </h2>
-        <p className="text-lg text-gray-700">
-          The UK public elects 650 Members of Parliament (MPs) to represent
-          their interests and concerns in the House of Commons. MPs consider and
-          propose new laws, and can scrutinise government policies by asking
-          ministers questions about current issues either in the Commons Chamber
-          or in Committees.
+        <p className="text-lg ml-2 text-gray-700">
+          1. The Minister of Community Affairs is responsible for overseeing the
+          communications with the Lassonde and wider York community as well as
+          developing and maintaining LSC social media and publications.
+          <br />
+          <br />
+          2. The Minister of Community Affairs has the overall responsibility
+          for overseeing the Department of Community Affairs.
+          <br />
+          <br />
+          3. The responsibilities of the Minister of Community Affairs include,
+          but are not limited to:
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp; a. acting as the secondary spokesperson for
+          the LSC, in the Prime Minister’s absence;
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp; b. overseeing the communication of the
+          activities of the LSC to Representatives, affiliated student
+          organizations and the Lassonde Community;
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp; c. drive participation of LSC events and
+          activities;
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp; d. promote the use of LSC services and
+          initiatives; and
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp; e. oversee the social media presence of the
+          LSC, including but not limited to content on the Website, Instagram,
+          and Reddit.
+          <br />
         </p>
         <br />
         <br />
 
         <h2 className="text-2xl font-bold mb-2 text-gray-800">
-          Class B Committee
+          Secretary of Community Affairs
         </h2>
-        <h2 className="text-xl font-bold mb-2 text-gray-800">
-          Committee On Evaluations & Academic Standards (CEAS-M)
-        </h2>
-        <p className="text-lg text-gray-700">
-          The UK public elects 650 Members of Parliament (MPs) to represent
-          their interests and concerns in the House of Commons. MPs consider and
-          propose new laws, and can scrutinise government policies by asking
-          ministers questions about current issues either in the Commons Chamber
-          or in Committees.
-        </p>
-        <br />
-        <h2 className="text-xl font-bold mb-2 text-gray-800">
-          Committee On Evaluations & Academic Standards - Academic Honesty Panel
-          (CEAS-AHP)
-        </h2>
-        <p className="text-lg text-gray-700">
-          The UK public elects 650 Members of Parliament (MPs) to represent
-          their interests and concerns in the House of Commons. MPs consider and
-          propose new laws, and can scrutinise government policies by asking
-          ministers questions about current issues either in the Commons Chamber
-          or in Committees.
-        </p>
-        <br />
-        <h2 className="text-xl font-bold mb-2 text-gray-800">
-          Committee On Evaluations & Academic Standards - Academic Petitions
-          Subcomm (CEAS-APS)
-        </h2>
-        <p className="text-lg text-gray-700">
-          The UK public elects 650 Members of Parliament (MPs) to represent
-          their interests and concerns in the House of Commons. MPs consider and
-          propose new laws, and can scrutinise government policies by asking
-          ministers questions about current issues either in the Commons Chamber
-          or in Committees.
-        </p>
-        <br />
-        <br />
-        <h2 className="text-2xl font-bold mb-2 text-gray-800">
-          Class C Committee
-        </h2>
-        <h2 className="text-xl font-bold mb-2 text-gray-800">
-          Tenure & Promotions Committee (TPC)
-        </h2>
-        <p className="text-lg text-gray-700">
-          The UK public elects 650 Members of Parliament (MPs) to represent
-          their interests and concerns in the House of Commons. MPs consider and
-          propose new laws, and can scrutinise government policies by asking
-          ministers questions about current issues either in the Commons Chamber
-          or in Committees.
-        </p>
-        <br />
-        <h2 className="text-xl font-bold mb-2 text-gray-800">
-          Awards Committee (AC)
-        </h2>
-        <p className="text-lg text-gray-700">
-          The UK public elects 650 Members of Parliament (MPs) to represent
-          their interests and concerns in the House of Commons. MPs consider and
-          propose new laws, and can scrutinise government policies by asking
-          ministers questions about current issues either in the Commons Chamber
-          or in Committees.
-        </p>
-        <br />
-        <br />
-
-        <h2 className="text-2xl font-bold mb-2 text-gray-800">
-          Class O Committee
-        </h2>
-        <h2 className="text-xl font-bold mb-2 text-gray-800">
-          Faculty Council At-Large
-        </h2>
-        <p className="text-lg text-gray-700">
-          The UK public elects 650 Members of Parliament (MPs) to represent
-          their interests and concerns in the House of Commons. MPs consider and
-          propose new laws, and can scrutinise government policies by asking
-          ministers questions about current issues either in the Commons Chamber
-          or in Committees.
+        <p className="text-lg ml-2 text-gray-700">
+          1. The Secretary of Community Affairs is responsible for the
+          operations of all LSC publications and media.
+          <br />
+          <br />
+          2. The Secretary of Community Affairs is responsible for the
+          operations of the Department of Community Affairs
+          <br />
+          <br />
+          3. The responsibilities of the Secretary of Internal Affairs include:
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp; a. the maintenance of the website and social
+          media presence;
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp; b. to develop LSC publications for
+          dissemination.
+          <br />
         </p>
       </div>
 
