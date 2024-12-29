@@ -50,6 +50,12 @@ const Links = () => {
       description: "Learn more about the laws and rules that govern us!",
       link: "congress",
     },
+    {
+      imageSrc: "/images/landing/empty_elections.png",
+      title: "Elections",
+      description: "Interested in joining your engineering student government?",
+      link: "elections",
+    },
   ];
 
   return (
