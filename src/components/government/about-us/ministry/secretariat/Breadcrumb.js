@@ -9,7 +9,7 @@ export default function ExamplePage() {
       href: "/government/about-us/ministry",
     },
     {
-      label: "Accountability",
+      label: "Secretariat",
       href: "/government/about-us/ministry/secretariat",
     },
   ];
