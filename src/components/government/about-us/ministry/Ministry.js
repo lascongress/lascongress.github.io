@@ -45,12 +45,6 @@ const Links = () => {
       description: "Elected to lead the government.",
       link: "/government/about-us/ministry/secretariat",
     },
-    {
-      imageSrc: "/images/government/ministry/department-of-student-success.png",
-      title: "Department Of Student Success",
-      description: "Elected to serve students.",
-      link: "/government/about-us/ministry/student-success",
-    },
   ];
 
   const oa = [
@@ -59,6 +53,16 @@ const Links = () => {
       title: "Office Of Accountability",
       description: "Elected to hold members accountable.",
       link: "/government/about-us/ministry/accountability",
+    },
+  ];
+
+  const aa = [
+    {
+      imageSrc:
+        "/images/government/ministry/department-of-academic-services.png",
+      title: "Department Of Academic Services",
+      description: "Elected to serve students.",
+      link: "/government/about-us/ministry/academic-services",
     },
   ];
 
@@ -111,10 +115,44 @@ const Links = () => {
 
       <section className="bg-white p-4 rounded shadow mb-4">
         <h2 className="text-2xl font-bold mb-4">
-          Minister of Accountability - Alexander Brown
+          Minister of Finance & Admin - Alireza Hakim
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-1 gap-4">
-          {oa.map((link, index) => (
+          {fa.map((link, index) => (
+            <LinkCard
+              key={index}
+              imageSrc={link.imageSrc}
+              title={link.title}
+              description={link.description}
+              link={link.link}
+            />
+          ))}
+        </div>
+      </section>
+
+      <section className="bg-white p-4 rounded shadow mb-4">
+        <h2 className="text-2xl font-bold mb-4">
+          Minister of Internal Affairs - Mehwish Saiyed
+        </h2>
+        <div className="grid grid-cols-1 md:grid-cols-1 gap-4">
+          {ia.map((link, index) => (
+            <LinkCard
+              key={index}
+              imageSrc={link.imageSrc}
+              title={link.title}
+              description={link.description}
+              link={link.link}
+            />
+          ))}
+        </div>
+      </section>
+
+      <section className="bg-white p-4 rounded shadow mb-4">
+        <h2 className="text-2xl font-bold mb-4">
+          Minister of Academic Affairs - Vacant
+        </h2>
+        <div className="grid grid-cols-1 md:grid-cols-1 gap-4">
+          {aa.map((link, index) => (
             <LinkCard
               key={index}
               imageSrc={link.imageSrc}
@@ -145,27 +183,10 @@ const Links = () => {
 
       <section className="bg-white p-4 rounded shadow mb-4">
         <h2 className="text-2xl font-bold mb-4">
-          Minister of Finance & Admin - Alireza Hakim
+          Minister of Accountability - Alexander Brown
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-1 gap-4">
-          {fa.map((link, index) => (
-            <LinkCard
-              key={index}
-              imageSrc={link.imageSrc}
-              title={link.title}
-              description={link.description}
-              link={link.link}
-            />
-          ))}
-        </div>
-      </section>
-
-      <section className="bg-white p-4 rounded shadow mb-4">
-        <h2 className="text-2xl font-bold mb-4">
-          Minister of Internal Affairs - Mehwish Saiyed
-        </h2>
-        <div className="grid grid-cols-1 md:grid-cols-1 gap-4">
-          {ia.map((link, index) => (
+          {oa.map((link, index) => (
             <LinkCard
               key={index}
               imageSrc={link.imageSrc}

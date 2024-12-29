@@ -9,8 +9,8 @@ export default function ExamplePage() {
       href: "/government/about-us/ministry",
     },
     {
-      label: "Accountability",
-      href: "/government/about-us/ministry/student-success",
+      label: "Academic Services",
+      href: "/government/about-us/ministry/academic-services",
     },
   ];
 
