@@ -130,8 +130,7 @@ const AboutUs = () => {
     {
       imageSrc: "/images/government/lassonde-school.png",
       title: "Frequently Asked Questions",
-      description:
-        "Find answered questions about your undergraduate engineering student government",
+      description: "Find answered questions about your student body",
       link: "/government/about-us/frequently-asked-questions",
     },
     {
