@@ -9,7 +9,10 @@ const Header = () => {
       <div className="container mx-auto max-w-screen px-4">
         <h1 className="text-4xl font-bold mb-2">Elections</h1>
         <p className="mb-2">
-          Find information about our services, resources and news!
+          This will be the first General Election for your reformed Faculty
+          Student Government, that represents undergraduate students in Faculty
+          Council and the YU Senate as well as developing student-led services
+          for the community.{" "}
         </p>
       </div>
     </header>
