@@ -41,7 +41,7 @@ const Section = () => {
   return (
     <section className="bg-white p-4 rounded shadow">
       <div className="container mx-auto p-4 mb-4 border-b-2 border-neutral-200">
-        <h2 className="text-3xl font-bold mb-2 text-gray-800">Preamble</h2>
+        <h2 className="text-3xl font-bold mb-1 text-gray-800">Preamble</h2>
         <div className="ml-2">
           <h2 className="text-xl font-bold text-gray-800">
             Hey Lassonde Students!{" "}
@@ -53,42 +53,38 @@ const Section = () => {
         </div>
         <br />
 
-        <h2 className="text-3xl font-bold mb-2 text-gray-800">
+        <h2 className="text-3xl font-bold mb-1 text-gray-800">
           Election Timeline
         </h2>
         <div className="ml-2">
-          <p className="text-lg text-gray-700">
+          <p className="text-lg mb-2 text-gray-700">
             All of these positions are elected positions. There will be four
             stages to the election:
           </p>
-          <br />
           <h2 className="text-xl font-bold text-gray-800">
-            Nomination Period (Jan. 13 - Jan. 24)
+            1. Nomination Period (Jan. 13 - Jan. 24)
           </h2>
-          <p className="text-lg text-gray-700">
+          <p className="text-lg mb-2 text-gray-700">
             A candidate must collect signatures (amount in specific sections)
             from students in their respective program* using a copy of the
             nomination package and submit it by the end of the campaigning
             period to the application form.
           </p>
-          <br />
           <h2 className="text-xl font-bold text-gray-800">
-            All-Candidates Meeting (Jan. 25 or Jan. 26)
+            2. All-Candidates Meeting (Jan. 25 or Jan. 26)
           </h2>
-          <p className="text-lg text-gray-700">
+          <p className="text-lg mb-2 text-gray-700">
             CEAO will go over the rules and procedures of campaigning/voting
             period and any other relevant discussion topics.
           </p>
-          <br />
           <h2 className="text-xl font-bold text-gray-800">
-            Campaigning Period (Jan. 27 - Feb. 1)
+            3. Campaigning Period (Jan. 27 - Feb. 1)
           </h2>
-          <p className="text-lg text-gray-700">
+          <p className="text-lg mb-2 text-gray-700">
             Candidates will campaign to the student body.
           </p>
-          <br />
           <h2 className="text-xl font-bold text-gray-800">
-            Voting Period (Feb. 3 - Feb. 5)
+            4. Voting Period (Feb. 3 - Feb. 5)
           </h2>
           <p className="text-lg text-gray-700">
             The student body will vote on their Delegates and Senators.
@@ -96,18 +92,17 @@ const Section = () => {
         </div>
         <br />
 
-        <h2 className="text-3xl font-bold mb-2 text-gray-800">
+        <h2 className="text-3xl font-bold mb-1 text-gray-800">
           Important Information
         </h2>
         <div className="ml-2">
           <h2 className="text-xl font-bold text-gray-800">
             On the Subject of Secretary Nominations
           </h2>
-          <p className="text-lg text-gray-700">
+          <p className="text-lg mb-2 text-gray-700">
             Candidates for Secretary positions may collect signatures from ANY
             student from Lassonde (not program specific).
           </p>
-          <br />
           <h2 className="text-xl font-bold  text-gray-800">
             On the Subject of the Class One Senator Election
           </h2>
@@ -120,7 +115,7 @@ const Section = () => {
         </div>
         <br />
 
-        <h2 className="text-3xl font-bold mb-2 text-gray-800">
+        <h2 className="text-3xl font-bold mb-1 text-gray-800">
           Important Links
         </h2>
         <div className="ml-2">
@@ -159,11 +154,11 @@ const Section = () => {
         </div>
         <br />
 
-        <h2 className="text-3xl font-bold mb-2 text-gray-800">
+        <h2 className="text-3xl font-bold mb-1 text-gray-800">
           Elected Positions
         </h2>
         <div className="ml-2">
-          <h2 className="text-2xl font-bold mb-2 text-gray-800">
+          <h2 className="text-2xl font-bold mb-1 text-gray-800">
             House of Delegates{" "}
           </h2>
           <div className="ml-2">
@@ -171,7 +166,7 @@ const Section = () => {
               10x Engineering/BSc Delegate (any Engineering and General Science
               Student)
             </h2>
-            <p className="text-lg text-gray-700">
+            <p className="text-lg mb-2 text-gray-700">
               To learn more about this position, visit this{" "}
               <Link
                 href="/congress/house-of-delegates"
@@ -180,13 +175,12 @@ const Section = () => {
                 page{" "}
               </Link>
             </p>
-            <br />
 
             <h2 className="text-xl font-bold text-gray-800">
               10x Computer Science and Security Delegate (any Computer Science
               and Security Student)
             </h2>
-            <p className="text-lg text-gray-700">
+            <p className="text-lg mb-2 text-gray-700">
               To learn more about this position, visit this{" "}
               <Link
                 href="/congress/house-of-delegates"
@@ -195,13 +189,12 @@ const Section = () => {
                 page{" "}
               </Link>
             </p>
-            <br />
 
             <h2 className="text-xl font-bold text-gray-800">
               1x Earth & Atmospheric Science Delegate (any Earth & Atmospheric
               Science Student)
             </h2>
-            <p className="text-lg text-gray-700">
+            <p className="text-lg mb-2 text-gray-700">
               To learn more about this position, visit this{" "}
               <Link
                 href="/congress/house-of-delegates"
@@ -210,12 +203,11 @@ const Section = () => {
                 page{" "}
               </Link>
             </p>
-            <br />
 
             <h2 className="text-xl font-bold text-gray-800">
               1x Digital Media Delegate (any Digital Media Student)
             </h2>
-            <p className="text-lg text-gray-700">
+            <p className="text-lg mb-2 text-gray-700">
               To learn more about this position, visit this{" "}
               <Link
                 href="/congress/house-of-delegates"
@@ -224,12 +216,11 @@ const Section = () => {
                 page{" "}
               </Link>
             </p>
-            <br />
 
             <h2 className="text-xl font-bold text-gray-800">
               Digital Technologies Delegate (any Digital Technologies Student)
             </h2>
-            <p className="text-lg text-gray-700">
+            <p className="text-lg mb-4 text-gray-700">
               To learn more about this position, visit this{" "}
               <Link
                 href="/congress/house-of-delegates"
@@ -240,8 +231,7 @@ const Section = () => {
             </p>
           </div>
 
-          <br />
-          <h2 className="text-2xl font-bold mb-2 text-gray-800">
+          <h2 className="text-2xl font-bold mb-1 text-gray-800">
             Class One Senators (2025-2027){" "}
           </h2>
           <div className="ml-2">
@@ -249,7 +239,7 @@ const Section = () => {
               1x Engineering/BSc Senator (any Engineering and General Science
               Student)
             </h2>
-            <p className="text-lg text-gray-700">
+            <p className="text-lg mb-2 text-gray-700">
               To learn more about this position, visit this{" "}
               <Link
                 href="/congress/senate"
@@ -258,13 +248,12 @@ const Section = () => {
                 page{" "}
               </Link>
             </p>
-            <br />
 
             <h2 className="text-xl font-bold text-gray-800">
               1x Computer Science and Security Senator (any Computer Science and
               Security Student)
             </h2>
-            <p className="text-lg text-gray-700">
+            <p className="text-lg mb-2 text-gray-700">
               To learn more about this position, visit this{" "}
               <Link
                 href="/congress/senate"
@@ -273,13 +262,12 @@ const Section = () => {
                 page{" "}
               </Link>
             </p>
-            <br />
 
             <h2 className="text-xl font-bold text-gray-800">
               1x Earth & Atmospheric Science Senator (any Earth & Atmospheric
               Science Student)
             </h2>
-            <p className="text-lg text-gray-700">
+            <p className="text-lg mb-2 text-gray-700">
               To learn more about this position, visit this{" "}
               <Link
                 href="/congress/senate"
@@ -288,12 +276,11 @@ const Section = () => {
                 page{" "}
               </Link>
             </p>
-            <br />
 
             <h2 className="text-xl font-bold text-gray-800">
               1x Digital Media Senator (any Digital Media Student)
             </h2>
-            <p className="text-lg text-gray-700">
+            <p className="text-lg mb-2 text-gray-700">
               To learn more about this position, visit this{" "}
               <Link
                 href="/congress/senate"
@@ -302,7 +289,6 @@ const Section = () => {
                 page{" "}
               </Link>
             </p>
-            <br />
 
             <h2 className="text-xl font-bold text-gray-800">
               1x Digital Technologies Senator (any Digital Technologies Student)
