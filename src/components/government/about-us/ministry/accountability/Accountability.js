@@ -44,130 +44,80 @@ const Section = () => {
         <h2 className="text-3xl font-bold mb-2 text-gray-800">
           Accountability
         </h2>
-        <p className="text-lg text-gray-700">
-          The UK public elects 650 Members of Parliament (MPs) to represent
-          their interests and concerns in the House of Commons. MPs consider and
-          propose new laws, and can scrutinise government policies by asking
-          ministers questions about current issues either in the Commons Chamber
-          or in Committees.
-        </p>
-        <br />
         <h2 className="text-2xl font-bold mb-2 text-gray-800">
-          Class A Committee
+          Minister of Accountability
         </h2>
-        <h2 className="text-xl font-bold mb-2 text-gray-800">
-          Executive Committee (EC)
-        </h2>
-        <p className="text-lg text-gray-700">
-          The UK public elects 650 Members of Parliament (MPs) to represent
-          their interests and concerns in the House of Commons. MPs consider and
-          propose new laws, and can scrutinise government policies by asking
-          ministers questions about current issues either in the Commons Chamber
-          or in Committees.
-        </p>
-        <br />
-        <h2 className="text-xl font-bold mb-2 text-gray-800">
-          Planning, Academic Resources & Research Committee (PARR)
-        </h2>
-        <p className="text-lg text-gray-700">
-          The UK public elects 650 Members of Parliament (MPs) to represent
-          their interests and concerns in the House of Commons. MPs consider and
-          propose new laws, and can scrutinise government policies by asking
-          ministers questions about current issues either in the Commons Chamber
-          or in Committees.
-        </p>
-        <br />
-        <h2 className="text-xl font-bold mb-2 text-gray-800">
-          Learning, Curriculum & Students Committee (LCS)
-        </h2>
-        <p className="text-lg text-gray-700">
-          The UK public elects 650 Members of Parliament (MPs) to represent
-          their interests and concerns in the House of Commons. MPs consider and
-          propose new laws, and can scrutinise government policies by asking
-          ministers questions about current issues either in the Commons Chamber
-          or in Committees.
+        <p className="text-lg ml-2 text-gray-700">
+          1. The Minister of Accountability acts as the judicial and
+          investigatory officer of the LSC, directly overseeing the Office of
+          Accountability and its directors.
+          <br />
+          <br />
+          2. The responsibilities of the Minister of Accountability include, but
+          are not limited to:
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp; a. develop insights on the quality of all LSC
+          operations;
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp; b. develop and analyse the social and
+          economic well being of the Lassonde Community;
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp; c. overseeing the register of interests of
+          members of Congress and the Secretaries;
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp; d. act as the primary investigator of
+          internal and external complaints and feedback; and
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp; e. oversee the public petitions process,
+          bringing up topical issues to Congress and the government.
+          <br />
         </p>
         <br />
         <br />
 
         <h2 className="text-2xl font-bold mb-2 text-gray-800">
-          Class B Committee
+          Secretary of Internal Affairs
         </h2>
-        <h2 className="text-xl font-bold mb-2 text-gray-800">
-          Committee On Evaluations & Academic Standards (CEAS-M)
-        </h2>
-        <p className="text-lg text-gray-700">
-          The UK public elects 650 Members of Parliament (MPs) to represent
-          their interests and concerns in the House of Commons. MPs consider and
-          propose new laws, and can scrutinise government policies by asking
-          ministers questions about current issues either in the Commons Chamber
-          or in Committees.
-        </p>
-        <br />
-        <h2 className="text-xl font-bold mb-2 text-gray-800">
-          Committee On Evaluations & Academic Standards - Academic Honesty Panel
-          (CEAS-AHP)
-        </h2>
-        <p className="text-lg text-gray-700">
-          The UK public elects 650 Members of Parliament (MPs) to represent
-          their interests and concerns in the House of Commons. MPs consider and
-          propose new laws, and can scrutinise government policies by asking
-          ministers questions about current issues either in the Commons Chamber
-          or in Committees.
-        </p>
-        <br />
-        <h2 className="text-xl font-bold mb-2 text-gray-800">
-          Committee On Evaluations & Academic Standards - Academic Petitions
-          Subcomm (CEAS-APS)
-        </h2>
-        <p className="text-lg text-gray-700">
-          The UK public elects 650 Members of Parliament (MPs) to represent
-          their interests and concerns in the House of Commons. MPs consider and
-          propose new laws, and can scrutinise government policies by asking
-          ministers questions about current issues either in the Commons Chamber
-          or in Committees.
-        </p>
-        <br />
-        <br />
-        <h2 className="text-2xl font-bold mb-2 text-gray-800">
-          Class C Committee
-        </h2>
-        <h2 className="text-xl font-bold mb-2 text-gray-800">
-          Tenure & Promotions Committee (TPC)
-        </h2>
-        <p className="text-lg text-gray-700">
-          The UK public elects 650 Members of Parliament (MPs) to represent
-          their interests and concerns in the House of Commons. MPs consider and
-          propose new laws, and can scrutinise government policies by asking
-          ministers questions about current issues either in the Commons Chamber
-          or in Committees.
-        </p>
-        <br />
-        <h2 className="text-xl font-bold mb-2 text-gray-800">
-          Awards Committee (AC)
-        </h2>
-        <p className="text-lg text-gray-700">
-          The UK public elects 650 Members of Parliament (MPs) to represent
-          their interests and concerns in the House of Commons. MPs consider and
-          propose new laws, and can scrutinise government policies by asking
-          ministers questions about current issues either in the Commons Chamber
-          or in Committees.
-        </p>
-        <br />
-        <br />
-
-        <h2 className="text-2xl font-bold mb-2 text-gray-800">
-          Class O Committee
-        </h2>
-        <h2 className="text-xl font-bold mb-2 text-gray-800">
-          Faculty Council At-Large
-        </h2>
-        <p className="text-lg text-gray-700">
-          The UK public elects 650 Members of Parliament (MPs) to represent
-          their interests and concerns in the House of Commons. MPs consider and
-          propose new laws, and can scrutinise government policies by asking
-          ministers questions about current issues either in the Commons Chamber
-          or in Committees.
+        <p className="text-lg ml-2 text-gray-700">
+          1. The Secretary of Internal Affairs is responsible for the internal
+          operational policy of the LSC as well as the maintenance of all
+          non-financial records. They also oversee the development of academic
+          services.
+          <br />
+          <br />
+          2. The Secretary of Internal Affairs is responsible for the operations
+          of the Department of Internal Affairs and the Department of Academic
+          Services.
+          <br />
+          <br />
+          3. The Secretary of Internal Affairs directly reports to the Minister
+          of Internal Affairs and the Minister of Academic Affairs.
+          <br />
+          <br />
+          4. The responsibilities of the Secretary of Internal Affairs include:
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp; a. the maintenance of the Charter, bylaws,
+          acts, policies, resolutions, minutes and all other documentation of
+          the LSC in the public drive;
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp; b. advising on the structural development of
+          the LSC;
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp; c. disseminating relevant information on the
+          regulations and procedures of the Faculty and University;
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp; d. deliver key internal and academic
+          programming such as:
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; i. club policy
+          support;
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ii. student-led
+          academic services; and
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; iii. cost of
+          living support programs.
+          <br />
         </p>
       </div>
 

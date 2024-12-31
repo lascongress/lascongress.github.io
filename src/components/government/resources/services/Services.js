@@ -85,7 +85,7 @@ const Section = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Department of Student Success
+            Department of Academic Services
           </Link>{" "}
         </p>
         <br />

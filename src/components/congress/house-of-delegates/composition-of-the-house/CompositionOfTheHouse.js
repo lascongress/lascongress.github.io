@@ -1,15 +1,15 @@
-// src/components/congress/house-of-delegates/composition-of-the-house/CompositionOfTheHouse.js
 import React from "react";
 import Script from "next/script";
 
-const Card = () => {
+const Card = ({ dataSrc }) => {
   return (
-    <div className="bg-white p-6 rounded shadow mb-6">
+    <div className="bg-white p-4 rounded shadow flex-1">
       <div className="border-l-4 border-neutral-600 pl-4">
         <div className="border-t border-gray-200 pt-4">
           <div
-            className="flourish-embed flourish-parliament"
-            data-src="visualisation/15345786"
+            className="flourish-embed flourish-parliament w-full"
+            data-src={dataSrc}
+            style={{ minHeight: "500px" }} // Ensures sufficient height for embed
           ></div>
         </div>
       </div>
@@ -32,8 +32,10 @@ const Section = () => {
           visualization. If nothing appears, please refresh the page!
         </p>
       </div>
-      <div>
-        <Card />
+      {/* Flex container for responsive behavior */}
+      <div className="flex flex-col md:flex-row gap-4">
+        <Card dataSrc="visualisation/15345786" />
+        <Card dataSrc="visualisation/20938126" />
       </div>
     </div>
   );

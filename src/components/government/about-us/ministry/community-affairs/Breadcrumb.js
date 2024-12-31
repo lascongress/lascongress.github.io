@@ -9,7 +9,7 @@ export default function ExamplePage() {
       href: "/government/about-us/ministry",
     },
     {
-      label: "Accountability",
+      label: "Community Affairs",
       href: "/government/about-us/ministry/community-affairs",
     },
   ];

@@ -96,6 +96,59 @@ const Section = () => {
     <section className="bg-white p-4 rounded shadow">
       <div className="container mx-auto p-4  border-neutral-200">
         <h2 className="text-3xl font-bold mb-2 text-gray-800">
+          Responsiblities of the Delegate
+        </h2>
+        <p className="text-lg ml-2 text-gray-700">
+          1. Delegates are elected on 1 year terms.
+          <br />
+          <br />
+          2. A Delegate has the following additional responsibilities:
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp; a. representing the LSC in the Lassonde
+          School of Engineering Faculty Council, its committees, panels and
+          working groups;
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp; b. by recommendation of Cabinet, holding
+          seats in at least:
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; i. one Faculty
+          Council Standing Committee, Panel or At-Large and one House Standing
+          or Select Committee; or
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ii. two House
+          Standing or Select Committees.
+          <br />
+          <br />
+          3. Delegates that do not make the Cabinet have the option to join the
+          following caucuses (groups) within the House:
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp; a. Opposition, tasked with keeping the
+          government to account. The following roles are elected amongst the
+          Delegates minus Cabinet:
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; i. Opposition
+          Leader;
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ii. a critic
+          for each ministerial portfolio; or
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp; b. by default the Independent Caucus.
+          <br />
+          <br />
+          4. An example of a typical month for a Delegate:
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp; a. one House meeting;
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp; b. one House Standing or Select Committee
+          meeting;
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp; c. one Faculty Council Committee meeting; and
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp; d. one Faculty Council meeting.
+          <br />
+        </p>
+        <br />
+        <h2 className="text-3xl font-bold mb-2 text-gray-800">
           Business of the House
         </h2>
         <p className="text-lg text-gray-700">

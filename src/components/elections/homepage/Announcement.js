@@ -10,7 +10,12 @@ const Announcement = () => {
       <h2 className="font-bold text-lg">General Election 2025</h2>
       <p>
         The LSC General Election takes place February 2025. Visit our{" "}
-        <Link href="/elections" className="text-orange-500 hover:underline">
+        <Link
+          href="/government/about-us/ministry/student-success"
+          className="text-orange-500 hover:underline"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           elections
         </Link>{" "}
         page, join the{" "}

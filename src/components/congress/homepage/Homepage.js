@@ -1,6 +1,7 @@
 // src/components/congress/homepage/Homepage.js
 import React from "react";
 import Link from "next/link";
+import Announcement from "./Announcement";
 
 const LinkCard = ({ imageSrc, title, description, link, external }) => {
   return (
@@ -110,7 +111,7 @@ const Links = () => {
 const MainContent = () => {
   return (
     <div className="container mx-auto p-4">
-      {/* <Announcement /> */}
+      <Announcement />
       <Links />
     </div>
   );

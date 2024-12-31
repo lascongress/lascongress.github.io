@@ -2,8 +2,8 @@
 import Navbar from "../../../../../components/global/Navbar";
 import Header from "../../../../../components/global/Header";
 // import Announcement from "../../../../components/landing/Announcement";
-import MainContent from "../../../../../components/government/about-us/ministry/student-success/StudentSuccess";
-import BreadCrumb from "../../../../../components/government/about-us/ministry/student-success/Breadcrumb";
+import MainContent from "../../../../../components/government/about-us/ministry/academic-services/AcademicServices";
+import BreadCrumb from "../../../../../components/government/about-us/ministry/academic-services/Breadcrumb";
 import Footer from "../../../../../components/global/Footer";
 
 export default function Home() {

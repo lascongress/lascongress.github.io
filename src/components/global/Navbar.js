@@ -207,6 +207,30 @@ const Navbar = () => {
           </Link>
 
           <Link
+            href="/government/about-us/join-us"
+            onClick={toggleMenu}
+            className="block mb-4"
+          >
+            <div className="p-4 bg-gray-100 rounded flex justify-between items-center">
+              Join Us
+              <svg
+                className="h-6 w-6 text-gray-600"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M9 5l7 7-7 7"
+                />
+              </svg>
+            </div>
+          </Link>
+
+          <Link
             href="/government/spotlight"
             onClick={toggleMenu}
             className="block mb-4"
@@ -380,6 +404,29 @@ const Navbar = () => {
           >
             <div className="p-4 bg-gray-100 rounded flex justify-between items-center">
               Bills & Resolutions
+              <svg
+                className="h-6 w-6 text-gray-600"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M9 5l7 7-7 7"
+                />
+              </svg>
+            </div>
+          </Link>
+          <br />
+
+          <h2 className="text-xl font-bold mb-4">Elections</h2>
+
+          <Link href="/elections/" onClick={toggleMenu} className="block mb-4">
+            <div className="p-4 bg-gray-100 rounded flex justify-between items-center">
+              Homepage
               <svg
                 className="h-6 w-6 text-gray-600"
                 fill="none"

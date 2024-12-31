@@ -2,7 +2,7 @@
 import Head from "next/head";
 import Navbar from "../../../../components/global/Navbar";
 import Header from "../../../../components/global/Header";
-import MainContent from "../../../../components/government/spotlight/articles/strike-on-lassonde";
+import MainContent from "../../../../components/government/spotlight/articles/new-changes";
 import BreadCrumb from "../../../../components/government/spotlight/Breadcrumb";
 // import Announcement from "../components/homepage/Announcement";
 import Footer from "../../../../components/global/Footer";

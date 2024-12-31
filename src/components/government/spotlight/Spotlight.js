@@ -73,19 +73,19 @@ const Section = ({ title, description, buttonLabel, cards, news }) => {
 const MainContent = () => {
   const latestNews = [
     {
+      imageSrc: "/news/news.png",
+      title: "New Changes",
+      description: "Learn what LSC has done over the winter break!",
+      date: "31 December 2024",
+      link: "/government/spotlight/new-changes",
+    },
+    {
       imageSrc: "/logos/logo-black.png",
       title: "LSC Upcoming General Election",
       description: "Find more about elections in your student government",
       date: "13 December 2024",
       link: "/government/spotlight/elections",
     },
-    // {
-    //   imageSrc: "/news/news2.png",
-    //   title: "Strike on Lassonde",
-    //   description: "How has the strike affected Lassonde students?",
-    //   date: "24 May 2024",
-    //   link: "/government/spotlight/strike-on-lassonde",
-    // },
     // {
     //   imageSrc: "/news/news3.png",
     //   title: "Mental Health",
