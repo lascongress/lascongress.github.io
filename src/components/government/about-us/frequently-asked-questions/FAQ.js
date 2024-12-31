@@ -133,7 +133,7 @@ const Section = () => {
         <br />
 
         <h2 className="text-xl font-bold mb-2 text-gray-800">
-          What is the Government in Lassonde Student Government?{" "}
+          What is the role of the Government in LSC?{" "}
         </h2>
         <div className="text-lg text-gray-700">
           The executive government of the Lassonde Student Congress (LSC), more
