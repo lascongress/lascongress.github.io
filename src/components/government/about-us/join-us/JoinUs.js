@@ -63,7 +63,7 @@ const Section = () => {
             stages to the election:
           </p>
           <h2 className="text-xl font-bold text-gray-800">
-            1. Nomination Period (Jan 2 - Jan 10)
+            1. Nomination Period (TBD)
           </h2>
           <p className="text-lg mb-2 text-gray-700">
             A candidate must collect signatures (amount in specific sections)
@@ -262,12 +262,13 @@ const Section = () => {
           <h2 className="text-3xl font-bold mb-2 text-gray-800 text-center mx-auto">
             {" "}
             <Link
-              href="https://docs.google.com/forms/d/e/1FAIpQLSf9fsqjQ7Dk5rV9vcnYmUu-iOVk1yGYcXRnrf_qeulIBYqq8g/closedform"
+               href="" 
+               /*OLD LINK: -> https://docs.google.com/forms/d/e/1FAIpQLSf9fsqjQ7Dk5rV9vcnYmUu-iOVk1yGYcXRnrf_qeulIBYqq8g/closedform*/
               className="text-blue-500 hover:underline"
               target="_blank"
               rel="noopener noreferrer"
             >
-              LINK TO APPLY{" "}
+              APPLICATIONS CLOSED{" "}
             </Link>
           </h2>
 
