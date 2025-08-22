@@ -1,53 +1,44 @@
-// src/components/government/homepage/Homepage.js
-import React from "react";
-import Link from "next/link";
-import Announcement from "./Announcement";
+"use client";
 
-const LinkCard = ({ imageSrc, title, description, link, external }) => {
-  return (
-    // change the target to _blank if the link is external
-    <a
-      href={link}
-      target={external ? "_blank" : "_self"}
-      rel={external ? "noopener noreferrer" : undefined}
-    >
-      <div className="bg-white p-4 rounded shadow hover:bg-gray-100 transition duration-200 flex flex-col h-80">
-        {/* adjust the height in increments of +/- 8 */}
-        <img
-          src={imageSrc}
-          alt={title}
-          className="mb-4 w-full h-32 object-cover rounded"
-        />
-        <div className="flex justify-between items-center mb-2">
-          <h3 className="font-bold text-lg">{title}</h3>
-          <svg
-            className="h-5 w-5"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="2"
-              d="M9 5l7 7-7 7"
-            />
-          </svg>
-        </div>
-        <p className="flex-grow">{description}</p>
+import React, { useEffect } from "react";
+import Link from "next/link";
+import dynamic from "next/dynamic";
+import { usePathname } from "next/navigation";
+
+// Dynamically import Announcement to avoid server/client conflicts
+const Announcement = dynamic(() => import("./Announcement"), { ssr: false });
+
+const LinkCard = ({ imageSrc, title, description, link, external }) => (
+  <a
+    href={link}
+    target={external ? "_blank" : "_self"}
+    rel={external ? "noopener noreferrer" : undefined}
+  >
+    <div className="bg-white p-4 rounded shadow hover:bg-gray-100 transition duration-200 flex flex-col h-80">
+      <img src={imageSrc} alt={title} className="mb-4 w-full h-32 object-cover rounded" />
+      <div className="flex justify-between items-center mb-2">
+        <h3 className="font-bold text-lg">{title}</h3>
+        <svg
+          className="h-5 w-5"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
+        </svg>
       </div>
-    </a>
-  );
-};
+      <p className="flex-grow">{description}</p>
+    </div>
+  </a>
+);
 
 const Resources = () => {
   const Resources = [
     {
       imageSrc: "/images/government/services.png",
       title: "Services",
-      description:
-        "Find our services that promote student accesibility, opportunity and experience",
+      description: "Find our services that promote student accesibility, opportunity and experience",
       link: "/government/resources/services",
     },
     {
@@ -56,12 +47,10 @@ const Resources = () => {
       description: "Search for resources made by the Lassonde community",
       link: "/government/resources/community",
     },
-
     {
       imageSrc: "/images/government/reports-and-documents.png",
       title: "Reports and Documents",
-      description:
-        "See our reports and documents concerning the future of student life and success",
+      description: "See our reports and documents concerning the future of student life and success",
       link: "/government/resources/reports-and-documents",
       external: false,
     },
@@ -78,7 +67,7 @@ const Resources = () => {
             title={link.title}
             description={link.description}
             link={link.link}
-            external={link.external} //Passing the external prop
+            external={link.external}
           />
         ))}
       </div>
@@ -86,38 +75,26 @@ const Resources = () => {
   );
 };
 
-const ResourceCard = ({ imageSrc, title, description, link }) => {
-  return (
-    <Link href={link}>
-      <div className="bg-white p-4 rounded shadow hover:bg-gray-100 transition duration-200 flex flex-col h-80">
-        {/* adjust the height in increments of +/- 8 */}
-        <img
-          src={imageSrc}
-          alt={title}
-          className="mb-4 w-full h-32 object-cover rounded"
-        />
-        <div className="flex justify-between items-center mb-2">
-          <h3 className="font-bold text-lg">{title}</h3>
-          <svg
-            className="h-5 w-5"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="2"
-              d="M9 5l7 7-7 7"
-            />
-          </svg>
-        </div>
-        <p className="flex-grow">{description}</p>
+const ResourceCard = ({ imageSrc, title, description, link }) => (
+  <Link href={link}>
+    <div className="bg-white p-4 rounded shadow hover:bg-gray-100 transition duration-200 flex flex-col h-80">
+      <img src={imageSrc} alt={title} className="mb-4 w-full h-32 object-cover rounded" />
+      <div className="flex justify-between items-center mb-2">
+        <h3 className="font-bold text-lg">{title}</h3>
+        <svg
+          className="h-5 w-5"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
+        </svg>
       </div>
-    </Link>
-  );
-};
+      <p className="flex-grow">{description}</p>
+    </div>
+  </Link>
+);
 
 const AboutUs = () => {
   const AboutUs = [
@@ -142,7 +119,7 @@ const AboutUs = () => {
   ];
 
   return (
-    <section className="bg-white p-4 rounded shadow">
+    <section id="about-us" className="bg-white p-4 rounded shadow">
       <h2 className="text-2xl font-bold mb-4">About Us</h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         {AboutUs.map((link, index) => (
@@ -159,39 +136,25 @@ const AboutUs = () => {
   );
 };
 
-const NewsCard = ({ imageSrc, title, description, date, link }) => {
-  return (
-    <a
-      href={link}
-      className="block bg-white p-4 rounded shadow hover:bg-gray-100 transition duration-200"
-    >
-      <img
-        src={imageSrc}
-        alt={title}
-        className="mb-4 w-full h-48 object-cover rounded"
-      />
-      <div className="flex justify-between items-center mb-2">
-        <h3 className="font-bold text-lg">{title}</h3>
-        <svg
-          className="h-5 w-5"
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="2"
-            d="M9 5l7 7-7 7"
-          />
-        </svg>
-      </div>
-      <p className="mb-2">{description}</p>
-      <p className="text-gray-600 text-sm">{date}</p>
-    </a>
-  );
-};
+const NewsCard = ({ imageSrc, title, description, date, link }) => (
+  <a href={link} className="block bg-white p-4 rounded shadow hover:bg-gray-100 transition duration-200">
+    <img src={imageSrc} alt={title} className="mb-4 w-full h-48 object-cover rounded" />
+    <div className="flex justify-between items-center mb-2">
+      <h3 className="font-bold text-lg">{title}</h3>
+      <svg
+        className="h-5 w-5"
+        fill="none"
+        stroke="currentColor"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
+      </svg>
+    </div>
+    <p className="mb-2">{description}</p>
+    <p className="text-gray-600 text-sm">{date}</p>
+  </a>
+);
 
 const News = () => {
   const newsItems = [
@@ -209,23 +172,13 @@ const News = () => {
       date: "13 December 2024",
       link: "government/spotlight/elections",
     },
-    // {
-    //   imageSrc: "/news/news3.png",
-    //   title: "Mental Health",
-    //   description: "Taking care of your mental health!",
-    //   date: "31 January 2024",
-    //   link: "government/spotlight/mental-health",
-    // },
   ];
 
   return (
     <section className="bg-white p-4 mb-6 rounded shadow">
       <div className="flex justify-between items-center mb-4">
         <h2 className="text-2xl font-bold">Spotlight</h2>
-        <a
-          href="government/spotlight"
-          className="text-blue-600 hover:underline"
-        >
+        <a href="government/spotlight" className="text-blue-600 hover:underline">
           View all news
         </a>
       </div>
@@ -246,6 +199,19 @@ const News = () => {
 };
 
 const MainContent = () => {
+  const pathname = usePathname();
+
+  useEffect(() => {
+    const hash = window.location.hash;
+    if (hash) {
+      const id = hash.replace("#", "");
+      const element = document.getElementById(id);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    }
+  }, [pathname]);
+
   return (
     <div className="container mx-auto p-4">
       <Announcement />
