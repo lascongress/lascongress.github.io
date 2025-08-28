@@ -40,7 +40,7 @@ const LinkCard = ({ imageSrc, title, description, link }) => {
 const Links = () => {
   const pm = [
     {
-      imageSrc: "/images/government/ministry/office-of-the-secretariat.png",
+      imageSrc: "/images/government/ministry/noah.jpg",
       title: "Office Of The Secretariat",
       description: "Elected to lead the government.",
       link: "/government/about-us/ministry/secretariat",
@@ -59,7 +59,7 @@ const Links = () => {
   const aa = [
     {
       imageSrc:
-        "/images/government/ministry/department-of-academic-services.png",
+        "/images/government/ministry/judy.jpg",
       title: "Department Of Academic Services",
       description: "Elected to serve students.",
       link: "/government/about-us/ministry/academic-services",
@@ -69,7 +69,7 @@ const Links = () => {
   const ca = [
     {
       imageSrc:
-        "/images/government/ministry/department-of-community-affairs.png",
+        "/images/government/ministry/micheal.jpg",
       title: "Department Of Community Affairs",
       description: "Elected to engage with the student body.",
       link: "/government/about-us/ministry/community-affairs",
@@ -78,7 +78,7 @@ const Links = () => {
   const fa = [
     {
       imageSrc:
-        "/images/government/ministry/department-of-finance-and-admin.png",
+        "/images/government/ministry/hanifa.png",
       title: "Department Of Finance and Admin",
       description: "Elected to monitor financial responsibilites.",
       link: "/government/about-us/ministry/finance-and-admin",
@@ -87,7 +87,7 @@ const Links = () => {
   const ia = [
     {
       imageSrc:
-        "/images/government/ministry/department-of-internal-affairs.png",
+        "/images/government/ministry/josh.jpg",
       title: "Department Of Internal Affairs",
       description: "Elected to resolve internal concerns.",
       link: "/government/about-us/ministry/internal-affairs",
@@ -98,7 +98,7 @@ const Links = () => {
     <div>
       <section className="bg-white p-4 rounded shadow mb-4">
         <h2 className="text-2xl font-bold mb-4">
-          Prime Minister - Behrouz Homam
+          Prime Minister - Noah Mathi
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-1 gap-4">
           {pm.map((link, index) => (
@@ -115,7 +115,7 @@ const Links = () => {
 
       <section className="bg-white p-4 rounded shadow mb-4">
         <h2 className="text-2xl font-bold mb-4">
-          Minister of Finance & Admin - Alireza Hakim
+          Minister of Finance & Admin - Hanifah Lameed
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-1 gap-4">
           {fa.map((link, index) => (
@@ -132,7 +132,7 @@ const Links = () => {
 
       <section className="bg-white p-4 rounded shadow mb-4">
         <h2 className="text-2xl font-bold mb-4">
-          Minister of Internal Affairs - Mehwish Saiyed
+          Minister of Internal Affairs - Joshua Little
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-1 gap-4">
           {ia.map((link, index) => (
@@ -149,7 +149,7 @@ const Links = () => {
 
       <section className="bg-white p-4 rounded shadow mb-4">
         <h2 className="text-2xl font-bold mb-4">
-          Minister of Academic Affairs - Vacant
+          Minister of Academic Affairs -  Judy El Ghargomi
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-1 gap-4">
           {aa.map((link, index) => (
@@ -166,7 +166,7 @@ const Links = () => {
 
       <section className="bg-white p-4 rounded shadow mb-4">
         <h2 className="text-2xl font-bold mb-4">
-          Minister of Community Affairs - Radhey Patel
+          Minister of Community Affairs - Micheal Danfulani
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-1 gap-4">
           {ca.map((link, index) => (
@@ -183,7 +183,7 @@ const Links = () => {
 
       <section className="bg-white p-4 rounded shadow mb-4">
         <h2 className="text-2xl font-bold mb-4">
-          Minister of Accountability - Alexander Brown
+          Minister of Accountability - Janae Grant
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-1 gap-4">
           {oa.map((link, index) => (
