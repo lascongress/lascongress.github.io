@@ -11,7 +11,6 @@ export default function Home() {
     <div className="bg-neutral-200 flex flex-col min-h-screen">
       <Navbar />
       <Header />
-      <BreadCrumb />
       <div className="container mx-auto flex-grow">
         {/* <Announcement /> */}
         <MainContent />

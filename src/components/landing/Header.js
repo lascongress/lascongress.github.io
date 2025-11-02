@@ -6,10 +6,10 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <header className="bg-[#0b1c3d] text-white border-b border-yellow-500 shadow-lg">
-      <div className="flex justify-between items-center py-4 px-6 max-w-screen-xl mx-auto w-full">
+    <header className="bg-[#0b1c3d] text-white border-b border-yellow-500 shadow-lg p-4">
+      <div className="container mx-auto flex justify-between items-center">
         {/* Title shifted left under logo */}
-        <div className="flex flex-col items-start -ml-10 md:-ml-20 lg:-ml-28">
+        <div className="flex flex-col items-start ">
           <h1 className="text-3xl md:text-4xl font-bold leading-tight">
             Lassonde Student Congress
           </h1>
