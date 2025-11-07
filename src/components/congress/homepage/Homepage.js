@@ -90,50 +90,241 @@ const Links = () => {
 };
 
 const linksByDate = {
-  "August 3, 2025": {
+  "July 3, 2024": {
     house: [
-      { title: "Agenda & minutes", url: "/house/agenda-aug3-2025" },
-      { title: "Documents", url: "/house/docs-aug3-2025" },
+      { title: "Agenda & minutes", url: "https://docs.google.com/document/d/1wpKVjNl5KMPz9ke8z5nlb_aQfk9iBZGJyHOxm2d2lJw/edit?tab=t.0" },
+      { title: "Documents", url: "https://drive.google.com/drive/folders/1VE_WfUXA36hAQ1_3T-gad2WugQw4jf9d" },
     ],
     senate: [
-      { title: "Agenda & minutes", url: "/senate/agenda-aug3-2025" },
-      { title: "Documents", url: "/senate/docs-aug3-2025" },
+      
     ],
   },
-  "August 2, 2025": {
+  "July 29, 2024": {
     house: [
-      { title: "Agenda & minutes", url: "/house/agenda-aug2-2025" },
-      { title: "Documents", url: "/house/docs-aug2-2025" },
+      { title: "Agenda & minutes", url: "https://docs.google.com/document/d/1Gy-fl8aIj05liL9OTHPyFoagLqIM607hvtW0b_rU9XM/edit?tab=t.0" },
+      { title: "Documents", url: "https://drive.google.com/drive/folders/15B2F-Hb4-er0KKoRLchwLluewvVIasYh" },
     ],
     senate: [
-      { title: "Agenda & minutes", url: "/senate/agenda-aug2-2025" },
-      { title: "Documents", url: "/senate/docs-aug2-2025" },
+      
     ],
   },
-  "July 31, 2024": {
+  "August 30, 2024": {
     house: [
-      { title: "Agenda & minutes", url: "/house/agenda-july31-2024" },
-      { title: "Documents", url: "/house/summary-july31-2024" },
+      { title: "Agenda & minutes", url: "https://docs.google.com/document/d/1d2VAr0w16KI_w4FPDg_vYu6X1OoBKATnTKQHDcbISQs/edit?tab=t.0" },
+      { title: "Documents", url: "https://drive.google.com/drive/folders/1qAKUxi7SPcF-BqKKHrKSzJDn6LG2Mc6_" },
     ],
     senate: [
-      { title: "Agenda & minutes", url: "/senate/agenda-july31-2024" },
-      { title: "Documents", url: "/senate/summary-july31-2024" },
+      
+    ],
+  },
+  "September 19, 2024": {
+    house: [
+      { title: "Agenda & minutes", url: "https://docs.google.com/document/d/1DLOxiPqGacAMBRjuFxQiVRpPOPLnbz4m7BsAOZ8tHw8/edit?tab=t.0" },
+      { title: "Documents", url: "https://drive.google.com/drive/folders/1gbi85M7WfUUwb79X1s5zJ2FlqZC0URvQ" },
+    ],
+    senate: [
+      
+    ],
+  },
+  "October 21, 2024": {
+    house: [
+      { title: "Agenda & minutes", url: "https://docs.google.com/document/d/1lxaTnV9Y9dF2lpfITTXqdawURoDDQSn9qtuby3KVAf0/edit?tab=t.0" },
+      { title: "Documents", url: "https://drive.google.com/drive/folders/10ZW3U1nDAVCe2j5twYXDpi73Awzr9JDJ" },
+    ],
+    senate: [
+      
+    ],
+  },
+  "November 14, 2024": {
+    house: [
+      { title: "Agenda & minutes", url: "https://docs.google.com/document/d/15J1LWF0ugFvARei6nwiZigjYRrD-RlnYA52UVQcjknM/edit?tab=t.0" },
+      { title: "Documents", url: "https://drive.google.com/drive/folders/1o8VT8qwHS69hPNA0aegkMtk_uQ-BRXHa" },
+    ],
+    senate: [
+      
+    ],
+  },
+  "February 28, 2025": {
+    house: [
+      { title: "Agenda & minutes", url: "https://docs.google.com/document/d/10BYqjhIJlEKJdGh1aDhWdUwAK6NK5kYoQMQ0OMAuZFo/edit?tab=t.0" },
+      { title: "Documents", url: "https://drive.google.com/drive/folders/1sNoAJnDRznnCmgGDq6RPTrSJVuVIZKUG" },
+    ],
+    senate: [
+      
+    ],
+  },
+  "March 17, 2025": {
+    house: [
+      { title: "Agenda & minutes", url: "https://docs.google.com/document/d/19FHolPhWC5NaS5T1_s_45FWaQXESvnq1C75f4MaM2NU/edit?tab=t.0" },
+      { title: "Documents", url: "https://drive.google.com/drive/folders/1I3P9VUOZAlge5tqTGrGHyudwiL5FuMsD" },
+    ],
+    senate: [
+      
+    ],
+  },
+  "April 29, 2025": {
+    house: [
+      { title: "Agenda & minutes", url: "https://docs.google.com/document/d/1htnUpdgL4bGeb1dDvsl3qjQbTMi_2aAU9MT_EPsGEWQ/edit?tab=t.0" },
+      { title: "Documents", url: "https://drive.google.com/drive/folders/18ECrOwmjLJCqQni14qkXX_KTqCVxMdLn" },
+    ],
+    senate: [
+      
+    ],
+  },
+  "July 7, 2024": {
+    house: [
+      
+    ],
+    senate: [
+      { title: "Agenda & minutes", url: "https://docs.google.com/document/d/1LW_l2Cq_Qac-OPF2hMOxjSjLme3jrZVgGHIjdmEGmxM/edit?tab=t.0" },
+      { title: "Documents", url: "https://drive.google.com/drive/folders/1iRoEAHvWNB5_LNrC4JV-xC6ZRypu_45v" },
+    ],
+  },
+  "July 21, 2024": {
+    house: [
+      
+    ],
+    senate: [
+      { title: "Agenda & minutes", url: "https://docs.google.com/document/d/1JApBFJY0WN10REXX3YV-cDqrkFtmtrhjuMUCTG2efyg/edit?tab=t.0" },
+      { title: "Documents", url: "https://drive.google.com/drive/folders/1zVdO3c8luVtekRFpOpYUT7OqlI56_Kzu" },
+    ],
+  },
+  "August 4, 2024": {
+    house: [
+      
+    ],
+    senate: [
+      { title: "Agenda & minutes", url: "https://docs.google.com/document/d/1pYXL-17pJtvpK0KxeOJrMoMaKzs8v4XCtryQJDtztvw/edit?tab=t.0" },
+      { title: "Documents", url: "https://drive.google.com/drive/folders/1NObfutbICfLsHgASLXn_UstyW1JEdlaV" },
+    ],
+  },
+  "August 18, 2024": {
+    house: [
+      
+    ],
+    senate: [
+      { title: "Agenda & minutes", url: "https://docs.google.com/document/d/1M-PdqYoqUw4PNDJh_uEXoVZIWvwH8x2IuiuQrvEGrJQ/edit?tab=t.0" },
+      { title: "Documents", url: "https://drive.google.com/drive/folders/1ss4f19eOMFIK0UqnHtXwItuUOIimFKeZ" },
+    ],
+  },
+  "September 1, 2024": {
+    house: [
+      
+    ],
+    senate: [
+      { title: "Agenda & minutes", url: "https://docs.google.com/document/d/1lA7gShFFeuKUaYR_d3xtL8uG0jgsHrXxcUvDMi4B9H8/edit?tab=t.0" },
+      { title: "Documents", url: "https://drive.google.com/drive/folders/1bb7QJZzPZuLCsAlKbOiYiGYIzI2VYjtV" },
+    ],
+  },
+  "September 15, 2024": {
+    house: [
+      
+    ],
+    senate: [
+      { title: "Agenda & minutes", url: "https://docs.google.com/document/d/1MMzlIx4GjVrU-sgjPPYFG9292bqVYtMFHVE5JBOmtYM/edit?tab=t.0" },
+      { title: "Documents", url: "https://drive.google.com/drive/folders/1mM8oW9pfxmHBR7nkero_qmTEfZsaJTPk" },
+    ],
+  },
+  "October 2, 2024": {
+    house: [
+      
+    ],
+    senate: [
+      { title: "Agenda & minutes", url: "https://docs.google.com/document/d/1GcOvPctxo9hwWM2PrQKhpz43d4qpAe8XlEHHTcFTUAM/edit?tab=t.0" },
+      { title: "Documents", url: "https://drive.google.com/drive/folders/1p0_u9kp-HuEke2qpKGRzlJWOqXXKMPPO" },
+    ],
+  },
+  "October 30, 2024": {
+    house: [
+      
+    ],
+    senate: [
+      { title: "Agenda & minutes", url: "https://docs.google.com/document/d/1NpsFkZASVbafKdJWAWzB4arD6wKYNMF6kNM63Irqin4/edit?tab=t.0" },
+      { title: "Documents", url: "https://drive.google.com/drive/folders/11leM4vMuiP6hCPHa4fLKDbzsTLLu2EIv" },
+    ],
+  },
+  "November 13, 2024": {
+    house: [
+      
+    ],
+    senate: [
+      { title: "Agenda & minutes", url: "https://docs.google.com/document/d/1kOVoJYPSCMX5dgWrmR7CoBWpaKa4IawCPxUYKq7c4pc/edit?tab=t.0" },
+      { title: "Documents", url: "https://drive.google.com/drive/folders/1V_jkyZn8thbByTdiy7JeEefoxrF6DvSG" },
+    ],
+  },
+  "November 27, 2024": {
+    house: [
+      
+    ],
+    senate: [
+      { title: "Agenda & minutes", url: "https://docs.google.com/document/d/1UPL-aUgPxgsniX_e_OLk0iELypT2kvxydwv6ZQrTKBo/edit?tab=t.0" },
+      { title: "Documents", url: "https://drive.google.com/drive/folders/14IR2JsP8qkqXaqsPTSMRhjD20y8kuo5Y" },
+    ],
+  },
+  "January 14, 2025": {
+    house: [
+      
+    ],
+    senate: [
+      { title: "Agenda & minutes", url: "https://docs.google.com/document/d/1u7Z9rFj7Yce_aihCktpihXlHk5TYIe7TImAt-H54Hks/edit?tab=t.0" },
+      { title: "Documents", url: "https://drive.google.com/drive/folders/18Sb7VhpJALK5w1XoGYjzlaX_TIUV-nJU" },
+    ],
+  },
+  "January 28, 2025": {
+    house: [
+      
+    ],
+    senate: [
+      { title: "Agenda & minutes", url: "https://docs.google.com/document/d/1bSGnR7Ss684NKxe79ai2mbXbwN2lvSzVBpjVUlH7wKI/edit?tab=t.0" },
+      { title: "Documents", url: "https://drive.google.com/drive/folders/1FGqVhlbFwUAbQ3R5pjTQhuhsZbQp0Ob-" },
+    ],
+  },
+  "February 11, 2025": {
+    house: [
+      
+    ],
+    senate: [
+      { title: "Agenda & minutes", url: "https://docs.google.com/document/d/1aKkZosly5peSUWLX389t1bHlmp5W6re8Cbl7YHbbuTI/edit?tab=t.0" },
+      { title: "Documents", url: "https://drive.google.com/drive/folders/1Qw08gjrmxNLrL78WxFyTWpdyvc1g4isu" },
+    ],
+  },
+  "February 25, 2025": {
+    house: [
+      
+    ],
+    senate: [
+      { title: "Agenda & minutes", url: "https://docs.google.com/document/d/1Q6r1h160XMhQ1Dbw8Cfb1aR4V7ljd6OutvnC-1SW7S4/edit?tab=t.0" },
+      { title: "Documents", url: "https://drive.google.com/drive/folders/1nOLbJsBHLzE7dTBdWSuuK5Js38DGfqYC" },
+    ],
+  },
+  "March 11, 2025": {
+    house: [
+      
+    ],
+    senate: [
+      { title: "Agenda & minutes", url: "https://docs.google.com/document/d/1afPAxZB_s6fMDFjBuKbA4x18KlCNM-vgqZupwWprDH0/edit?tab=t.0" },
+      { title: "Documents", url: "https://drive.google.com/drive/folders/1KOOUyOAAq35xG02cxiDSO4s7j_yL6ZJZ" },
+    ],
+  },
+  "April 27, 2025": {
+    house: [
+      
+    ],
+    senate: [
+      { title: "Agenda & minutes", url: "https://docs.google.com/document/d/1IduAj671lHE_dzINc7TaUkTTukElzzzjv2LiRqSXhm4/edit?tab=t.0" },
+      { title: "Documents", url: "https://drive.google.com/drive/folders/19AZ912l8GvVqaaBjuCu9lWrxKEHf2ZD4" },
     ],
   },
 };
 
-const dates = [
-    "August 3, 2025",
-    "August 2, 2025",
-    "July 31, 2024",
-  ];
+const dates = Object.keys(linksByDate);
 
 const PreviousMeetings = () => {
-  const [selectedDate, setSelectedDate] = useState("August 3, 2025");
+  const [selectedDate, setSelectedDate] = useState("April 27, 2025");
   const [selectedYear, setSelectedYear] = useState("2025");
   const [isOpen, setIsOpen] = useState(false);
 
-  
+
   return (
     <section className="relative py-11 text-lassonde-grey px-5 lg:px-0">
       <div className="grid lg:grid-cols-10 gap-9">
@@ -201,36 +392,44 @@ const PreviousMeetings = () => {
           <div className="flex flex-col mb-12">
             {selectedDate && linksByDate[selectedDate] ? (
               <>
-                <h3 className="text-xl mb-3">House of Delegates</h3>
-                <ul className="divide-y divide-gray-200">
-                  {linksByDate[selectedDate].house.map((item, i) => (
-                    <li key={i} className="py-4">
-                      <a
-                        href={item.url}
-                        className="flex justify-between items-center hover:text-lassonde-blue hover:underline"
-                      >
-                        <span>{item.title}</span>
-                        <ArrowRight className="ml-2 h-5 w-5" />
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-
-                <h3 className="text-xl my-3">Senate</h3>
-                <ul className="divide-y divide-gray-200">
-                  {linksByDate[selectedDate].senate.map((item, i) => (
-                    <li key={i} className="py-4">
-                      <a
-                        href={item.url}
-                        className="flex justify-between items-center hover:text-lassonde-blue hover:underline"
-                      >
-                        <span>{item.title}</span>
-                        <ArrowRight className="ml-2 h-5 w-5" />
-                      </a>
-                    </li>
-                  ))}
-                </ul>
+                {linksByDate[selectedDate].house?.length > 0 && (
+                  <>
+                    <h3 className="text-xl my-3">House of Delegates</h3>
+                    <ul className="divide-y divide-gray-200">
+                      {linksByDate[selectedDate].house.map((link, index) => (
+                        <li key={index} className="py-4">
+                          <a
+                            href={link.url}
+                            className="flex justify-between items-center hover:text-lassonde-blue hover:underline"
+                          >
+                            <span>{link.title}</span>
+                            <ArrowRight className="ml-2 h-5 w-5" />
+                          </a>
+                        </li>
+                      ))}
+                    </ul>
+                  </>
+                )}
+                {linksByDate[selectedDate].senate?.length > 0 && (
+                  <>
+                    <h3 className="text-xl my-3">Senate</h3>
+                    <ul className="divide-y divide-gray-200">
+                      {linksByDate[selectedDate].senate.map((link, index) => (
+                        <li key={index} className="py-4">
+                          <a
+                            href={link.url}
+                            className="flex justify-between items-center hover:text-lassonde-blue hover:underline"
+                          >
+                            <span>{link.title}</span>
+                            <ArrowRight className="ml-2 h-5 w-5" />
+                          </a>
+                        </li>
+                      ))}
+                    </ul>
+                  </>
+                )}
               </>
+
             ) : (
               <p className="text-gray-500 italic">Select a date to view resources</p>
             )}
@@ -308,24 +507,24 @@ const UpcomingActivity = () => {
 };
 
 const upcomingActivities = [
-  {
-    date: "11",
-    month: "October",
-    chamber: "Delegates delegate",
-    description: "Details of the Legislative Assembly sitting day on 11 October 2025.",
-    type: "Sitting",
-    color: "delegate-green",
-    link: "/events/la-sittings/2025/14-october",
-  },
-  {
-    date: "11",
-    month: "October",
-    chamber: "Senators senate",
-    description: "Details of the Legislative Council sitting day on 11 October 2025.",
-    type: "Sitting",
-    color: "senate-red",
-    link: "/events/lc-sittings/2025/14-october",
-  },
+  // {
+  //   date: "11",
+  //   month: "October",
+  //   chamber: "Delegates delegate",
+  //   description: "Details of the Legislative Assembly sitting day on 11 October 2025.",
+  //   type: "Sitting",
+  //   color: "delegate-green",
+  //   link: "/events/la-sittings/2025/14-october",
+  // },
+  // {
+  //   date: "11",
+  //   month: "October",
+  //   chamber: "Senators senate",
+  //   description: "Details of the Legislative Council sitting day on 11 October 2025.",
+  //   type: "Sitting",
+  //   color: "senate-red",
+  //   link: "/events/lc-sittings/2025/14-october",
+  // },
 ];
 
 
