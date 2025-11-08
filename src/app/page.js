@@ -11,7 +11,7 @@ export default function Home() {
       <Navbar />
       <Header />
       <div className="flex-grow">
-        {/* <Announcement /> */}
+        <Announcement />
         <MainContent />
       </div>
       <Footer />
