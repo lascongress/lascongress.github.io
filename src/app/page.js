@@ -10,8 +10,8 @@ export default function Home() {
     <div className="bg-neutral-200 flex flex-col min-h-screen">
       <Navbar />
       <Header />
-      <div className="container mx-auto flex-grow">
-        {/* <Announcement /> */}
+      <div className="flex-grow">
+        <Announcement />
         <MainContent />
       </div>
       <Footer />

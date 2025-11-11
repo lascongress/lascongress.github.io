@@ -4,10 +4,10 @@ import Link from "next/link";
 
 export default function Landing() {
   return (
-    <div className="min-h-screen bg-[#0b1c3d] text-white">
+    <div className="min-h-screen bg-[#0b1c3d] text-white w-full">
       {/* Hero Section */}
       <section
-        className="relative h-[80vh] flex items-center"
+        className="relative h-[80vh] flex items-center w-full"
         style={{
           backgroundImage: "url('/images/government/IMG_3110.png')",
           backgroundSize: "cover",
